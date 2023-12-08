@@ -1,0 +1,6 @@
+CRITICAL - 2023-12-03 02:41:56 --> Constant expression contains invalid operations
+in APPPATH\Models\NotesModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-03 02:42:39 --> Constant expression contains invalid operations
+in APPPATH\Models\NotesModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
