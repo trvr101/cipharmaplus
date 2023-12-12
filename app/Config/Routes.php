@@ -36,12 +36,13 @@ $routes->get('/ProdList', 'ProductController::index');
 $routes->match(['get', 'post'], '/AddSched', 'ScheduleController::AddSched');
 $routes->get('/ScheduleList', 'ScheduleController::SchedList');
 
-
+//Sales
+$routes->get('/SalesList', 'SalesController::index');
 
 
 //User
 $routes->get('/UserList', 'UserController::index');
-$routes->match(['post', 'get','put'], '/profile/(:any)', 'UserController::profile/$1');
+$routes->match(['post', 'get', 'put'], '/profile/(:any)', 'UserController::profile/$1');
 $routes->match(['post', 'get'], '/user_verify/(:any)', 'UserController::userVerify/$1');
 $routes->match(['post', 'get'], '/register', 'UserController::register');
 $routes->match(['post', 'get'], '/login', 'UserController::login');

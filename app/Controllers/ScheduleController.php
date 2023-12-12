@@ -17,7 +17,7 @@ class ScheduleController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
-    public function AddSched()
+    public function addSched()
     {
         $main = new ScheduleModel();
 
@@ -40,7 +40,7 @@ class ScheduleController extends ResourceController
             }
         } catch (\Exception $e) {
             // Log the error for debugging purposes
-            log_message('error', 'AddSched error: ' . $e->getMessage());
+            log_message('error', 'addSched error: ' . $e->getMessage());
 
             return $this->respond(['msg' => 'internal server error'], 500);
         }
