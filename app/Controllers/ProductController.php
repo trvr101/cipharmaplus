@@ -18,20 +18,23 @@ class ProductController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
+    // Your CodeIgniter 4 controller method
     public function AddProd()
     {
         $main = new ProductModel();
-        $data = [
 
-            'user_id' => 1, //TODO 'user_id'(the one who add) 
+        // Debugging: Check the received data
+        var_dump($this->request->getVar());
+
+        $data = [
+            'user_id' => $this->request->getVar('my_user_id'),
             'product_name' => $this->request->getVar('prod_name'),
             'description' => $this->request->getVar('prod_desc'),
             'price' => $this->request->getVar('prod_price'),
-            'branch_id' => 1, //TODO branch of the on who add
+            'branch_id' => $this->request->getVar('branch_id'),
             'category' => $this->request->getVar('category_name'),
             'status' => 'available',
             'created_at' => date('Y-m-d H:i:s'),
-
         ];
 
         $result = $main->save($data);
@@ -42,6 +45,7 @@ class ProductController extends ResourceController
             return $this->respond(['msg' => 'failed']);
         }
     }
+
     public function ItemCategoryList()
     {
         $main = new ProductCategoryModel();

@@ -1,0 +1,415 @@
+CRITICAL - 2023-12-11 15:08:24 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 15:08:38 --> Undefined variable $main
+in APPPATH\Controllers\UserController.php on line 18.
+ 1 APPPATH\Controllers\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $main', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 15:08:47 --> Undefined variable $main
+in APPPATH\Controllers\UserController.php on line 18.
+ 1 APPPATH\Controllers\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $main', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-11 16:20:42 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-11 16:20:43 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`user_id`, `product_name`, `description`, `price`, `branch_id`, `category`, `status`, `created_at`) VALUES (:user_id:, :product_name:, :description:, :price:, :branch_id:, :category:, :status:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-11 16:24:45 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-11 16:24:45 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`user_id`, `product_name`, `description`, `price`, `branch_id`, `category`, `status`, `created_at`) VALUES (:user_id:, :product_name:, :description:, :price:, :branch_id:, :category:, :status:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-11 16:29:32 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-11 16:29:32 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`user_id`, `product_name`, `description`, `price`, `branch_id`, `category`, `status`, `created_at`) VALUES (:user_id:, :product_name:, :description:, :price:, :branch_id:, :category:, :status:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-11 16:45:43 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-11 16:45:43 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`user_id`, `product_name`, `description`, `price`, `branch_id`, `category`, `status`, `created_at`) VALUES (:user_id:, :product_name:, :description:, :price:, :branch_id:, :category:, :status:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 16:57:08 --> Undefined array key "branch_id"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "branch_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-11 16:57:34 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-11 16:57:34 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`user_id`, `product_name`, `description`, `price`, `branch_id`, `category`, `status`, `created_at`) VALUES (:user_id:, :product_name:, :description:, :price:, :branch_id:, :category:, :status:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:00:56 --> Undefined array key "branch_id"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "branch_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:02:52 --> Undefined array key "branch_id"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "branch_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:04:40 --> Undefined array key "branch_id"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "branch_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:09:29 --> Undefined array key "branch_id"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "branch_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:09:55 --> Undefined array key "branch_id"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "branch_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:12:01 --> Undefined array key "branch_id"
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "branch_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:13:10 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:15:22 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:35 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:37 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:45 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:46 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:47 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:48 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:48 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:48 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:48 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:27:49 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:28:21 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:29:03 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:29:06 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:29:07 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:29:07 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:29:08 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:29:32 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:29:40 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:30:09 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:54 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:54 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:57 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:57 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:58 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:58 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:58 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 17:36:58 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

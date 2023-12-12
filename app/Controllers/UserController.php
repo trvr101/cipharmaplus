@@ -10,34 +10,51 @@ use App\Models\UserModel;
 
 class UserController extends ResourceController
 {
-    public function register()
+    public function profile($token)
     {
         $user = new UserModel();
-        $token = $this->verification(50);
-        $data = [
-            'email' => $this->request->getVar('email'),
-            'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-            'token' => $token,
-            'first_name' => 'Robert',
-            'last_name' => 'Aguba',
-            'branch_id' => 1,
-            'status' => 'active',
-            'user_role' => 'admin',
-        ];
+        $profile = $user->where('token', $token)->first();
 
-        $u = $user->insert($data);
-
-        if ($u) {
-            return $this->respond(['msg' => 'okay', 'token' => $token], 201);
+        if ($profile) {
+            // Return a JSON response with a 200 status code
+            return $this->respond([
+                'user' => $profile,
+            ]);
         } else {
-            return $this->respond(['msg' => 'failed'], 400);
+            // Return a JSON response with a 404 status code
+            return $this->respond(['msg' => 'User not found'], 404);
         }
     }
-    private function verification($length)
+
+
+    public function userVerify($token)
     {
-        $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-        return substr(str_shuffle($characters), 0, $length);
+        $user = new UserModel();
+        $password = $this->request->getVar('current_password');
+
+        // Validation
+        if (empty($password)) {
+            return $this->respond(['msg' => 'error', 'error' => 'Empty password'], 400);
+        }
+
+        // Check if the user with the given token exists
+        $userV = $user->where('token', $token)->first();
+
+        if ($userV) {
+            // Verify the password
+            if (password_verify($password, $userV['user_password'])) {
+                // Password is correct, you can return user details or any other response
+                return $this->respond(['msg' => 'success', 'user' => $userV]);
+            } else {
+                // Password is incorrect
+                return $this->respond(['msg' => 'error', 'error' => 'Invalid password'], 400);
+            }
+        } else {
+            // User with the specified token does not exist
+            return $this->respond(['msg' => 'error', 'error' => 'User not found'], 404);
+        }
     }
+
 
     public function login()
     {
@@ -67,6 +84,35 @@ class UserController extends ResourceController
             return $this->respond(['msg' => 'error'], 401);
         }
     }
+    public function register()
+    {
+        $user = new UserModel();
+        $token = $this->verification(50);
+        $data = [
+            'email' => $this->request->getVar('email'),
+            'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'token' => $token,
+            'first_name' => 'Robert',
+            'last_name' => 'Aguba',
+            'branch_id' => 1,
+            'status' => 'active',
+            'user_role' => 'admin',
+        ];
+
+        $u = $user->insert($data);
+
+        if ($u) {
+            return $this->respond(['msg' => 'okay', 'token' => $token], 201);
+        } else {
+            return $this->respond(['msg' => 'failed'], 400);
+        }
+    }
+    private function verification($length)
+    {
+        $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+        return substr(str_shuffle($characters), 0, $length);
+    }
+
     public function index()
     {
         $main = new UserModel();
