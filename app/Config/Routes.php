@@ -11,7 +11,7 @@ $routes->get('/act', 'ActivityLogsController::index');
 
 $routes->get('/audit', 'AuditController::index');
 
-$routes->get('/branch', 'BranchController::index');
+$routes->match(['post', 'get'], '/branch', 'BranchController::index');
 
 
 
@@ -26,7 +26,9 @@ $routes->get('/notif', 'NotificationController::index');
 
 
 
+//Product
 
+$routes->match(['get', 'post'], 'branch/count-unique-items/(:any)', 'ProductController::countBranchUniqueItems/$1');
 $routes->get('main/count-unique-items', 'ProductController::countUniqueItems');
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->get('/prod', 'ProductController::index');

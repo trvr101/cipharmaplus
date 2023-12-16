@@ -78,4 +78,33 @@ class ProductController extends ResourceController
 
         return $this->respond(['count' => $count]);
     }
+    public function countBranchUniqueItems($branchId)
+    {
+        $main = new ProductModel();
+        $data = $main->findAll();
+
+        $uniqueItems = [];
+
+        foreach ($data as $prod) {
+            // Check if the product belongs to the specified branch
+            if ($prod['branch_id'] == $branchId) {
+                $prodName = $prod['product_name'];
+                $description = $prod['description'] ?? ''; // If description is null, set it to an empty string
+
+                // Combine item name and description to create a unique identifier
+                $uniqueIdentifier = $prodName . '|' . $description;
+
+                // Use the unique identifier as the array key for faster checks
+                if (!isset($uniqueItems[$uniqueIdentifier])) {
+                    // If not, add it to the array
+                    $uniqueItems[$uniqueIdentifier] = true;
+                }
+            }
+        }
+
+        // Count the unique items
+        $count = count($uniqueItems);
+
+        return $this->respond(['count' => $count]);
+    }
 }
