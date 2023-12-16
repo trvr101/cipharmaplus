@@ -31,7 +31,7 @@ class ProductController extends ResourceController
             'product_name' => $this->request->getVar('prod_name'),
             'description' => $this->request->getVar('prod_desc'),
             'price' => $this->request->getVar('prod_price'),
-            'branch_id' => $this->request->getVar('branch_id'),
+            'branch_id' => $this->request->getVar('prod_branch_id'),
             'category' => $this->request->getVar('category_name'),
             'status' => 'available',
             'created_at' => date('Y-m-d H:i:s'),

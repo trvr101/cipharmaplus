@@ -28,7 +28,7 @@ class NotesController extends ResourceController
         $main = new NotesModel();
         $data = [
 
-            'user_id' => 1, //TODO 'user_id'(the one who add) 
+            'user_id' => $this->request->getVar('my_user_id'),
             'note_title' => $this->request->getVar('note_title'),
             'note_content' => $this->request->getVar('note_content'),
             'status' => 'pending',
