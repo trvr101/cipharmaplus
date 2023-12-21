@@ -26,9 +26,12 @@ $routes->get('/notif', 'NotificationController::index');
 
 
 
-//Product
+
 
 $routes->match(['get', 'post'], 'branch/count-unique-items/(:any)', 'ProductController::countBranchUniqueItems/$1');
+$routes->post('/addBranch', 'BranchController::addBranch');
+
+//Product
 $routes->get('main/count-unique-items', 'ProductController::countUniqueItems');
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->get('/prod', 'ProductController::index');
