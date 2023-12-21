@@ -16,4 +16,12 @@ class BranchController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
+    public function addBranch()
+    {
+    }
+    private function generateCode($length)
+    {
+        $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+        return substr(str_shuffle($characters), 0, $length);
+    }
 }

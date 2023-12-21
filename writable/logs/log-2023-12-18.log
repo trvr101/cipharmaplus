@@ -1,0 +1,8 @@
+CRITICAL - 2023-12-18 15:18:49 --> Call to undefined method CodeIgniter\Router\RouteCollection::gete()
+in APPPATH\Config\Routes.php on line 49.
+ 1 SYSTEMPATH\Router\RouteCollection.php(339): require()
+ 2 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\cipharmaplus\\public\\index.php')

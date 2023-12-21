@@ -42,6 +42,10 @@ $routes->get('/ScheduleList', 'ScheduleController::SchedList');
 $routes->get('/SalesList', 'SalesController::index');
 
 
+
+
+
+
 //User
 $routes->get('/UserList', 'UserController::index');
 $routes->match(['post', 'get', 'put'], '/profile/(:any)', 'UserController::profile/$1');
