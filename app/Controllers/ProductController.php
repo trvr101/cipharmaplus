@@ -107,4 +107,14 @@ class ProductController extends ResourceController
 
         return $this->respond(['count' => $count]);
     }
+
+    public function branchInventory($branchId)
+    {
+        $productModel = new ProductModel();
+
+        // Assuming 'products' is your table name and 'branch_id' is the column name
+        $products = $productModel->where('branch_id', $branchId)->findAll();
+
+        return $this->respond($products);
+    }
 }

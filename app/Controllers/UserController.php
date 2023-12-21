@@ -7,6 +7,8 @@ use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 
 use App\Models\UserModel;
+use App\Models\BranchModel;
+
 
 class UserController extends ResourceController
 {
@@ -87,26 +89,49 @@ class UserController extends ResourceController
     public function register()
     {
         $user = new UserModel();
+        $branch = new BranchModel();
         $token = $this->verification(50);
-        $data = [
-            'email' => $this->request->getVar('email'),
-            'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-            'token' => $token,
-            'first_name' => 'Robert',
-            'last_name' => 'Aguba',
-            'branch_id' => 1,
-            'status' => 'active',
-            'user_role' => 'admin',
-        ];
+        $invitationCode = $this->request->getVar('invitationCode');
 
-        $u = $user->insert($data);
+        // Check if the invitation code exists in the branch
+        $branchData = $branch->where('CS_invite_code', $invitationCode)
+            ->orWhere('BA_invite_code', $invitationCode)
+            ->first();
 
-        if ($u) {
-            return $this->respond(['msg' => 'okay', 'token' => $token], 201);
+        if ($branchData) {
+            // Invitation code is valid, determine user role and branch ID
+            if ($invitationCode == $branchData['CS_invite_code']) {
+                // Invitation code belongs to CS_invite_code field
+                $userRole = 'staff';
+            } elseif ($invitationCode == $branchData['BA_invite_code']) {
+                // Invitation code belongs to BA_invite_code field
+                $userRole = 'branch_admin';
+            }
+
+            $data = [
+                'email' => $this->request->getVar('email'),
+                'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+                'token' => $token,
+                'first_name' => 'Robert',
+                'last_name' => 'Aguba',
+                'branch_id' => $branchData['branch_id'],
+                'status' => 'active',
+                'user_role' => $userRole,
+            ];
+
+            $u = $user->insert($data);
+
+            if ($u) {
+                return $this->respond(['msg' => 'okay', 'token' => $token], 201);
+            } else {
+                return $this->respond(['msg' => 'failed'], 400);
+            }
         } else {
-            return $this->respond(['msg' => 'failed'], 400);
+            // Invitation code is invalid
+            return $this->respond(['msg' => 'invalidInvitationCode'], 400);
         }
     }
+
     private function verification($length)
     {
         $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';

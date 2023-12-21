@@ -28,7 +28,7 @@ $routes->get('/notif', 'NotificationController::index');
 
 
 
-$routes->match(['get', 'post'], 'branch/count-unique-items/(:any)', 'ProductController::countBranchUniqueItems/$1');
+
 $routes->post('/addBranch', 'BranchController::addBranch');
 
 //Product
@@ -70,3 +70,11 @@ $routes->get('/NotesList', 'MainController::NotesList');
 $routes->match(['delete'], '/notes/(:num)', 'MainController::delete/$1');
 
 //unique items
+
+
+
+
+
+//branch view
+$routes->match(['get', 'post'], 'branch/count-unique-items/(:any)', 'ProductController::countBranchUniqueItems/$1');
+$routes->match(['get', 'post'], 'branch/inventory/(:any)', 'ProductController::branchInventory/$1');
