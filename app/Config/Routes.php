@@ -18,7 +18,7 @@ $routes->match(['post', 'get'], '/branch', 'BranchController::index');
 //NOTES
 $routes->put('/UpdateNoteStatus/(:num)', 'NotesController::updateNoteStatus/$1');
 $routes->delete('/DeleteNote/(:num)', 'NotesController::deleteNote/$1');
-$routes->get('/NotesList', 'NotesController::index');
+$routes->get('/notesList/(:any)', 'NotesController::notesList/$1');
 $routes->match(['get', 'post'], '/AddNotes', 'NotesController::AddNotes');
 
 $routes->get('/notif', 'NotificationController::index');
@@ -50,6 +50,7 @@ $routes->get('/SalesList', 'SalesController::index');
 
 
 //User
+$routes->get('/branch/UserList/(:num)', 'UserController::BranchUserList/$1');
 $routes->get('/UserList', 'UserController::index');
 $routes->match(['post', 'get', 'put'], '/profile/(:any)', 'UserController::profile/$1');
 $routes->match(['post', 'get'], '/user_verify/(:any)', 'UserController::userVerify/$1');

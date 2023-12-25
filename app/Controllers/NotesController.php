@@ -7,6 +7,7 @@ use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 
 use App\Models\NotesModel;
+use App\Models\UserModel;
 
 class NotesController extends ResourceController
 {
@@ -44,11 +45,28 @@ class NotesController extends ResourceController
             return $this->respond(['msg' => 'failed']);
         }
     }
+    public function notesList($token)
+    {
+        // Assuming $token is associated with a user
+        $main = new UserModel();
+
+        // Find the user by token
+        $user = $main->where('token', $token)->first();
+
+        // Check if the user with the given token exists
+        if (!$user) {
+            return $this->fail('User not found', 404);
+        }
+
+        // Fetch all notes for the found user
+        $notes = new NotesModel();
+        $userNotes = $notes->where('user_id', $user['user_id'])
+            ->orderBy('created_at', 'DESC')
+            ->findAll();
+
+        return $this->respond($userNotes);
+    }
     public function index()
     {
-        //
-        $main = new NotesModel();
-        $data = $main->orderBy('created_at', 'DESC')->findAll();
-        return $this->respond($data);
     }
 }

@@ -1,0 +1,28 @@
+ERROR - 2023-12-23 02:56:07 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `no...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `no...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `no...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `no...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\NotesController.php(39): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\NotesController->AddNotes()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotesController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-23 02:56:07 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `notes_tbl` (`user_id`, `note_title`, `note_content`, `status`, `created_at`) VALUES (:user_id:, :note_title:, :note_content:, :status:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\NotesController.php(39): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\NotesController->AddNotes()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotesController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

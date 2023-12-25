@@ -15,11 +15,7 @@ class BranchController extends ResourceController
     {
         $main = new BranchModel();
         $data = $main->findAll();
-
-        // Extract branch names from the result
-        $branchNames = array_column($data, 'branch_name');
-
-        return $this->respond($branchNames);
+        return $this->respond($data);
     }
 
     public function addBranch()

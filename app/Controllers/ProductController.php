@@ -28,6 +28,7 @@ class ProductController extends ResourceController
 
         $data = [
             'user_id' => $this->request->getVar('my_user_id'),
+            'upc' => $this->request->getVar('prod_upc'),
             'product_name' => $this->request->getVar('prod_name'),
             'description' => $this->request->getVar('prod_desc'),
             'price' => $this->request->getVar('prod_price'),

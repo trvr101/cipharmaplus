@@ -12,6 +12,16 @@ use App\Models\BranchModel;
 
 class UserController extends ResourceController
 {
+    public function BranchUserList($branchId)
+    {
+        $users = new UserModel(); // Assuming UserModel is your model for users
+
+        // Fetch all users for the specified branchId
+        $branchUsers = $users->where('branch_id', $branchId)->findAll();
+
+        return $this->respond($branchUsers);
+    }
+
     public function profile($token)
     {
         $user = new UserModel();
@@ -60,7 +70,7 @@ class UserController extends ResourceController
 
     public function login()
     {
-        $user = new UserModel();
+        $user = new UserModel(); //['user_id', 'first_name', 'last_name', 'email', 'user_password', 'phone', 'user_role', 'branch_id', 'status', 'token', 'created_at'];
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
 
@@ -102,7 +112,7 @@ class UserController extends ResourceController
             // Invitation code is valid, determine user role and branch ID
             if ($invitationCode == $branchData['CS_invite_code']) {
                 // Invitation code belongs to CS_invite_code field
-                $userRole = 'staff';
+                $userRole = 'cashier';
             } elseif ($invitationCode == $branchData['BA_invite_code']) {
                 // Invitation code belongs to BA_invite_code field
                 $userRole = 'branch_admin';
@@ -120,11 +130,11 @@ class UserController extends ResourceController
             ];
 
             $u = $user->insert($data);
-
+            $user_role = $data['user_role'];
             if ($u) {
-                return $this->respond(['msg' => 'okay', 'token' => $token], 201);
+                return $this->respond(['msg' => 'okay', 'token' => $data['token'], 'user_role' => $user_role], 201);
             } else {
-                return $this->respond(['msg' => 'failed'], 400);
+                return $this->respond(['msg' => 'okay'], 400);
             }
         } else {
             // Invitation code is invalid
