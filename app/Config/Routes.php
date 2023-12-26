@@ -50,7 +50,7 @@ $routes->get('/SalesList', 'SalesController::index');
 
 
 //User
-$routes->get('/branch/UserList/(:num)', 'UserController::BranchUserList/$1');
+$routes->get('/BranchUserList/(:any)', 'UserController::BranchUserList/$1');
 $routes->get('/UserList', 'UserController::index');
 $routes->match(['post', 'get', 'put'], '/profile/(:any)', 'UserController::profile/$1');
 $routes->match(['post', 'get'], '/user_verify/(:any)', 'UserController::userVerify/$1');

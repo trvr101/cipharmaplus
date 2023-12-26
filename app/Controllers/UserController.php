@@ -12,15 +12,28 @@ use App\Models\BranchModel;
 
 class UserController extends ResourceController
 {
-    public function BranchUserList($branchId)
+    public function BranchUserList($token)
     {
-        $users = new UserModel(); // Assuming UserModel is your model for users
+        $userModel = new UserModel();
 
-        // Fetch all users for the specified branchId
-        $branchUsers = $users->where('branch_id', $branchId)->findAll();
+        // Retrieve the user profile based on the provided token
+        $profile = $userModel->where('token', $token)->first();
 
-        return $this->respond($branchUsers);
+        if ($profile) {
+            // Get the 'branch_id' from the user profile
+            $branchId = $profile['branch_id'];
+
+            // Find all users with the same 'branch_id'
+            $usersWithSameBranch = $userModel->where('branch_id', $branchId)->findAll();
+
+            // Return the users as JSON
+            return $this->respond($usersWithSameBranch);
+        } else {
+        }
     }
+
+
+
 
     public function profile($token)
     {

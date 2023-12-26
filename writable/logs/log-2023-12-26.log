@@ -1,0 +1,364 @@
+CRITICAL - 2023-12-26 02:48:04 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:48:08 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:48:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:48:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:48:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:48:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:48:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:48:33 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:49:03 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:49:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:49:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:49:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:49:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:49:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:49:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:33 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:43 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:50:45 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:51:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:51:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:51:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:51:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:51:33 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:51:33 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:53:43 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:14 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:29 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:32 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:33 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:33 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:54:33 --> Call to undefined method App\Models\UserModel::getUserByToken
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__call('getUserByToken', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:55:22 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(32): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:55:24 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(32): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:55:43 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(32): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 02:56:34 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(29): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:01:13 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(29): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:01:57 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(29): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:02:40 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(29): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:03:49 --> Call to undefined method App\Models\UserModel::getUsersByBranchId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\UserController.php(29): CodeIgniter\Model->__call('getUsersByBranchId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:06:25 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\UserController.php on line 26.
+ 1 APPPATH\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:06:27 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\UserController.php on line 26.
+ 1 APPPATH\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:09:07 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\UserController.php on line 26.
+ 1 APPPATH\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:10:20 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\UserController.php on line 26.
+ 1 APPPATH\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:10:23 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\UserController.php on line 26.
+ 1 APPPATH\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-26 03:11:15 --> Undefined variable $branchId
+in APPPATH\Controllers\UserController.php on line 23.
+ 1 APPPATH\Controllers\UserController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->BranchUserList('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
