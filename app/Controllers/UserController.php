@@ -31,7 +31,9 @@ class UserController extends ResourceController
         } else {
         }
     }
-
+    public function userProfile($token)
+    {
+    }
 
 
 

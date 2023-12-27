@@ -9,7 +9,11 @@ use CodeIgniter\Router\RouteCollection;
 
 $routes->get('/act', 'ActivityLogsController::index');
 
+$routes->get('/ProductAudit/(:alphanum)/(:num)', 'AuditController::ProductAudit/$1/$2');
 $routes->get('/audit', 'AuditController::index');
+$routes->post('/AddQuantity/(:any)', 'AuditController::AddQuantity/$1');
+
+
 
 $routes->match(['post', 'get'], '/branch', 'BranchController::index');
 
@@ -34,9 +38,9 @@ $routes->post('/addBranch', 'BranchController::addBranch');
 //Product
 $routes->get('main/count-unique-items', 'ProductController::countUniqueItems');
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
-$routes->get('/prod', 'ProductController::index');
 $routes->match(['get', 'post'], '/AddProd', 'ProductController::AddProd');
 $routes->get('/ProdList', 'ProductController::index');
+$routes->get('/ProdList/(:any)', 'ProductController::BranchProductList/$1');
 
 $routes->match(['get', 'post'], '/AddSched', 'ScheduleController::AddSched');
 $routes->get('/ScheduleList', 'ScheduleController::SchedList');

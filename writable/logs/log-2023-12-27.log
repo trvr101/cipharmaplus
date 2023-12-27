@@ -1,0 +1,147 @@
+CRITICAL - 2023-12-27 05:13:38 --> Attempt to read property "old_quantity" on array
+in APPPATH\Controllers\AuditController.php on line 30.
+ 1 APPPATH\Controllers\AuditController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "old_quantity" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:15:19 --> Attempt to read property "old_quantity" on array
+in APPPATH\Controllers\AuditController.php on line 30.
+ 1 APPPATH\Controllers\AuditController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "old_quantity" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:19:37 --> Call to undefined function App\Controllers\now()
+in APPPATH\Controllers\AuditController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:20:23 --> Call to undefined function App\Controllers\now()
+in APPPATH\Controllers\AuditController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:26:19 --> Attempt to read property "old_quantity" on array
+in APPPATH\Controllers\AuditController.php on line 31.
+ 1 APPPATH\Controllers\AuditController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "old_quantity" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:26:42 --> Attempt to read property "old_quantity" on array
+in APPPATH\Controllers\AuditController.php on line 31.
+ 1 APPPATH\Controllers\AuditController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "old_quantity" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:27:17 --> Attempt to read property "old_quantity" on array
+in APPPATH\Controllers\AuditController.php on line 31.
+ 1 APPPATH\Controllers\AuditController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "old_quantity" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:28:27 --> Attempt to read property "old_quantity" on array
+in APPPATH\Controllers\AuditController.php on line 31.
+ 1 APPPATH\Controllers\AuditController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "old_quantity" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:31:16 --> Array to string conversion
+in APPPATH\Controllers\AuditController.php on line 32.
+ 1 APPPATH\Controllers\AuditController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:31:26 --> Attempt to read property "old_quantity" on array
+in APPPATH\Controllers\AuditController.php on line 32.
+ 1 APPPATH\Controllers\AuditController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "old_quantity" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:40:47 --> Unsupported operand types: string + array
+in APPPATH\Controllers\AuditController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 05:41:22 --> Unsupported operand types: string + array
+in APPPATH\Controllers\AuditController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->AddQuantity('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 16:29:22 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 29.
+ 1 APPPATH\Controllers\AuditController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xTA98EIGuN7POM0SQmCczJKonDwaqZbBFjlrvhskp51LiWt6', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 16:31:51 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 29.
+ 1 APPPATH\Controllers\AuditController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xTA98EIGuN7POM0SQmCczJKonDwaqZbBFjlrvhskp51LiWt6', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 16:34:17 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 32.
+ 1 APPPATH\Controllers\AuditController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xTA98EIGuN7POM0SQmCczJKonDwaqZbBFjlrvhskp51LiWt6', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 16:34:24 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 32.
+ 1 APPPATH\Controllers\AuditController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xTA98EIGuN7POM0SQmCczJKonDwaqZbBFjlrvhskp51LiWt6', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 16:34:27 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 32.
+ 1 APPPATH\Controllers\AuditController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xTA98EIGuN7POM0SQmCczJKonDwaqZbBFjlrvhskp51LiWt6', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 16:34:30 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 32.
+ 1 APPPATH\Controllers\AuditController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xTA98EIGuN7POM0SQmCczJKonDwaqZbBFjlrvhskp51LiWt6', '4')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 16:37:11 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 32.
+ 1 APPPATH\Controllers\AuditController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xta98eigun7pom0sqmcczjkondwaqzbbfjlrvhskp51liwt6', '4')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\cipharmaplus\\public\\index.php')
+CRITICAL - 2023-12-27 16:38:33 --> Attempt to read property "branch_id" on array
+in APPPATH\Controllers\AuditController.php on line 41.
+ 1 APPPATH\Controllers\AuditController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "branch_id" on array', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('g3xta98eigun7pom0sqmcczjkondwaqzbbfjlrvhskp51liwt6', '4')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\cipharmaplus\\public\\index.php')
+CRITICAL - 2023-12-27 16:41:40 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\AuditController.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuditController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuditController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AuditController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
