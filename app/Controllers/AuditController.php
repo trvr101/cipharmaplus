@@ -58,51 +58,62 @@ class AuditController extends ResourceController
         }
     }
 
-
-
-
-
-    public function addQuantity($product_id)
+    public function addQuantity($token, $product_id)
     {
-        // Create a new instance of the AuditModel
+        // Create instances of the AuditModel and ProductModel
         $main = new AuditModel();
+        $user = new UserModel();
+        $product = new ProductModel();
 
-        // Find the latest audit record for the given product_id
-        $existingAudit = $main->where('product_id', $product_id)
-            ->orderBy('created_at', 'DESC')
-            ->first();
-
-        // Initialize variables for old_quantity and quantity
-
-        // Calculate the new old_quantity based on the existing audit record
-        if ($existingAudit) {
-            $exist_old_quantity = $existingAudit['old_quantity'];
-            $exist_quantity = $existingAudit['quantity'];
-            $sum = $exist_old_quantity + $exist_quantity;
-            $exist_old_quantity = $sum;
-        } else {
-            $sum = 0;
+        $user_info = $user->where('token', $token)->first();
+        $prod_info = $product->where('product_id', $product_id)->first();
+        if (!$user_info) {
+            return $this->respond(['msg' => 'user not exist']);
         }
+        if ($user_info['branch_id'] == $prod_info['branch_id'] || $user_info['user_role'] == 'admin') {
+            // Find the latest audit record for the given product_id
+            $existingAudit = $main->where('product_id', $product_id)
+                ->orderBy('created_at', 'DESC')
+                ->first();
 
-        // Prepare the data for the new audit record
-        $data = [
-            'product_id'   => $product_id,
-            'old_quantity' => $sum,
-            'quantity'     => $this->request->getVar('quantity'),
-            'type'         => 'inbound',
-            'exp_date'     => $this->request->getVar('exp_date'),
-            'user_id'      => $this->request->getVar('user_id'),
-            'branch_id'    => $this->request->getVar('branch_id'),
-            'created_at'   => date('Y-m-d H:i:s'),
-        ];
+            // Initialize variables for old_quantity and quantity
+            $exist_old_quantity = 0;
+            $exist_quantity = 0;
 
-        // Save the new audit record
-        $result = $main->save($data);
+            // Calculate the new old_quantity based on the existing audit record
+            if ($existingAudit) {
+                $exist_old_quantity = $existingAudit['old_quantity'];
+                $exist_quantity = $existingAudit['quantity'];
+            }
 
-        if ($result) {
-            return $this->respond(['msg' => 'okay']);
+            // Prepare the data for the new audit record
+            $data = [
+                'product_id'   => $product_id,
+                'old_quantity' => $exist_old_quantity + $exist_quantity,
+                'quantity'     => $this->request->getVar('quantity'),
+                'type'         => 'inbound',
+                'exp_date'     => $this->request->getVar('date'),
+                'user_id'      => $user_info['user_id'],
+                'branch_id'    => $user_info['branch_id'],
+                'created_at'   => date('Y-m-d H:i:s'),
+            ];
+
+            // Save the new audit record
+            $result = $main->save($data);
+
+            if ($result) {
+                // Update the product quantity
+                $total_quantity = $data['old_quantity'] + $data['quantity'];
+                $product->where('product_id', $product_id)
+                    ->set(['quantity' => $total_quantity])
+                    ->update();
+
+                return $this->respond(['msg' => 'okay']);
+            } else {
+                return $this->respond(['msg' => 'failed']);
+            }
         } else {
-            return $this->respond(['msg' => 'failed']);
+            return $this->respond(['msg' => 'your not able to access this page']);
         }
     }
 }

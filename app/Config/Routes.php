@@ -11,7 +11,7 @@ $routes->get('/act', 'ActivityLogsController::index');
 
 $routes->get('/ProductAudit/(:alphanum)/(:num)', 'AuditController::ProductAudit/$1/$2');
 $routes->get('/audit', 'AuditController::index');
-$routes->post('/AddQuantity/(:any)', 'AuditController::AddQuantity/$1');
+$routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
 
 
 
