@@ -6,10 +6,37 @@ use App\Controllers\BaseController;
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use App\Models\BranchModel;
+use App\Models\ProductModel;
 
 class BranchController extends ResourceController
 {
-    use ResponseTrait;
+    public function countStocksPerBranch()
+    {
+        $branchModel = new BranchModel();
+        $productModel = new ProductModel();
+
+        // Get all the different branches
+        $branches = $branchModel->findAll();
+
+        // Calculate and store the total stocks for each branch
+        $stocksPerBranch = [];
+        $overallSum = 0;
+        foreach ($branches as $branch) {
+            $products = $productModel->where('branch_id', $branch['branch_id'])->findAll();
+            $totalStocks = array_sum(array_column($products, 'quantity'));
+            $overallSum += $totalStocks;
+            $stocksPerBranch[] = [
+                'branch_id' => $branch['branch_id'],
+                'branch_name' => $branch['branch_name'],
+                'total_stocks' => $totalStocks,
+            ];
+        }
+
+        return $this->respond([
+            'stocks_per_branch' => $stocksPerBranch,
+            'overall_sum' => $overallSum,
+        ]);
+    }
 
     public function index()
     {

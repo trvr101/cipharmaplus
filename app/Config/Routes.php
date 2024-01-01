@@ -12,10 +12,12 @@ $routes->get('/act', 'ActivityLogsController::index');
 $routes->get('/ProductAudit/(:alphanum)/(:num)', 'AuditController::ProductAudit/$1/$2');
 $routes->get('/audit', 'AuditController::index');
 $routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
+$routes->match(['post', 'get'], '/Sales', 'AuditController::Sales');
 
 
 
 $routes->match(['post', 'get'], '/branch', 'BranchController::index');
+$routes->get('/countStocksPerBranch', 'BranchController::countStocksPerBranch');
 
 
 
@@ -50,8 +52,10 @@ $routes->get('/SalesList', 'SalesController::index');
 
 
 
+$routes->get('/OrderList', 'OrderController::index');
 
 
+$routes->get('/CurrentTransaction', 'CurrentTransactionController::index');
 
 //User
 $routes->get('/BranchUserList/(:any)', 'UserController::BranchUserList/$1');

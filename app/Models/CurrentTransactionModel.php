@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class SalesModel extends Model
+class CurrentTransactionModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'sales_tbl';
-    protected $primaryKey       = 'sales_id';
+    protected $table            = 'current_transaction_tbl';
+    protected $primaryKey       = 'current_transaction_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['sales_id', 'order_id', 'product_id', 'price', 'quantity', 'sub_total', 'status', 'user_id', 'branch_id', 'created_at'];
+    protected $allowedFields    = ['current_transaction_id', 'order_token', 'product_id', 'quantity', 'sub_total', 'user_id', 'branch_id', 'created_at'];
 
     // Dates
     protected $useTimestamps = false;
