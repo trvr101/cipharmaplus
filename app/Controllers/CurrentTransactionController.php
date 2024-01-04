@@ -22,72 +22,185 @@ class CurrentTransactionController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
-    public function AddItemToCurrentTransaction($token)
+
+
+
+
+
+    public function AddItemToCurrentTransaction($token, $order_token)
     {
         $UPCAndQuantity = $this->request->getVar('UPCAndQuantity');
-        $user = new UserModel(); // ['user_id', 'first_name', 'last_name', 'email', 'user_password', 'phone', 'user_role', 'branch_id', 'status', 'token', 'created_at'];
-        $product = new ProductModel(); //['product_id', 'upc', 'user_id', 'product_name', 'description', 'quantity', 'price', 'branch_id', 'category', 'status', 'created_at'];
-        $order = new OrderModel(); //['order_id', 'order_token', 'total', 'cash_received', 'user_id', 'branch_id', 'status', 'created_at'];
+        $user = new UserModel();
+        $product = new ProductModel();
+        $order = new OrderModel();
+        $currentTransaction = new CurrentTransactionModel(); // Assuming you have a model for current_transaction
 
-
+        // Get user information based on the provided token
         $user_info = $user->where('token', $token)->first();
 
-        //check if the current_transaction_tbl that is equal to your_id data if theres no data, create new order 
+        // Check if the order with the given order_token already exists
+        $existing_order = $order->where('order_token', $order_token)->first();
 
-        //order_token=tokenmaker
-        //total=null
-        //cash_received=null
-        //user_id=$user_info['user_id]
-        //branch_id=$user_info['branch_id']
-        //status='processing'
+        if (!$existing_order) {
+            // If the order doesn't exist, create a new order
+            $new_order_data = [
+                'order_token' => $order_token,
+                'status' => 'processing',
+                'total' => 0,
+                'cash_received' => 0,
+                'user_id' => $user_info['user_id'],
+                'branch_id' => $user_info['branch_id'],
+            ];
 
-        //in $UPCAndQuantity look if there is a @ sign as splitter the first portion is the upc and the second is the quantity 
-        //example 12392367834@3 (which means the upc is 12392367834 and 3 is the quantity)
+            // Check the result of the insert operation
+            $insert_result = $order->insert($new_order_data);
 
-        //get the product that that has the same 'upc' field as the $upc
-        //then get the 'price' field of that product and multiplity it to $quantity
+            if (!$insert_result) {
+                // Error in inserting new order
+                return $this->respond(['msg' => 'Error inserting new order']);
+            }
 
-        //reminder if the product[quantity] is less than to $quantity show that the stock are not enough 
+            // Retrieve the newly created order
+            $existing_order = $order->where('order_token', $order_token)->first();
+        }
+        // Check if "@" is present in UPCAndQuantity
+        if (strpos($UPCAndQuantity, '@') !== false) {
+            // Split UPCAndQuantity to get UPC and Quantity
+            list($UPC, $quantity) = explode('@', $UPCAndQuantity);
+        } else {
+            // If "@" is not present, consider it as UPC, and set quantity to 1
+            $UPC = $UPCAndQuantity;
+            $quantity = 1;
+        }
 
+        // Find the product with the given UPC and branch_id
+        $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
 
+        // Check if the product is associated with the current branch
+        if (!$prod_info) {
+            // Product not found
+            return $this->respond(['msg' => 'Product not found']);
+        }
+
+        if ($prod_info['branch_id'] != $user_info['branch_id']) {
+            return $this->respond(['msg' => 'Product not available in your branch']);
+        }
+        if ($quantity > $prod_info['quantity']) {
+            return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $quantity]);
+        }
+        // Check if the product already exists in currentTransaction
+        $existing_transaction = $currentTransaction
+            ->where([
+                'product_id' => $prod_info['product_id'],
+                'order_token' => $order_token,
+            ])
+            ->first();
+
+        if ($existing_transaction) {
+            // If the product already exists, update the quantity
+
+            $updated_quantity = $existing_transaction['quantity'] + $quantity;
+            if ($updated_quantity > $prod_info['quantity']) {
+                return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $updated_quantity]);
+            }
+            $currentTransaction->update($existing_transaction['current_transaction_id'], ['quantity' => $updated_quantity]);
+        } else {
+            // If the product does not exist, insert into current_transaction
+            $current_transaction_data = [
+                'order_token' => $order_token,
+                'product_id' => $prod_info['product_id'],
+                'user_id' => $user_info['user_id'],
+                'branch_id' => $user_info['branch_id'],
+                'quantity' => $quantity,
+            ];
+
+            $currentTransaction->insert($current_transaction_data);
+        }
+
+        return $this->respond(['msg' => 'data inserted successfully']);
     }
-    public function SubmitCurrentTransaction($cash_received, $order_token)
+    public function SubmitCurrentTransaction($cash_received, $order_token, $token)
     {
-
         $audit = new AuditModel(); //['audit_id', 'product_id', 'old_quantity', 'quantity', 'type', 'exp_date', 'user_id', 'branch_id', 'created_at'];
+        $currentTransaction = new CurrentTransactionModel(); //['current_transaction_id', 'order_id', 'product_id', 'quantity','user_id', 'branch_id', 'created_at'];
+        $orderModel = new OrderModel(); //['order_id', 'order_token', 'total', 'cash_received', 'user_id', 'branch_id', 'status', 'created_at'];
 
-        $CurrentTransaction = new CurrentTransactionModel(); //['current_transaction_id', 'order_id', 'product_id', 'quantity', 'sub_total', 'user_id', 'branch_id', 'created_at'];
-        $order = new OrderModel(); //['order_id', 'order_token', 'total', 'cash_received', 'user_id', 'branch_id', 'status', 'created_at'];
-        //transfer the data that is equal to $order_token of the current_transaction_tbl to the sales_tbl and audit_tbl
+        $user = new UserModel();
+        $user_info = $user->where('token', $token)->first();
 
-        //get the order token and get its id and update the value of its status to "complete"
+        // Fetch all transactions related to the order_token
+        $transactions = $currentTransaction->where('order_token', $order_token)->findAll();
+
+        // Initialize variables to calculate total and exact change
+        $total = 0;
+
+        foreach ($transactions as $transaction) {
+            // Transfer data to audit table
+            $product_ID = $transaction['product_id'];
+            $existingAudit = $audit->where('product_id', $product_ID)->orderBy('created_at', 'DESC')->first();
+
+            // You may need to adapt the following lines based on your specific requirements
+            $existing_old_quantity = 0;
+            $exist_quantity = 0;
+            $existing_old_quantity = $existingAudit['old_quantity']; // Adapt as needed
+            $exist_quantity = $existingAudit['quantity']; // Adapt as needed
+            $existingAudit_type = $existingAudit['type'];
+
+            // Adjust existing_old_quantity based on the existingAudit_type
+            if ($existingAudit_type == 'inbound') {
+                $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
+            } elseif ($existingAudit_type == 'outbound') {
+                $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
+            }
+
+            $audit_data = [
+                'product_id' => $transaction['product_id'],
+                'old_quantity' => $existing_old_quantity_1,
+                'quantity' => $transaction['quantity'],
+                'type' => 'outbound', // Assuming this is an outbound transfer
+                'user_id' => $user_info['user_id'],
+                'branch_id' => $user_info['branch_id'],
+                'created_at' => date('Y-m-d H:i:s'),
+            ];
+            $product = new ProductModel();
+            $product_info = $product->find($transaction['product_id']);
+            $total += $product_info['price'] * $transaction['quantity'];
+
+            // Check if cash_received is equal or greater than the total
+            if ($cash_received < $total) {
+                return $this->respond(['msg' => 'Insufficient cash received']);
+            }
+            $audit->insert($audit_data);
+
+            // Update total based on product price and quantity
+
+            // Update product quantity in the product table based on the outbound transaction
+            $new_quantity = $product_info['quantity'] - $transaction['quantity'];
+            $product->update($transaction['product_id'], ['quantity' => $new_quantity]);
+        }
 
 
-        //sales_tbl
-        //order_id =order_id
-        //product_id=product_id
-        //quantity=quantity
-        //subtotal=subtotal
-        //user_id=user_id
-        //branch_id=branch_id
 
-        //audit_tbl
-        //product_id=product_id
-        //check if there is already a existing data  that is equal to $product id if there is already data get the latest one
-        //example:$old_quantity = $the_latest['old_quantity'] 
-        //example:$quantity = $the_latest['quantity'] 
+        // Calculate exact change
+        $exact_change = number_format($cash_received - $total, 2);
 
-        //audit_tbl
-        //old_quantity = $old_quantity
-        //type= 'outbound'
-        //exp_date=null
-        //user_id=user_id
-        //branch_id=branch_id
+        // Update order status, total, and cash_received
+        $orderModel->where('order_token', $order_token)
+            ->set([
+                'status' => 'completed',
+                'total' => $total,
+                'cash_received' => $cash_received
+            ])->update();
 
-        //after successful transafering make sure to delete all the data that is equal to $order_token
 
-        //
+        // Clear current transactions for the order
+        $currentTransaction->where('order_token', $order_token)->delete();
+
+        return $this->respond(['msg' => 'Transaction submitted successfully', 'exact_change' => $exact_change]);
     }
+
+
+
     private function clearData($token)
     {
         $CurrentTransaction = new CurrentTransactionModel();
@@ -95,6 +208,7 @@ class CurrentTransactionController extends ResourceController
 
 
         $user_info = $user->where('token', $token)->first();
+
 
 
         //clear the data in quanity 

@@ -47,7 +47,11 @@ class AuditController extends ResourceController
             // Add the product_name and total to each audit record
             foreach ($audits as &$audit) {
                 $audit['product_name'] = $product_info['product_name'];
-                $audit['total'] = $audit['old_quantity'] + $audit['quantity'];
+                if ($audit['type'] == 'inbound') {
+                    $audit['total'] = $audit['old_quantity'] + $audit['quantity'];
+                } elseif ($audit['type'] == 'outbound') {
+                    $audit['total'] = $audit['old_quantity'] - $audit['quantity'];
+                }
             }
 
             // Now $audits contains all the audit information for the specified product_id in the same branch as the user, ordered by the latest first,
@@ -79,19 +83,23 @@ class AuditController extends ResourceController
                 ->first();
 
             // Initialize variables for old_quantity and quantity
-            $exist_old_quantity = 0;
+            $existing_old_quantity = 0;
             $exist_quantity = 0;
+            $existing_old_quantity = $existingAudit['old_quantity']; // Adapt as needed
+            $exist_quantity = $existingAudit['quantity']; // Adapt as needed
+            $existingAudit_type = $existingAudit['type'];
 
-            // Calculate the new old_quantity based on the existing audit record
-            if ($existingAudit) {
-                $exist_old_quantity = $existingAudit['old_quantity'];
-                $exist_quantity = $existingAudit['quantity'];
+            // Adjust existing_old_quantity based on the existingAudit_type
+            if ($existingAudit_type == 'inbound') {
+                $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
+            } elseif ($existingAudit_type == 'outbound') {
+                $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
             }
 
             // Prepare the data for the new audit record
             $data = [
                 'product_id'   => $product_id,
-                'old_quantity' => $exist_old_quantity + $exist_quantity,
+                'old_quantity' => $existing_old_quantity_1,
                 'quantity'     => $this->request->getVar('quantity'),
                 'type'         => 'inbound',
                 'exp_date'     => $this->request->getVar('date'),

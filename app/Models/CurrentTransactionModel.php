@@ -13,7 +13,7 @@ class CurrentTransactionModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['current_transaction_id', 'order_token', 'product_id', 'quantity', 'sub_total', 'user_id', 'branch_id', 'created_at'];
+    protected $allowedFields    = ['current_transaction_id', 'order_token', 'product_id', 'quantity', 'user_id', 'branch_id', 'created_at'];
 
     // Dates
     protected $useTimestamps = false;

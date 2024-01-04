@@ -12,9 +12,11 @@ $routes->get('/act', 'ActivityLogsController::index');
 $routes->get('/ProductAudit/(:alphanum)/(:num)', 'AuditController::ProductAudit/$1/$2');
 $routes->get('/audit', 'AuditController::index');
 $routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
-$routes->match(['post', 'get'], '/Sales', 'AuditController::Sales');
 
 
+//Current Transaction
+$routes->match(['post', 'get'], '/POS/AddItem/(:any)/(:any)', 'CurrentTransactionController::AddItemToCurrentTransaction/$1/$2');
+$routes->match(['post', 'get'], '/POS/SubmitOrder/(:any)/(:any)/(:any)', 'CurrentTransactionController::SubmitCurrentTransaction/$1/$2/$3');
 
 $routes->match(['post', 'get'], '/branch', 'BranchController::index');
 $routes->get('/countStocksPerBranch', 'BranchController::countStocksPerBranch');
