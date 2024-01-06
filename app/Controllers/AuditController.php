@@ -70,7 +70,6 @@ class AuditController extends ResourceController
         $main = new AuditModel();
         $user = new UserModel();
         $product = new ProductModel();
-
         $user_info = $user->where('token', $token)->first();
         $prod_info = $product->where('product_id', $product_id)->first();
         if (!$user_info) {
@@ -81,21 +80,22 @@ class AuditController extends ResourceController
             $existingAudit = $main->where('product_id', $product_id)
                 ->orderBy('created_at', 'DESC')
                 ->first();
-
             // Initialize variables for old_quantity and quantity
-            $exist_old_quantity = 0;
+            $existing_old_quantity = 0;
             $exist_quantity = 0;
-
-            // Calculate the new old_quantity based on the existing audit record
-            if ($existingAudit) {
-                $exist_old_quantity = $existingAudit['old_quantity'];
-                $exist_quantity = $existingAudit['quantity'];
+            $existing_old_quantity = $existingAudit['old_quantity']; // Adapt as needed
+            $exist_quantity = $existingAudit['quantity']; // Adapt as needed
+            $existingAudit_type = $existingAudit['type'];
+            // Adjust existing_old_quantity based on the existingAudit_type
+            if ($existingAudit_type == 'inbound') {
+                $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
+            } elseif ($existingAudit_type == 'outbound') {
+                $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
             }
-
             // Prepare the data for the new audit record
             $data = [
                 'product_id'   => $product_id,
-                'old_quantity' => $exist_old_quantity + $exist_quantity,
+                'old_quantity' => $existing_old_quantity_1,
                 'quantity'     => $this->request->getVar('quantity'),
                 'type'         => 'inbound',
                 'exp_date'     => $this->request->getVar('date'),
@@ -103,17 +103,14 @@ class AuditController extends ResourceController
                 'branch_id'    => $user_info['branch_id'],
                 'created_at'   => date('Y-m-d H:i:s'),
             ];
-
             // Save the new audit record
             $result = $main->save($data);
-
             if ($result) {
                 // Update the product quantity
                 $total_quantity = $data['old_quantity'] + $data['quantity'];
                 $product->where('product_id', $product_id)
                     ->set(['quantity' => $total_quantity])
                     ->update();
-
                 return $this->respond(['msg' => 'okay']);
             } else {
                 return $this->respond(['msg' => 'failed']);
