@@ -16,6 +16,8 @@ $routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2'
 
 //Current Transaction
 $routes->match(['post', 'get'], '/POS/AddItem/(:any)/(:any)', 'CurrentTransactionController::AddItemToCurrentTransaction/$1/$2');
+//
+$routes->match(['post', 'get'], '/POS/GetItemList/(:any)/(:any)', 'CurrentTransactionController::CurrentTransactionList/$1/$2');
 $routes->match(['post', 'get'], '/POS/SubmitOrder/(:any)/(:any)/(:any)', 'CurrentTransactionController::SubmitCurrentTransaction/$1/$2/$3');
 
 $routes->match(['post', 'get'], '/branch', 'BranchController::index');
@@ -45,6 +47,7 @@ $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->match(['get', 'post'], '/AddProd', 'ProductController::AddProd');
 $routes->get('/ProdList', 'ProductController::index');
 $routes->get('/ProdList/(:any)', 'ProductController::BranchProductList/$1');
+$routes->get('/BranchProduct/(:any)', 'ProductController::BranchProduct/$1');
 
 $routes->match(['get', 'post'], '/AddSched', 'ScheduleController::AddSched');
 $routes->get('/ScheduleList', 'ScheduleController::SchedList');

@@ -1,0 +1,38 @@
+CRITICAL - 2024-01-06 16:35:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::isEmpty()
+in APPPATH\Controllers\CurrentTransactionController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->CurrentTransactionList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '5NnUwwOKF3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 16:38:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::isEmpty()
+in APPPATH\Controllers\CurrentTransactionController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->CurrentTransactionList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '5NnUwwOKF3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 16:43:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::isEmpty()
+in APPPATH\Controllers\CurrentTransactionController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->CurrentTransactionList('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '5NnUwwOKF3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 17:00:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->CurrentTransactionList('null', 'Cn81XM7yCw')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 17:01:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->CurrentTransactionList('null', 'YeDuVkvbMx')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 17:16:21 --> Unsupported operand types: string + string
+in APPPATH\Controllers\CurrentTransactionController.php on line 149.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf', 'ofF1m1UEjP')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

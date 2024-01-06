@@ -43,7 +43,29 @@ class ProductController extends ResourceController
 
         return $this->respond($data);
     }
+    public function BranchProduct($token)
+    {
+        $main = new ProductModel();
+        $user = new UserModel();
 
+        // Get the user that has the same token as $token
+        $userData = $user->where('token', $token)->first();
+
+        if (!$userData) {
+            // Handle the case where the user with the specified token is not found
+            return $this->fail('User not found', 404);
+        }
+
+        // Get the branch_id of the user
+        $branchId = $userData['branch_id'];
+
+        // Fetch products based on the branch_id
+        $data = $main->where('status !=', 'deleted')
+            ->where('branch_id', $branchId)
+            ->findAll();
+
+        return $this->respond($data);
+    }
     public function AddProd()
     {
         $main = new ProductModel();

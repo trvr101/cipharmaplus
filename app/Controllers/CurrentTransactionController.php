@@ -23,6 +23,53 @@ class CurrentTransactionController extends ResourceController
         return $this->respond($data);
     }
 
+    public function CurrentTransactionList($token, $order_token)
+    {
+        $currentTransaction = new CurrentTransactionModel();
+        $user = new UserModel();
+
+        // Retrieve user information based on the provided token
+        $user_info = $user->where('token', $token)->first();
+
+        // Retrieve transactions with the given order token and user's branch_id
+        $transactions = $currentTransaction
+            ->where('order_token', $order_token)
+            ->where('branch_id', $user_info['branch_id'])
+            ->findAll();
+
+        // Check if transactions are found
+        if (empty($transactions)) {
+            return $this->respond(['msg' => 'No transactions found for the given order token']);
+        }
+
+        // Calculate total based on product prices and quantities
+        $total = 0;
+        foreach ($transactions as &$transaction) {
+            $product_ID = $transaction['product_id'];
+            $product = new ProductModel();
+            $product_info = $product->find($transaction['product_id']);
+
+            // Check if the product exists
+            if (!$product_info) {
+                return $this->respond(['msg' => 'Error fetching product information']);
+            }
+
+            // Add product name to the transaction
+            $transaction['product_name'] = $product_info['product_name'];
+            $transaction['price'] = $product_info['price'];
+
+            // Calculate the total for each transaction item
+            $subtotal = $product_info['price'] * $transaction['quantity'];
+            $total += $subtotal;
+        }
+
+        // Return the result with total
+        return $this->respond([
+            'transactions' => $transactions,
+            'total' => $total,
+        ]);
+    }
+
 
 
 
@@ -196,7 +243,7 @@ class CurrentTransactionController extends ResourceController
         // Clear current transactions for the order
         $currentTransaction->where('order_token', $order_token)->delete();
 
-        return $this->respond(['msg' => 'Transaction submitted successfully', 'exact_change' => $exact_change]);
+        return $this->respond(['msg' => 'Transaction submitted successfully', 'Cash Received' => $exact_change, 'Total' => $total, 'exact_change' => $exact_change]);
     }
 
 
