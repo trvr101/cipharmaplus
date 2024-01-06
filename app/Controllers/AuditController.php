@@ -83,23 +83,19 @@ class AuditController extends ResourceController
                 ->first();
 
             // Initialize variables for old_quantity and quantity
-            $existing_old_quantity = 0;
+            $exist_old_quantity = 0;
             $exist_quantity = 0;
-            $existing_old_quantity = $existingAudit['old_quantity']; // Adapt as needed
-            $exist_quantity = $existingAudit['quantity']; // Adapt as needed
-            $existingAudit_type = $existingAudit['type'];
 
-            // Adjust existing_old_quantity based on the existingAudit_type
-            if ($existingAudit_type == 'inbound') {
-                $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
-            } elseif ($existingAudit_type == 'outbound') {
-                $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
+            // Calculate the new old_quantity based on the existing audit record
+            if ($existingAudit) {
+                $exist_old_quantity = $existingAudit['old_quantity'];
+                $exist_quantity = $existingAudit['quantity'];
             }
 
             // Prepare the data for the new audit record
             $data = [
                 'product_id'   => $product_id,
-                'old_quantity' => $existing_old_quantity_1,
+                'old_quantity' => $exist_old_quantity + $exist_quantity,
                 'quantity'     => $this->request->getVar('quantity'),
                 'type'         => 'inbound',
                 'exp_date'     => $this->request->getVar('date'),
