@@ -72,39 +72,57 @@ class AuditController extends ResourceController
         $product = new ProductModel();
         $user_info = $user->where('token', $token)->first();
         $prod_info = $product->where('product_id', $product_id)->first();
+
         if (!$user_info) {
             return $this->respond(['msg' => 'user not exist']);
         }
+
         if ($user_info['branch_id'] == $prod_info['branch_id'] || $user_info['user_role'] == 'admin') {
             // Find the latest audit record for the given product_id
             $existingAudit = $main->where('product_id', $product_id)
                 ->orderBy('created_at', 'DESC')
                 ->first();
+
             // Initialize variables for old_quantity and quantity
-            $existing_old_quantity = 0;
-            $exist_quantity = 0;
-            $existing_old_quantity = $existingAudit['old_quantity']; // Adapt as needed
-            $exist_quantity = $existingAudit['quantity']; // Adapt as needed
-            $existingAudit_type = $existingAudit['type'];
-            // Adjust existing_old_quantity based on the existingAudit_type
-            if ($existingAudit_type == 'inbound') {
-                $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
-            } elseif ($existingAudit_type == 'outbound') {
-                $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
+            if ($existingAudit) { // if there is a record in existing run this
+                $existing_old_quantity = $existingAudit['old_quantity'];
+                $exist_quantity = $existingAudit['quantity'];
+                $existingAudit_type = $existingAudit['type'];
+
+                // Adjust existing_old_quantity based on the existingAudit_type
+                if ($existingAudit_type == 'inbound') {
+                    $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
+                } elseif ($existingAudit_type == 'outbound') {
+                    $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
+                }
+
+                // Prepare the data for the new audit record
+                $data = [
+                    'product_id'   => $product_id,
+                    'old_quantity' => $existing_old_quantity_1,
+                    'quantity'     => $this->request->getVar('quantity'),
+                    'type'         => 'inbound',
+                    'exp_date'     => $this->request->getVar('date'),
+                    'user_id'      => $user_info['user_id'],
+                    'branch_id'    => $user_info['branch_id'],
+                    'created_at'   => date('Y-m-d H:i:s'),
+                ];
+            } else { // if there is no existingaudit record yet run this
+                $data = [
+                    'product_id'   => $product_id,
+                    'old_quantity' => 0,
+                    'quantity'     => $this->request->getVar('quantity'),
+                    'type'         => 'inbound',
+                    'exp_date'     => $this->request->getVar('date'),
+                    'user_id'      => $user_info['user_id'],
+                    'branch_id'    => $user_info['branch_id'],
+                    'created_at'   => date('Y-m-d H:i:s'),
+                ];
             }
-            // Prepare the data for the new audit record
-            $data = [
-                'product_id'   => $product_id,
-                'old_quantity' => $existing_old_quantity_1,
-                'quantity'     => $this->request->getVar('quantity'),
-                'type'         => 'inbound',
-                'exp_date'     => $this->request->getVar('date'),
-                'user_id'      => $user_info['user_id'],
-                'branch_id'    => $user_info['branch_id'],
-                'created_at'   => date('Y-m-d H:i:s'),
-            ];
+
             // Save the new audit record
             $result = $main->save($data);
+
             if ($result) {
                 // Update the product quantity
                 $total_quantity = $data['old_quantity'] + $data['quantity'];
@@ -116,7 +134,7 @@ class AuditController extends ResourceController
                 return $this->respond(['msg' => 'failed']);
             }
         } else {
-            return $this->respond(['msg' => 'your not able to access this page']);
+            return $this->respond(['msg' => 'you are not able to access this page']);
         }
     }
 }

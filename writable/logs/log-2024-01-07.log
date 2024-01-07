@@ -1,0 +1,434 @@
+CRITICAL - 2024-01-07 02:03:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:03:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:03:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:03:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:03:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:03:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:03:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:03:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:04:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:05:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '22')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:06:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '22')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:08:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:09:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:09:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:09:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:09:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:09:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:09:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 02:13:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 86.
+ 1 APPPATH\Controllers\AuditController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity('qJCyzTil1G5YkKsWnDF7OXxMgQcwmfEt43IvoARHd8PU6Nre02', '24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

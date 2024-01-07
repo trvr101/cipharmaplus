@@ -114,10 +114,9 @@ class CurrentTransactionController extends ResourceController
         if (strpos($UPCAndQuantity, '@') !== false) {
             // Split UPCAndQuantity to get UPC and Quantity
             list($UPC, $quantity) = explode('@', $UPCAndQuantity);
-        } else {
-            // If "@" is not present, consider it as UPC, and set quantity to 1
-            $UPC = $UPCAndQuantity;
-            $quantity = 1;
+            if ($quantity == null) {
+                $quantity = 1;
+            }
         }
 
         // Find the product with the given UPC and branch_id
@@ -146,7 +145,7 @@ class CurrentTransactionController extends ResourceController
         if ($existing_transaction) {
             // If the product already exists, update the quantity
 
-            $updated_quantity = $existing_transaction['quantity'] + $quantity;
+            $updated_quantity =  $quantity;
             if ($updated_quantity > $prod_info['quantity']) {
                 return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $updated_quantity]);
             }
