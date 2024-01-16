@@ -55,11 +55,12 @@ class CurrentTransactionController extends ResourceController
             }
 
             // Add product name to the transaction
-            $transaction['product_name'] = $product_info['product_name'];
-            $transaction['price'] = $product_info['price'];
-
+            $transaction['product_name'] = $transaction['quantity'] . '_' . $product_info['product_name'];
             // Calculate the total for each transaction item
+            $transaction['price'] = $product_info['price'];
             $subtotal = $product_info['price'] * $transaction['quantity'];
+            $transaction['subtotal'] = $subtotal;
+
             $total += $subtotal;
         }
 
@@ -104,7 +105,7 @@ class CurrentTransactionController extends ResourceController
 
             if (!$insert_result) {
                 // Error in inserting new order
-                return $this->respond(['msg' => 'Error inserting new order']);
+                return $this->respond(['msg' => 'Error inserting new order', 'error' => true]);
             }
 
             // Retrieve the newly created order
@@ -114,8 +115,24 @@ class CurrentTransactionController extends ResourceController
         if (strpos($UPCAndQuantity, '@') !== false) {
             // Split UPCAndQuantity to get UPC and Quantity
             list($UPC, $quantity) = explode('@', $UPCAndQuantity);
+            $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
+
             if ($quantity == null) {
                 $quantity = 1;
+            }
+            if ($quantity == 0) {
+                $isDeleted = $currentTransaction
+                    ->where([
+                        'product_id' => $prod_info['product_id'],
+                        'order_token' => $order_token,
+                    ])
+                    ->delete();
+                if ($isDeleted) {
+                    //delete the existing_transaction on $currentTransaction
+                    return $this->respond(['msg' => 'Remove product: ' . $prod_info['product_name'], 'error' => true]);
+                } else {
+                    return $this->respond(['msg' => 'Wrong quantity input', 'error' => true]);
+                }
             }
         }
 
@@ -125,14 +142,14 @@ class CurrentTransactionController extends ResourceController
         // Check if the product is associated with the current branch
         if (!$prod_info) {
             // Product not found
-            return $this->respond(['msg' => 'Product not found']);
+            return $this->respond(['msg' => 'Product not found', 'error' => true]);
         }
 
         if ($prod_info['branch_id'] != $user_info['branch_id']) {
-            return $this->respond(['msg' => 'Product not available in your branch']);
+            return $this->respond(['msg' => 'Product not available in your branch', 'error' => true]);
         }
         if ($quantity > $prod_info['quantity']) {
-            return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $quantity]);
+            return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $quantity, 'error' => true]);
         }
         // Check if the product already exists in currentTransaction
         $existing_transaction = $currentTransaction
@@ -147,7 +164,7 @@ class CurrentTransactionController extends ResourceController
 
             $updated_quantity =  $quantity;
             if ($updated_quantity > $prod_info['quantity']) {
-                return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $updated_quantity]);
+                return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $updated_quantity, 'error' => true]);
             }
             $currentTransaction->update($existing_transaction['current_transaction_id'], ['quantity' => $updated_quantity]);
         } else {
@@ -212,23 +229,24 @@ class CurrentTransactionController extends ResourceController
             $product_info = $product->find($transaction['product_id']);
             $total += $product_info['price'] * $transaction['quantity'];
 
-            // Check if cash_received is equal or greater than the total
-            if ($cash_received < $total) {
-                return $this->respond(['msg' => 'Insufficient cash received']);
-            }
-            $audit->insert($audit_data);
-
             // Update total based on product price and quantity
 
             // Update product quantity in the product table based on the outbound transaction
             $new_quantity = $product_info['quantity'] - $transaction['quantity'];
             $product->update($transaction['product_id'], ['quantity' => $new_quantity]);
         }
-
+        if ($cash_received < $total) {
+            $need = number_format($total - $cash_received, 2);
+            return $this->respond(['msg' => 'Insufficient cash received need ₱' . $need . ' more', 'error' => true]);
+        } else {
+            $audit->insert($audit_data);
+        }
 
 
         // Calculate exact change
         $exact_change = number_format($cash_received - $total, 2);
+        $cash_received = number_format($cash_received, 2);
+        $total = number_format($total, 2);
 
         // Update order status, total, and cash_received
         $orderModel->where('order_token', $order_token)
@@ -242,7 +260,7 @@ class CurrentTransactionController extends ResourceController
         // Clear current transactions for the order
         $currentTransaction->where('order_token', $order_token)->delete();
 
-        return $this->respond(['msg' => 'Transaction submitted successfully', 'Cash Received' => $exact_change, 'Total' => $total, 'exact_change' => $exact_change]);
+        return $this->respond(['msg' => 'Transaction submitted successfully', 'ReceivedCash' => $cash_received, 'Total' => $total, 'exact_change' => $exact_change]);
     }
 
 

@@ -1,0 +1,28 @@
+CRITICAL - 2024-01-13 10:57:56 --> Undefined array key "password"
+in APPPATH\Controllers\UserController.php on line 24.
+ 1 APPPATH\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:58:00 --> Undefined array key "password"
+in APPPATH\Controllers\UserController.php on line 24.
+ 1 APPPATH\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:58:05 --> Undefined array key "password"
+in APPPATH\Controllers\UserController.php on line 24.
+ 1 APPPATH\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:58:47 --> Undefined array key "password"
+in APPPATH\Controllers\UserController.php on line 24.
+ 1 APPPATH\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\UserController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

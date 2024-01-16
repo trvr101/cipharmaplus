@@ -63,6 +63,9 @@ $routes->get('/OrderList', 'OrderController::index');
 $routes->get('/CurrentTransaction', 'CurrentTransactionController::index');
 
 //User
+$routes->match(['post', 'get', 'put', 'patch'], '/UpdatedProfile', 'UserController::UpdatedProfile');
+$routes->match(['post', 'get', 'put', 'patch'], '/UpdatedPassword', 'UserController::UpdatedPassword');
+
 $routes->get('/BranchUserList/(:any)', 'UserController::BranchUserList/$1');
 $routes->get('/UserList', 'UserController::index');
 $routes->match(['post', 'get', 'put'], '/profile/(:any)', 'UserController::profile/$1');

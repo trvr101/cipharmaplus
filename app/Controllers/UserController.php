@@ -12,6 +12,84 @@ use App\Models\BranchModel;
 
 class UserController extends ResourceController
 {
+    public function UpdatedPassword()
+    {
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $newPassword = $this->request->getVar('new_password');
+
+        $profile = $user->where('token', $token)->first();
+
+        if ($profile) {
+            $currentPassword = $this->request->getVar('password');
+
+            // Verify the current password
+            if (password_verify($currentPassword, $profile['user_password'])) {
+                // Generate a hash for the new password
+                $hashedNewPassword = password_hash($newPassword, PASSWORD_DEFAULT);
+
+                // Update the user's password
+                $changed = $user->update($profile['user_id'], ['user_password' => $hashedNewPassword]);
+                if ($changed) {
+                    return $this->respond(['msg' => 'Password changed successfully']);
+                } else {
+                    return $this->respond(['msg' => 'Password changed unsuccessfully', 'error' => true]);
+                }
+            } else {
+                return $this->respond(['msg' => 'Current password is incorrect', 'error' => true]);
+            }
+        } else {
+            return $this->respond(['msg' => 'User not found', 'error' => true]);
+        }
+    }
+
+
+
+    public function UpdatedProfile()
+    {
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+
+        // Retrieve user based on the token
+        $profile = $user->where('token', $token)->first();
+
+        if ($profile) {
+            // Assuming you want to update these fields from request data
+            $data = [];
+
+            // Check if each field is not null before adding it to the $data array
+            $first_name = $this->request->getVar('first_name');
+            if ($first_name != null) {
+                $data['first_name'] = $first_name;
+            }
+
+            $last_name = $this->request->getVar('last_name');
+            if ($last_name != null) {
+                $data['last_name'] = $last_name;
+            }
+
+            $email = $this->request->getVar('email');
+            if ($email != null) {
+                $data['email'] = $email;
+            }
+
+            $phone = $this->request->getVar('phone');
+            if ($phone != null) {
+                $data['phone'] = $phone;
+            }
+
+            // Update the user profile
+            $updating = $user->update($profile['user_id'], $data);
+
+            if ($updating) {
+                return $this->respond(['msg' => 'Updated Successfully']);
+            } else {
+                return $this->respond(['msg' => 'Update Unsuccessfully', 'error' => true]);
+            }
+        }
+    }
+
+
     public function BranchUserList($token)
     {
         $userModel = new UserModel();
@@ -31,9 +109,6 @@ class UserController extends ResourceController
         } else {
         }
     }
-    public function userProfile($token)
-    {
-    }
 
 
 
@@ -49,7 +124,7 @@ class UserController extends ResourceController
             ]);
         } else {
             // Return a JSON response with a 404 status code
-            return $this->respond(['msg' => 'User not found'], 404);
+            return $this->respond(['msg' => 'User not found', 'error' => true], 404);
         }
     }
 
@@ -61,7 +136,7 @@ class UserController extends ResourceController
 
         // Validation
         if (empty($password)) {
-            return $this->respond(['msg' => 'error', 'error' => 'Empty password'], 400);
+            return $this->respond(['msg' => 'error', 'error' => 'Empty password', 'error' => true], 400);
         }
 
         // Check if the user with the given token exists
@@ -90,7 +165,7 @@ class UserController extends ResourceController
         $password = $this->request->getVar('password');
 
         if (empty($password)) {
-            return $this->respond(['msg' => 'error', 'error' => 'Empty password'], 400);
+            return $this->respond(['msg' => 'Empty password', 'error' => true], 400);
         }
 
         $data = $user->where('email', $email)->first();
@@ -108,7 +183,7 @@ class UserController extends ResourceController
                 return $this->respond(['msg' => 'error'], 401);
             }
         } else {
-            return $this->respond(['msg' => 'error'], 401);
+            return $this->respond(['msg' => 'error', 'error' => true], 401);
         }
     }
     public function register()
@@ -153,7 +228,7 @@ class UserController extends ResourceController
             }
         } else {
             // Invitation code is invalid
-            return $this->respond(['msg' => 'invalidInvitationCode'], 400);
+            return $this->respond(['msg' => 'invalidInvitationCode', 'error' => true], 400);
         }
     }
 
