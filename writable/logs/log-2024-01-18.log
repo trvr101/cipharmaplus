@@ -1,0 +1,1667 @@
+CRITICAL - 2024-01-18 01:00:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:01:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:02:39 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:04:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:05:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:06:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:06:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:07:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:07:45 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:07:45 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:07:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:48 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:08:59 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:53 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:53 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:09:53 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:10:20 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:13:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:13:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:14:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:14:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:18:45 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:19:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:20:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:20:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:22:53 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:23:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:23:39 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:25:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:25:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:25:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:27:45 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:29:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:29:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:31:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:32:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:34:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:43:26 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:43:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:43:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:43:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:43:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:43:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:26 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:44:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:45:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:46:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:47:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:48:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:48:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:48:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:49:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:49:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:50:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:50:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:51:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:51:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:52:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:52:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:53:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:53:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:54:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:54:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:55:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:55:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:56:20 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:56:20 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:56:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 01:56:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 02:17:48 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\UserController.php(82): CodeIgniter\Model->update('1', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->UpdatedProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:10:36 --> syntax error, unexpected single-quoted string "old_quantity", expecting "]"
+in APPPATH\Controllers\CurrentTransactionController.php on line 222.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:10:36 --> syntax error, unexpected single-quoted string "old_quantity", expecting "]"
+in APPPATH\Controllers\CurrentTransactionController.php on line 222.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:35:55 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,000.00', 'Vn82vRfNWW', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:35:56 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,000.00', 'Vn82vRfNWW', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:36:00 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,000.00', 'Vn82vRfNWW', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:36:00 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,000.00', 'Vn82vRfNWW', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:36:00 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,000.00', 'Vn82vRfNWW', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:36:28 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,000.00', 'Vn82vRfNWW', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:36:29 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,000.00', 'Vn82vRfNWW', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:37:18 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,600.00', 'NSgp3G0BQr', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:37:19 --> A non-numeric value encountered
+in APPPATH\Controllers\CurrentTransactionController.php on line 239.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1,600.00', 'NSgp3G0BQr', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:40:27 --> Unsupported operand types: string - int
+in APPPATH\Controllers\CurrentTransactionController.php on line 249.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('null', '8h0WE6Mw9Q', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

@@ -218,6 +218,7 @@ class CurrentTransactionController extends ResourceController
 
             $audit_data = [
                 'product_id' => $transaction['product_id'],
+                'token_code' => $order_token,
                 'old_quantity' => $existing_old_quantity_1,
                 'quantity' => $transaction['quantity'],
                 'type' => 'outbound', // Assuming this is an outbound transfer
@@ -234,19 +235,18 @@ class CurrentTransactionController extends ResourceController
             // Update product quantity in the product table based on the outbound transaction
             $new_quantity = $product_info['quantity'] - $transaction['quantity'];
             $product->update($transaction['product_id'], ['quantity' => $new_quantity]);
+            if ($cash_received < $total) {
+                $need = number_format($total - $cash_received, 2);
+                return $this->respond(['msg' => 'Insufficient cash received need ₱' . $need . ' more', 'error' => true]);
+            } else {
+                $audit->insert($audit_data);
+            }
         }
-        if ($cash_received < $total) {
-            $need = number_format($total - $cash_received, 2);
-            return $this->respond(['msg' => 'Insufficient cash received need ₱' . $need . ' more', 'error' => true]);
-        } else {
-            $audit->insert($audit_data);
-        }
-
 
         // Calculate exact change
-        $exact_change = number_format($cash_received - $total, 2);
-        $cash_received = number_format($cash_received, 2);
-        $total = number_format($total, 2);
+
+
+
 
         // Update order status, total, and cash_received
         $orderModel->where('order_token', $order_token)
@@ -255,11 +255,11 @@ class CurrentTransactionController extends ResourceController
                 'total' => $total,
                 'cash_received' => $cash_received
             ])->update();
-
-
         // Clear current transactions for the order
         $currentTransaction->where('order_token', $order_token)->delete();
-
+        $exact_change = number_format($cash_received - $total, 2);
+        $cash_received = number_format($cash_received, 2);
+        $total = number_format($total, 2);
         return $this->respond(['msg' => 'Transaction submitted successfully', 'ReceivedCash' => $cash_received, 'Total' => $total, 'exact_change' => $exact_change]);
     }
 

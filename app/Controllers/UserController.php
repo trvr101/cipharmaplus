@@ -90,6 +90,7 @@ class UserController extends ResourceController
     }
 
 
+
     public function BranchUserList($token)
     {
         $userModel = new UserModel();
