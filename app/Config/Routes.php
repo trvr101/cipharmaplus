@@ -56,8 +56,10 @@ $routes->get('/ScheduleList', 'ScheduleController::SchedList');
 $routes->get('/SalesList', 'SalesController::index');
 
 
-
+//order
 $routes->get('/OrderList', 'OrderController::index');
+$routes->get('/SalesTransaction', 'OrderController::SalesTransaction');
+$routes->get('/HoldSalesTransaction', 'OrderController::HoldSalesTransaction');
 
 
 $routes->get('/CurrentTransaction', 'CurrentTransactionController::index');

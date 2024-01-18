@@ -9,11 +9,10 @@ use CodeIgniter\API\ResponseTrait;
 use App\Models\AuditModel;
 use App\Models\UserModel;
 use App\Models\ProductModel;
-use App\Models\SalesModel;
-
 
 class AuditController extends ResourceController
 {
+
     public function index()
     {
         $main = new AuditModel();
