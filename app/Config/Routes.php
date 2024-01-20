@@ -14,14 +14,20 @@ $routes->get('/audit', 'AuditController::index');
 $routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
 
 
-//Current Transaction
+//Current Transaction SalesTransactionList
+$routes->match(['post', 'get'], '/SalesTransactionList', 'CurrentTransactionController::SalesTransactionList');
+$routes->match(['post', 'get'], '/TransactionTotalAmount/(:any)', 'CurrentTransactionController::TransactionTotalAmount/$1');
 $routes->match(['post', 'get'], '/POS/AddItem/(:any)/(:any)', 'CurrentTransactionController::AddItemToCurrentTransaction/$1/$2');
 //
 $routes->match(['post', 'get'], '/POS/GetItemList/(:any)/(:any)', 'CurrentTransactionController::CurrentTransactionList/$1/$2');
 $routes->match(['post', 'get'], '/POS/SubmitOrder/(:any)/(:any)/(:any)', 'CurrentTransactionController::SubmitCurrentTransaction/$1/$2/$3');
 
+
+
+//Branch
 $routes->match(['post', 'get'], '/branch', 'BranchController::index');
 $routes->get('/countStocksPerBranch', 'BranchController::countStocksPerBranch');
+$routes->get('/BranchInfo', 'BranchController::BranchInfo');
 
 
 

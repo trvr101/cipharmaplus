@@ -7,9 +7,19 @@ use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use App\Models\BranchModel;
 use App\Models\ProductModel;
+use App\Models\UserModel;
 
 class BranchController extends ResourceController
 {
+    public function BranchInfo()
+    {
+        $branch = new BranchModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $profile = $user->where('token', $token)->first();
+        $BranchData = $branch->where('branch_id', $profile['branch_id'])->first();
+        return $this->respond($BranchData);
+    }
     public function countStocksPerBranch()
     {
         $branchModel = new BranchModel();
