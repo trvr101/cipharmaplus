@@ -28,6 +28,10 @@ $routes->match(['post', 'get'], '/POS/SubmitOrder/(:any)/(:any)/(:any)', 'Curren
 $routes->match(['post', 'get'], '/branch', 'BranchController::index');
 $routes->get('/countStocksPerBranch', 'BranchController::countStocksPerBranch');
 $routes->get('/BranchInfo', 'BranchController::BranchInfo');
+$routes->match(['post', 'get', 'put', 'patch'], '/UpdateBranchInfo', 'BranchController::UpdateBranchInfo');
+$routes->match(['post', 'get', 'put', 'patch'], '/IsOpenForInvitation', 'BranchController::IsOpenForInvitation');
+$routes->match(['post', 'get', 'put', 'patch'], '/toggleInvitation', 'BranchController::toggleInvitation');
+$routes->match(['post', 'get', 'put', 'patch'], '/RegenerateInvitationCode', 'BranchController::RegenerateInvitationCode');
 
 
 

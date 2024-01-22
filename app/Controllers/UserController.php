@@ -200,36 +200,40 @@ class UserController extends ResourceController
             ->first();
 
         if ($branchData) {
-            // Invitation code is valid, determine user role and branch ID
-            if ($invitationCode == $branchData['CS_invite_code']) {
-                // Invitation code belongs to CS_invite_code field
-                $userRole = 'cashier';
-            } elseif ($invitationCode == $branchData['BA_invite_code']) {
-                // Invitation code belongs to BA_invite_code field
-                $userRole = 'branch_admin';
-            }
+            if ($branchData['is_open_for_invitation']) {
+                // Invitation code is valid, determine user role and branch ID
+                if ($invitationCode == $branchData['CS_invite_code']) {
+                    // Invitation code belongs to CS_invite_code field
+                    $userRole = 'cashier';
+                } elseif ($invitationCode == $branchData['BA_invite_code']) {
+                    // Invitation code belongs to BA_invite_code field
+                    $userRole = 'branch_admin';
+                }
 
-            $data = [
-                'email' => $this->request->getVar('email'),
-                'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-                'token' => $token,
-                'first_name' => 'Robert',
-                'last_name' => 'Aguba',
-                'branch_id' => $branchData['branch_id'],
-                'status' => 'active',
-                'user_role' => $userRole,
-            ];
+                $data = [
+                    'email' => $this->request->getVar('email'),
+                    'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+                    'token' => $token,
+                    'first_name' => 'Robert',
+                    'last_name' => 'Aguba',
+                    'branch_id' => $branchData['branch_id'],
+                    'status' => 'active',
+                    'user_role' => $userRole,
+                ];
 
-            $u = $user->insert($data);
-            $user_role = $data['user_role'];
-            if ($u) {
-                return $this->respond(['msg' => 'okay', 'token' => $data['token'], 'user_role' => $user_role], 201);
+                $u = $user->insert($data);
+                $user_role = $data['user_role'];
+                if ($u) {
+                    return $this->respond(['msg' => 'Registered Success fully on ' . $branchData['branch_name'], 'token' => $data['token'], 'user_role' => $user_role], 201);
+                } else {
+                    return $this->respond(['msg' => 'register unsuccessfully', 'error' => true]);
+                }
             } else {
-                return $this->respond(['msg' => 'okay'], 400);
+                return $this->respond(['msg' => 'The Branch is not open for Invitation', 'error' => true]);
             }
         } else {
             // Invitation code is invalid
-            return $this->respond(['msg' => 'invalidInvitationCode', 'error' => true], 400);
+            return $this->respond(['msg' => 'Invitation code does not exist', 'error' => true]);
         }
     }
 

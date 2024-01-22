@@ -13,7 +13,7 @@ class BranchModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['branch_id', 'branch_name', 'latitude', 'magnitude', 'barangay', 'opening_time', 'closing_time', 'contact_number', 'email', 'CS_invite_code', 'BA_invite_code', 'created_at'];
+    protected $allowedFields    = ['branch_id', 'branch_name', 'latitude', 'magnitude', 'barangay', 'opening_time', 'closing_time', 'contact_number', 'email', 'CS_invite_code', 'BA_invite_code', 'is_open_for_invitation', 'created_at'];
 
     // Dates
     protected $useTimestamps = false;
