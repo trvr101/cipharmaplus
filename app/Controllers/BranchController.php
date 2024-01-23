@@ -107,9 +107,9 @@ class BranchController extends ResourceController
                     $data['latitude'] = $latitude;
                 }
 
-                $magnitude = $this->request->getVar('magnitude');
-                if ($magnitude != null) {
-                    $data['magnitude'] = $magnitude;
+                $longitude = $this->request->getVar('longitude');
+                if ($longitude != null) {
+                    $data['longitude'] = $longitude;
                 }
 
                 $barangay = $this->request->getVar('barangay');
