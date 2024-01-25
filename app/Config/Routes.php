@@ -11,6 +11,7 @@ $routes->get('/act', 'ActivityLogsController::index');
 
 $routes->get('/ProductAudit/(:alphanum)/(:num)', 'AuditController::ProductAudit/$1/$2');
 $routes->get('/audit', 'AuditController::index');
+$routes->get('/ExpirationAlertPerProduct', 'AuditController::ExpirationAlertPerProduct');
 $routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
 
 
@@ -27,6 +28,9 @@ $routes->match(['post', 'get'], '/POS/SubmitOrder/(:any)/(:any)/(:any)', 'Curren
 //Branch
 $routes->match(['post', 'get'], '/branch', 'BranchController::index');
 $routes->get('/countStocksPerBranch', 'BranchController::countStocksPerBranch');
+$routes->get('/BranchSalesPerWeek', 'BranchController::BranchSalesPerWeek');
+$routes->get('/SalesPredictionPerWeek', 'BranchController::SalesPredictionPerWeek');
+$routes->get('/SalesPredictionPerDay', 'BranchController::SalesPredictionPerDay');
 $routes->get('/BranchInfo', 'BranchController::BranchInfo');
 $routes->match(['post', 'get', 'put', 'patch'], '/UpdateBranchInfo', 'BranchController::UpdateBranchInfo');
 $routes->match(['post', 'get', 'put', 'patch'], '/IsOpenForInvitation', 'BranchController::IsOpenForInvitation');

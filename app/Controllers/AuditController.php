@@ -19,6 +19,43 @@ class AuditController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
+
+    public function ExpirationAlertPerProduct()
+    {
+        $user = new UserModel();
+        $audit = new AuditModel();
+        $token = $this->request->getVar('token');
+        $product_id = $this->request->getVar('product_id');
+        $profile = $user->where('token', $token)->first();
+
+        //Get all outbound transactions and sum up the quantity
+        $OutboundTotalQuantity = $audit
+            ->where('product_id', $product_id)
+            ->where('type', 'outbound')
+            ->where('branch_id', $profile['branch_id'])
+            ->findAll();
+        $InboundTotalQuantity = $audit
+            ->where('product_id', $product_id)
+            ->where('type', 'inbound')
+            ->where('branch_id', $profile['branch_id'])
+            ->findAll();
+        $outboundSum = array_sum(array_column($OutboundTotalQuantity, 'quantity'));
+        $existingProduct = [];
+        $inboundSum = 0;
+        foreach ($InboundTotalQuantity as $inbound) {
+            $inboundSum += $inbound['quantity'];
+            if ($outboundSum <= $inboundSum) {
+                if (count($existingProduct) == 0) {
+                    $cutoff = $inboundSum - $outboundSum;
+                    $inbound['quantity'] = $cutoff;
+                }
+                $existingProduct[] = $inbound;
+            }
+        }
+        //loop the existing products and check the closest exp_date
+        return $this->respond($existingProduct);
+    }
+
     public function ProductAudit($token, $product_id)
     {
         $main = new AuditModel();
@@ -41,7 +78,8 @@ class AuditController extends ResourceController
         // Step 3: Check if the branch_id of user and prod are the same or user is admin
         if ($user_branch_id == $product_info['branch_id'] || $user_info['user_role'] == 'admin') {
             // Step 4: Get all the audits that have the same product_id as $product_id, ordered by the latest first
-            $audits = $main->where('product_id', $product_id)->orderBy('created_at', 'DESC')->findAll();
+            //$audits = $main->where('product_id', $product_id)->orderBy('created_at', 'DESC')->findAll();
+            $audits = $main->where('product_id', $product_id)->findAll();
 
             // Add the product_name and total to each audit record
             foreach ($audits as &$audit) {

@@ -1,0 +1,173 @@
+CRITICAL - 2024-01-24 04:24:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:24:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:24:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:26:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:26:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:28:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:28:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:28:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:28:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:28:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:28:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:29:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 04:29:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 84.
+ 1 APPPATH\Controllers\BranchController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 06:37:07 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\BranchController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchSalesPerWeek()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:42:29 --> Unsupported operand types: int - array
+in APPPATH\Controllers\AuditController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ExpirationAlertPerProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:42:31 --> Unsupported operand types: int - array
+in APPPATH\Controllers\AuditController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ExpirationAlertPerProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:47:31 --> Undefined variable $existingItems
+in APPPATH\Controllers\AuditController.php on line 58.
+ 1 APPPATH\Controllers\AuditController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existingItems', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ExpirationAlertPerProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:48:16 --> Undefined variable $existingItems
+in APPPATH\Controllers\AuditController.php on line 58.
+ 1 APPPATH\Controllers\AuditController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existingItems', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ExpirationAlertPerProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:50:44 --> Undefined variable $existingItems
+in APPPATH\Controllers\AuditController.php on line 54.
+ 1 APPPATH\Controllers\AuditController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existingItems', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ExpirationAlertPerProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:03:04 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Controllers\AuditController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuditController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuditController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AuditController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:13:13 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\AuditController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuditController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuditController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AuditController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:13:15 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\AuditController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuditController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuditController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AuditController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:28:52 --> Undefined variable $existingItems
+in APPPATH\Controllers\AuditController.php on line 59.
+ 1 APPPATH\Controllers\AuditController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existingItems', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ExpirationAlertPerProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:38:04 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\AuditController.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuditController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuditController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AuditController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

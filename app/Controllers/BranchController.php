@@ -8,18 +8,141 @@ use CodeIgniter\API\ResponseTrait;
 use App\Models\BranchModel;
 use App\Models\ProductModel;
 use App\Models\UserModel;
+use App\Models\AuditModel;
 
 class BranchController extends ResourceController
 {
-    public function InvitationalCode()
+    public function BranchSalesPerWeek()
     {
         $branch = new BranchModel();
         $user = new UserModel();
+        $audit = new AuditModel();
         $token = $this->request->getVar('token');
         $profile = $user->where('token', $token)->first();
-        $BranchData = $branch->where('branch_id', $profile['branch_id'])->first();
-        return $this->respond($BranchData);
+
+        // Fetch audits for the specific branch
+        $branchAudits = $audit->where('branch_id', $profile['branch_id'])->where('type', 'outbound')->findAll();
+
+        // Group audits by week
+        $weeklySales = [];
+        foreach ($branchAudits as $audit) {
+            $weekStartDate = date('Y-m-d', strtotime('monday this week', strtotime($audit['created_at'])));
+            $weeklySales[$weekStartDate][] = $audit['quantity'];
+        }
+
+        // Calculate total quantity sold for each week
+        $totalQuantityByWeek = [];
+        foreach ($weeklySales as $weekStartDate => $sales) {
+            $totalQuantityByWeek[$weekStartDate] = array_sum($sales);
+        }
+
+        // Find the percentage difference from the last week
+        $weeks = array_keys($totalQuantityByWeek);
+        rsort($weeks); // Sort weeks in descending order
+        $currentWeek = reset($weeks);
+        $previousWeek = next($weeks);
+
+        $percentageDifference = 0;
+        if (isset($totalQuantityByWeek[$previousWeek]) && $totalQuantityByWeek[$previousWeek] !== 0) {
+            $percentageDifference = (($totalQuantityByWeek[$currentWeek] - $totalQuantityByWeek[$previousWeek]) / $totalQuantityByWeek[$previousWeek]) * 100;
+        }
+
+        return $this->respond([
+            'currentWeek' => $currentWeek,
+            'previousWeek' => $previousWeek,
+            'percentageDifference' => $percentageDifference,
+            'totalQuantityByWeek' => $totalQuantityByWeek,
+        ]);
     }
+    public function SalesPredictionPerWeek()
+    {
+        $audit = new AuditModel();
+        $token = $this->request->getVar('token');
+
+        // Assuming you have a user model to get the user's branch
+        $user = new UserModel();
+        $profile = $user->where('token', $token)->first();
+
+        // Fetch audits for the specific branch
+        $branchAudits = $audit->where('branch_id', $profile['branch_id'])->where('type', 'inbound')->findAll();
+
+        // Extract dates and corresponding quantities
+        $dates = [];
+        $quantities = [];
+        foreach ($branchAudits as $audit) {
+            $dates[] = $audit['created_at'];
+            $quantities[] = $audit['quantity'];
+        }
+
+        // Calculate the moving average
+        $windowSize = 3; // You can adjust this based on your data and desired prediction accuracy
+        $totalQuantities = count($quantities);
+
+        if ($totalQuantities > $windowSize) {
+            // Calculate the average for the last $windowSize entries
+            $lastWindowQuantities = array_slice($quantities, -$windowSize);
+            $average = array_sum($lastWindowQuantities) / $windowSize;
+
+            // Predict the next sales based on the average
+            $prediction = $average;
+
+            return $this->respond([
+                'prediction' => $prediction,
+                'lastWindowQuantities' => $lastWindowQuantities,
+                'average' => $average,
+            ]);
+        } else {
+            // Not enough data for prediction
+            return $this->respond(['error' => 'Not enough data for prediction']);
+        }
+    }
+    public function SalesPredictionPerDay()
+    {
+        $branch = new BranchModel();
+        $user = new UserModel();
+        $audit = new AuditModel();
+        $token = $this->request->getVar('token');
+        $profile = $user->where('token', $token)->first();
+
+        // Fetch audits for the specific branch
+        $branchAudits = $audit->where('branch_id', $profile['branch_id'])->findAll();
+
+        // Group audits by day
+        $dailySales = [];
+        foreach ($branchAudits as $audit) {
+            $day = date('Y-m-d', strtotime($audit['created_at']));
+            $dailySales[$day][] = $audit['quantity'];
+        }
+
+        // Identify the last two days
+        $days = array_keys($dailySales);
+        rsort($days);
+        $lastTwoDays = array_slice($days, 0, 2);
+
+        // Calculate total quantity sold for the last two days
+        $totalQuantityLastTwoDays = 0;
+        foreach ($lastTwoDays as $day) {
+            $totalQuantityLastTwoDays += array_sum($dailySales[$day]);
+        }
+
+        // Calculate average sales for the last two days
+        $averageSales = count($lastTwoDays) > 0 ? $totalQuantityLastTwoDays / count($lastTwoDays) : 0;
+
+        // Predict sales for the next day
+        $nextDay = date('Y-m-d', strtotime('tomorrow'));
+        $predictedSales = round($averageSales);
+
+        return $this->respond([
+            'lastTwoDays' => $lastTwoDays,
+            'predictedSales' => $predictedSales,
+            'averageSales' => $averageSales,
+            'totalQuantityLastTwoDays' => $totalQuantityLastTwoDays,
+        ]);
+    }
+
+
+
+
     public function RegenerateInvitationCode()
     {
         $branch = new BranchModel();
