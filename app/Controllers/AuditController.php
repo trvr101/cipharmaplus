@@ -19,7 +19,118 @@ class AuditController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
+    //Top Selling Products START HERE
+    public function TopSellingProductPerWeek()
+    {
+        $audit = new AuditModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $profile = $user->where('token', $token)->first();
+        $lastSevenDaysStart = date('Y-m-d', strtotime('-7 days'));
+        $previousWeekStart = date('Y-m-d', strtotime('-14 days'));
 
+        // Get data for the current week
+        $ProductSoldThisWeek = $this->getProductSoldData($audit, $profile['branch_id'], $lastSevenDaysStart, 'outbound');
+
+        // Get data for the previous week
+        $ProductSoldLastWeek = $this->getProductSoldData($audit, $profile['branch_id'], $previousWeekStart, 'outbound');
+
+        // Organize and count the sum of product quantities sold for both weeks
+        $productQuantitiesThisWeek = $this->organizeProductQuantities($ProductSoldThisWeek);
+        $productQuantitiesLastWeek = $this->organizeProductQuantities($ProductSoldLastWeek);
+
+        // Sort product quantities in descending order for both weeks
+        arsort($productQuantitiesThisWeek);
+        arsort($productQuantitiesLastWeek);
+
+        // Get the top 5 selling products for both weeks
+        $topSellingProductsThisWeek = $productQuantitiesThisWeek;
+        $topSellingProductsLastWeek = $productQuantitiesLastWeek;
+
+        // Fetch additional details for the top 5 selling products for both weeks
+        $topSellingProductDetailsThisWeek = $this->fetchProductDetails($topSellingProductsThisWeek);
+        $topSellingProductDetailsLastWeek = $this->fetchProductDetails($topSellingProductsLastWeek);
+
+        // Compare rankings and calculate the rank difference
+        $rankDifference = $this->calculateRankDifference($topSellingProductsThisWeek, $topSellingProductsLastWeek);
+
+        // Include the rank difference and indicator in the response
+        foreach ($topSellingProductDetailsThisWeek as &$productDetails) {
+            $productId = $productDetails['product_id'];
+            $productDetails['rank_difference'] = $rankDifference[$productId] ?? null;
+            $productDetails['rank_indicator'] = $this->calculateRankIndicator($rankDifference[$productId]);
+        }
+
+        return $this->respond([
+            'TopSellingProductsThisWeek' => $topSellingProductDetailsThisWeek,
+            'TopSellingProductsLastWeek' => $topSellingProductDetailsLastWeek,
+        ]);
+    }
+
+    private function calculateRankIndicator($rankDifference)
+    {
+        if ($rankDifference > 0) {
+            return 'up';
+        } elseif ($rankDifference < 0) {
+            return 'down';
+        } else {
+            return 'no_change';
+        }
+    }
+
+    private function calculateRankDifference($currentWeek, $previousWeek)
+    {
+        $rankDifference = [];
+        $currentRank = 1;
+        foreach ($currentWeek as $productId => $quantity) {
+            $previousRank = array_search($productId, array_keys($previousWeek)) + 1;
+            $rankDifference[$productId] = $previousRank - $currentRank;
+            $currentRank++;
+        }
+
+        return $rankDifference;
+    }
+
+    private function fetchProductDetails($productQuantities)
+    {
+        $productDetails = [];
+        foreach ($productQuantities as $productId => $quantity) {
+            // Replace this with your code to fetch product details based on the product ID
+            $productModel = new ProductModel();
+            $details = $productModel->find($productId);
+
+            $details['quantity_sold'] = $quantity;
+            $productDetails[] = $details;
+        }
+
+        return $productDetails;
+    }
+    private function getProductSoldData($audit, $branchId, $startDate, $type)
+    {
+        return $audit
+            ->where('branch_id', $branchId)
+            ->where('created_at >=', $startDate)
+            ->where('type', $type)
+            ->findAll();
+    }
+
+    private function organizeProductQuantities($productSoldData)
+    {
+        $productQuantities = [];
+        foreach ($productSoldData as $auditEntry) {
+            $productId = $auditEntry['product_id'];
+            $quantity = intval($auditEntry['quantity']);
+
+            if (isset($productQuantities[$productId])) {
+                $productQuantities[$productId] += $quantity;
+            } else {
+                $productQuantities[$productId] = $quantity;
+            }
+        }
+
+        return $productQuantities;
+    }
+    //Top Selling Products END HERE
     public function ExpirationAlertPerProduct()
     {
         $user = new UserModel();
@@ -52,8 +163,21 @@ class AuditController extends ResourceController
                 $existingProduct[] = $inbound;
             }
         }
+        $closestExpirationDate = null;
+        $closestExpirationDateData = null;
+        foreach ($existingProduct as $product) {
+            if ($product['exp_date'] < $closestExpirationDate || $closestExpirationDate == null) {
+                $closestExpirationDate = $product['exp_date'];
+                $closestExpirationDateData = $product;
+            }
+        }
         //loop the existing products and check the closest exp_date
-        return $this->respond($existingProduct);
+        $response = [
+            'existingProduct' => $existingProduct,
+            'closestExpirationDate' => $closestExpirationDate,
+            'closestExpirationDateData' => $closestExpirationDateData,
+        ];
+        return $this->respond($response);
     }
 
     public function ProductAudit($token, $product_id)

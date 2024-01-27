@@ -1,0 +1,194 @@
+CRITICAL - 2024-01-26 05:14:35 --> Undefined variable $earnings
+in APPPATH\Controllers\CurrentTransactionController.php on line 268.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $earnings', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 268)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1000', 'VOAY3vvR5I', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:14:39 --> Undefined variable $earnings
+in APPPATH\Controllers\CurrentTransactionController.php on line 268.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $earnings', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 268)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1000', 'VOAY3vvR5I', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:14:43 --> Undefined variable $earnings
+in APPPATH\Controllers\CurrentTransactionController.php on line 268.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $earnings', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 268)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1000', 'VOAY3vvR5I', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:11 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:11 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:12 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:12 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:13 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:13 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:14 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:14 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:15 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:15 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:16 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:16 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 05:15:17 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\CurrentTransactionController.php on line 235.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 14:53:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 28.
+ 1 APPPATH\Controllers\OrderController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 14:53:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 28.
+ 1 APPPATH\Controllers\OrderController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 14:56:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 28.
+ 1 APPPATH\Controllers\OrderController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 14:56:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 28.
+ 1 APPPATH\Controllers\OrderController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 14:56:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 28.
+ 1 APPPATH\Controllers\OrderController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 15:50:24 --> Undefined variable $topSellingProducts
+in APPPATH\Controllers\AuditController.php on line 54.
+ 1 APPPATH\Controllers\AuditController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topSellingProducts', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 15:59:44 --> Undefined variable $topSellingProductsThisWeek
+in APPPATH\Controllers\AuditController.php on line 47.
+ 1 APPPATH\Controllers\AuditController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topSellingProductsThisWeek', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 16:01:03 --> Undefined array key "product_id"
+in APPPATH\Controllers\AuditController.php on line 58.
+ 1 APPPATH\Controllers\AuditController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

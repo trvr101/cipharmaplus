@@ -20,6 +20,7 @@ class ProductController extends ResourceController
         $data = $main->where('status !=', 'deleted')->findAll();
         return $this->respond($data);
     }
+
     public function BranchProductList($token)
     {
         $main = new ProductModel();
@@ -69,15 +70,19 @@ class ProductController extends ResourceController
     public function AddProd()
     {
         $main = new ProductModel();
-
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $profile = $user->where('token', $token)->first();
 
         $data = [
-            'user_id' => $this->request->getVar('my_user_id'),
+            'user_id' => $profile['user_id'],
             'upc' => $this->request->getVar('prod_upc'),
             'product_name' => $this->request->getVar('prod_name'),
             'description' => $this->request->getVar('prod_desc'),
-            'price' => $this->request->getVar('prod_price'),
-            'branch_id' => $this->request->getVar('prod_branch_id'),
+            'original_price' => $this->request->getVar('original_price'),
+            'profit' => $this->request->getVar('profit'),
+            'price' =>  $this->request->getVar('original_price') + $this->request->getVar('profit'),
+            'branch_id' => $profile['branch_id'],
             'category' => $this->request->getVar('category_name'),
             'status' => 'available',
             'created_at' => date('Y-m-d H:i:s'),

@@ -11,7 +11,6 @@ $routes->get('/act', 'ActivityLogsController::index');
 
 $routes->get('/ProductAudit/(:alphanum)/(:num)', 'AuditController::ProductAudit/$1/$2');
 $routes->get('/audit', 'AuditController::index');
-$routes->get('/ExpirationAlertPerProduct', 'AuditController::ExpirationAlertPerProduct');
 $routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
 
 
@@ -56,7 +55,6 @@ $routes->get('/notif', 'NotificationController::index');
 $routes->post('/addBranch', 'BranchController::addBranch');
 
 //Product
-$routes->get('main/count-unique-items', 'ProductController::countUniqueItems');
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->match(['get', 'post'], '/AddProd', 'ProductController::AddProd');
 $routes->get('/ProdList', 'ProductController::index');
@@ -109,5 +107,21 @@ $routes->match(['delete'], '/notes/(:num)', 'MainController::delete/$1');
 
 
 //branch view
-$routes->match(['get', 'post'], 'branch/count-unique-items/(:any)', 'ProductController::countBranchUniqueItems/$1');
 $routes->match(['get', 'post'], 'branch/inventory/(:any)', 'ProductController::branchInventory/$1');
+
+
+//KPIs key performance indicators
+//Expiration
+$routes->get('/ExpirationAlertPerProduct', 'AuditController::ExpirationAlertPerProduct');
+//Earnings
+$routes->get('/EarningsPerWeek', 'OrderController::EarningsPerWeek');
+//Top Selling Products
+$routes->get('/TopSellingProductPerWeek', 'AuditController::TopSellingProductPerWeek');
+
+//AOV (Average Order Value)
+$routes->get('/AverageOrderValuePerWeek', 'OrderController::AverageOrderValuePerWeek');
+
+//Total Unique Items
+$routes->get('/count-unique-items', 'ProductController::countBranchUniqueItems/');
+$routes->get('/count-unique-items', 'ProductController::countUniqueItems');
+//Sales Trend OverTime

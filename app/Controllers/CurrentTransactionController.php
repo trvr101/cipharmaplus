@@ -206,9 +206,10 @@ class CurrentTransactionController extends ResourceController
             $current_transaction_data = [
                 'order_token' => $order_token,
                 'product_id' => $prod_info['product_id'],
+                'quantity' => $quantity,
+                'earnings' => $prod_info['profit'] * $quantity,
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
-                'quantity' => $quantity,
             ];
 
             $currentTransaction->insert($current_transaction_data);
@@ -230,6 +231,7 @@ class CurrentTransactionController extends ResourceController
 
         // Initialize variables to calculate total and exact change
         $total = 0;
+        $earnings = 0;
         $this->TransactionTotalAmount($order_token);
         foreach ($transactions as $transaction) {
             // Transfer data to audit table
@@ -255,6 +257,7 @@ class CurrentTransactionController extends ResourceController
                 'token_code' => $order_token,
                 'old_quantity' => $existing_old_quantity_1,
                 'quantity' => $transaction['quantity'],
+                'earnings' => $transaction['earnings'],
                 'type' => 'outbound', // Assuming this is an outbound transfer
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
@@ -263,6 +266,7 @@ class CurrentTransactionController extends ResourceController
             $product = new ProductModel();
             $product_info = $product->find($transaction['product_id']);
             $total += $product_info['price'] * $transaction['quantity'];
+            $earnings += $product_info['profit'] * $transaction['quantity'];
 
             // Update total based on product price and quantity
 
@@ -289,6 +293,7 @@ class CurrentTransactionController extends ResourceController
                 ->set([
                     'status' => 'completed',
                     'total' => $this->totalAmount,
+                    'earnings' => $earnings,
                     'cash_received' => $cash_received
                 ])->update();
 

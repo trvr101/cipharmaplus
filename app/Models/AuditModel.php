@@ -13,7 +13,7 @@ class AuditModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['audit_id', 'token_code', 'product_id', 'old_quantity', 'quantity', 'type', 'exp_date', 'user_id', 'branch_id', 'created_at'];
+    protected $allowedFields    = ['audit_id', 'token_code', 'product_id', 'old_quantity', 'quantity', 'earnings', 'type', 'exp_date', 'user_id', 'branch_id', 'created_at'];
 
     // Dates
     protected $useTimestamps = false;
