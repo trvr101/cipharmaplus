@@ -42,17 +42,15 @@ class AuditController extends ResourceController
         // Sort product quantities in descending order for both weeks
         arsort($productQuantitiesThisWeek);
         arsort($productQuantitiesLastWeek);
+        // Get the top 3 selling products for both weeks
+        $topSellingProductsThisWeek = array_slice($productQuantitiesThisWeek, 0, 3, true);
 
-        // Get the top 5 selling products for both weeks
-        $topSellingProductsThisWeek = $productQuantitiesThisWeek;
-        $topSellingProductsLastWeek = $productQuantitiesLastWeek;
-
-        // Fetch additional details for the top 5 selling products for both weeks
+        // Fetch additional details for the top 3 selling products for both weeks
         $topSellingProductDetailsThisWeek = $this->fetchProductDetails($topSellingProductsThisWeek);
-        $topSellingProductDetailsLastWeek = $this->fetchProductDetails($topSellingProductsLastWeek);
+        $topSellingProductDetailsLastWeek = $this->fetchProductDetails($productQuantitiesLastWeek);
 
         // Compare rankings and calculate the rank difference
-        $rankDifference = $this->calculateRankDifference($topSellingProductsThisWeek, $topSellingProductsLastWeek);
+        $rankDifference = $this->calculateRankDifference($topSellingProductsThisWeek, $productQuantitiesLastWeek);
 
         // Include the rank difference and indicator in the response
         foreach ($topSellingProductDetailsThisWeek as &$productDetails) {

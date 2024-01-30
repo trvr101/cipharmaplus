@@ -12,6 +12,32 @@ use App\Models\AuditModel;
 
 class BranchController extends ResourceController
 {
+    public function TotalBranchWorker()
+    {
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $profile = $user->where('token', $token)->first();
+
+        // Count total workers
+        $branchWorkers = $user
+            ->where('branch_id', $profile['branch_id'])
+            ->findAll();
+        $branchWorkerCount = count($branchWorkers);
+
+        // Count new workers today
+        $today = date('Y-m-d');
+        $NewWorkers = $user
+            ->where('branch_id', $profile['branch_id'])
+            ->where('created_at >=', $today)
+            ->findAll();
+        $NewWorkerCount = count($NewWorkers);
+
+        return $this->respond([
+            'totalWorkers' => $branchWorkerCount,
+            'NewWorkersToday' => $NewWorkerCount,
+        ]);
+    }
+
     public function BranchSalesPerWeek()
     {
         $branch = new BranchModel();

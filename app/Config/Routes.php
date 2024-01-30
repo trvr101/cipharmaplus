@@ -122,6 +122,8 @@ $routes->get('/TopSellingProductPerWeek', 'AuditController::TopSellingProductPer
 $routes->get('/AverageOrderValuePerWeek', 'OrderController::AverageOrderValuePerWeek');
 
 //Total Unique Items
-$routes->get('/count-unique-items', 'ProductController::countBranchUniqueItems/');
-$routes->get('/count-unique-items', 'ProductController::countUniqueItems');
-//Sales Trend OverTime
+$routes->get('/countBranchUniqueItems', 'ProductController::countBranchUniqueItems/');
+//Orders Today
+$routes->get('/TransactionToday', 'OrderController::TransactionToday');
+//Total Branch Worker Count
+$routes->get('/TotalBranchWorker', 'BranchController::TotalBranchWorker');
