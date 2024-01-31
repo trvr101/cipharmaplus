@@ -13,7 +13,7 @@ class ScheduleModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['schedule_id', 'user_id', 'event_name', 'start_date', 'end_date', 'additional_details', 'created_at'];
+    protected $allowedFields    = ['schedule_id', 'user_id', 'branch_id', 'event_name', 'start_date', 'end_date', 'additional_details', 'privacy', 'created_at'];
 
     // Dates
     protected $useTimestamps = false;

@@ -27,9 +27,11 @@ class NotesController extends ResourceController
     public function AddNotes()
     {
         $main = new NotesModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $profile = $user->where('token', $token)->first();
         $data = [
-
-            'user_id' => $this->request->getVar('my_user_id'),
+            'user_id' => $profile['user_id'],
             'note_title' => $this->request->getVar('note_title'),
             'note_content' => $this->request->getVar('note_content'),
             'status' => 'pending',
@@ -40,9 +42,9 @@ class NotesController extends ResourceController
         $result = $main->save($data);
 
         if ($result) {
-            return $this->respond(['msg' => 'okay']);
+            return $this->respond(['msg' => 'note added successfully']);
         } else {
-            return $this->respond(['msg' => 'failed']);
+            return $this->respond(['msg' => 'failed adding note', 'error' => true]);
         }
     }
     public function notesList($token)
