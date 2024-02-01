@@ -32,7 +32,6 @@ class OrderController extends ResourceController
             ->where('created_at >=', $today)
             ->where('status', 'completed')
             ->findAll();
-
         $yesterday = date('Y-m-d', strtotime('-1 day'));
 
         $OrdersYesterday = $order
@@ -41,6 +40,7 @@ class OrderController extends ResourceController
             ->where('created_at <', $yesterday . ' 23:59:59')
             ->where('status', 'completed')
             ->findAll();
+
         $OrdersToday = count($OrdersToday);
         $OrdersYesterday = count($OrdersYesterday);
         $percentageDifference = (($OrdersToday - $OrdersYesterday) / $OrdersYesterday) * 100;
