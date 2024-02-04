@@ -1,0 +1,1848 @@
+CRITICAL - 2024-02-02 03:22:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:24:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:25:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:26:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:27:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:28:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:29:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:30:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:31:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:32:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:33:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:34:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:35:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:36:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:37:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:38:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:39:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:40:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:41:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:42:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:43:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:44:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:45:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:46:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:47:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:48:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:49:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:50:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:51:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:52:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:53:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:54:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:55:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:56:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:57:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:58:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:59:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:00:56 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:07:24 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:18:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:19:54 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:20:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:21:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:22:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:23:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:24:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:25:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:26:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:27:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:28:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:29:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:30:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:31:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:32:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:33:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:34:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:35:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:36:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:37:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:38:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:39:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:40:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:41:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:42:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:43:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:44:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:45:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:46:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:47:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:48:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:49:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:50:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:51:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:52:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:53:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:54:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:55:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:56:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:57:54 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:58:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:59:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 05:00:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 05:01:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 05:02:53 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:15:31 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:15:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:25:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:27:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:28:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:30:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:31:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:33:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:34:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:36:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:38:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:40:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:42:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:44:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:45:50 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:46:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:47:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:48:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:49:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:50:50 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:51:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:52:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:53:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:54:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:55:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:56:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:57:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:58:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 09:59:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:00:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:01:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:02:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:03:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:04:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:05:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:06:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:07:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:08:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:09:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:10:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:11:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:12:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:13:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:14:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:15:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:28:54 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:29:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:30:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:31:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:32:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:33:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:34:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:35:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:36:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:37:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:38:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:39:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:40:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:41:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:42:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:43:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:44:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:45:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:46:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:47:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:48:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:49:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:50:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:51:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:52:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:53:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:54:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:55:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:56:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:57:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:58:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 10:59:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:00:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:01:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:02:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:03:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:04:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:05:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:06:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:07:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:08:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:09:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:10:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:11:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:12:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:13:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:14:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:15:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:16:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:17:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:18:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:19:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:20:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:21:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:22:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:23:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:24:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:25:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:26:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:27:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:28:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:29:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:30:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:31:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:32:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:33:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:34:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:35:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:36:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:37:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:38:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:39:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:40:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:41:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:42:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:43:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:44:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:45:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:46:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:47:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:48:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:49:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:50:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:51:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:52:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:53:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:54:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:55:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:56:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:57:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:58:51 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 11:59:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:00:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:21:39 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:21:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:22:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:23:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:24:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:25:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:26:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:27:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 12:28:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 13:56:48 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 13:56:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 13:57:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 13:58:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 13:59:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:00:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:01:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:02:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:03:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:04:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:05:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:06:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:07:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:08:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:09:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:10:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:11:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:12:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:13:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:14:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:15:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:16:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:17:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:18:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:19:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:20:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:21:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:22:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:23:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:24:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:25:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:26:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:27:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:28:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:29:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:30:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:31:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:32:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:33:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:34:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:35:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:36:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:37:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:38:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:39:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:40:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:41:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:42:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:43:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:44:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:45:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:46:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:47:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:48:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:49:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:50:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:51:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:52:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:53:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:54:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:55:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 14:56:49 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:26:12 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:26:48 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:27:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:28:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:29:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:30:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:31:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:32:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:33:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:34:48 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:35:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:36:48 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:37:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:38:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 17:39:47 --> Division by zero
+in APPPATH\Controllers\OrderController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

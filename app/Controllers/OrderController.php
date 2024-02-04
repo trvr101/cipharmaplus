@@ -32,6 +32,7 @@ class OrderController extends ResourceController
             ->where('created_at >=', $today)
             ->where('status', 'completed')
             ->findAll();
+
         $yesterday = date('Y-m-d', strtotime('-1 day'));
 
         $OrdersYesterday = $order
@@ -41,16 +42,21 @@ class OrderController extends ResourceController
             ->where('status', 'completed')
             ->findAll();
 
-        $OrdersToday = count($OrdersToday);
-        $OrdersYesterday = count($OrdersYesterday);
-        $percentageDifference = (($OrdersToday - $OrdersYesterday) / $OrdersYesterday) * 100;
+        $OrdersTodayCount = count($OrdersToday);
+        $OrdersYesterdayCount = count($OrdersYesterday);
+
+        // Check if $OrdersYesterdayCount is not zero before performing the division
+        $percentageDifference = ($OrdersYesterdayCount !== 0) ? (($OrdersTodayCount - $OrdersYesterdayCount) / $OrdersYesterdayCount) * 100 : 0;
+
         $percentageDifference = number_format($percentageDifference, 2, '.', ',');
+
         return $this->respond([
-            'orders_today' => $OrdersToday,
-            'orders_yesterday' => $OrdersYesterday,
+            'orders_today' => $OrdersTodayCount,
+            'orders_yesterday' => $OrdersYesterdayCount,
             'percentage' => $percentageDifference
         ]);
     }
+
 
     public function EarningsPerWeek()
     {
@@ -131,7 +137,7 @@ class OrderController extends ResourceController
             $percentageDifferenceAOV = number_format((($AOVLast7Days - $AOVLastWeek) / $AOVLastWeek) * 100, 1);
         }
 
-        $AOVLast7Days = number_format($AOVLast7Days, 2);
+        $AOVLast7Days = number_format($AOVLast7Days, 1);
         $AOVLastWeek = number_format($AOVLastWeek, 2);
         return $this->respond([
             'AOVLast7Days' => $AOVLast7Days,
