@@ -14,8 +14,11 @@ $routes->get('/audit', 'AuditController::index');
 $routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
 
 
+
 //Current Transaction SalesTransactionList
 $routes->match(['post', 'get'], '/SalesTransactionList', 'CurrentTransactionController::SalesTransactionList');
+
+$routes->get('/BranchOrderView', 'CurrentTransactionController::BranchOrderView');
 $routes->match(['post', 'get'], '/TransactionTotalAmount/(:any)', 'CurrentTransactionController::TransactionTotalAmount/$1');
 $routes->match(['post', 'get'], '/POS/AddItem/(:any)/(:any)', 'CurrentTransactionController::AddItemToCurrentTransaction/$1/$2');
 //
@@ -57,8 +60,15 @@ $routes->post('/addBranch', 'BranchController::addBranch');
 //Product
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->match(['get', 'post'], '/AddProd', 'ProductController::AddProd');
-$routes->get('/ProdList', 'ProductController::index');
-$routes->get('/ProdList/(:any)', 'ProductController::BranchProductList/$1');
+//for table
+$routes->get('/BranchProductListFilter', 'ProductController::BranchProductListFilter');
+//for filter model(completed product)
+$routes->get('/BranchProductList', 'ProductController::BranchProductList');
+// for filter
+$routes->get('/AdminProductList', 'ProductController::AdminProductList');
+//for table
+$routes->get('/AdminProductListFilter', 'ProductController::AdminProductListFilter');
+
 $routes->get('/BranchProduct/(:any)', 'ProductController::BranchProduct/$1');
 
 $routes->match(['get', 'post'], '/AddSched', 'ScheduleController::AddSched');

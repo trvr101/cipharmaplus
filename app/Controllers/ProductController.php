@@ -21,44 +21,207 @@ class ProductController extends ResourceController
         return $this->respond($data);
     }
 
-    public function BranchProductList($token)
+    // All
+    public function AdminProductList()
     {
-        $main = new ProductModel();
+        $prod = new ProductModel();
         $user = new UserModel();
+        $token = $this->request->getVar('token');
 
         // Get the user that has the same token as $token
-        $userData = $user->where('token', $token)->first();
+        $profile = $user->where('token', $token)->first();
 
-        if (!$userData) {
-            // Handle the case where the user with the specified token is not found
+        if (!$profile) {
             return $this->fail('User not found', 404);
         }
 
-        // Get the branch_id of the user
-        $branchId = $userData['branch_id'];
-
         // Fetch products based on the branch_id
-        $data = $main->where('status !=', 'deleted')
-            ->where('branch_id', $branchId)
+        $data = $prod->where('status !=', 'deleted')
             ->findAll();
 
         return $this->respond($data);
     }
+    public function AdminProductListFilter()
+    {
+        $prod = new ProductModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $filter_product_name = $this->request->getVar('filter_product_name');
+        $filter_description = $this->request->getVar('filter_description');
+        $filter_category = $this->request->getVar('filter_category');
+        $filter_status = $this->request->getVar('filter_status');
+
+        // Get the user that has the same token as $token
+        $profile = $user->where('token', $token)->first();
+
+        if (!$profile) {
+            return $this->fail('User not found', 404);
+        }
+
+        // Fetch products based on the branch_id
+        $query = $prod->where('status !=', 'deleted')
+            ->where('branch_id', $profile['branch_id']);
+
+        // Add product_name filter if provided and not null
+        if ($filter_product_name !== null) {
+            $filterValues = array_values($filter_product_name); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('product_name', $filterValues);
+            } else {
+                // Use regular where for single product_name
+                $query->where('product_name', $filterValues);
+            }
+        }
+        if ($filter_description !== null) {
+            $filterValues = array_values($filter_description); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('description', $filterValues);
+            } else {
+                // Use regular where for single description
+                $query->where('description', $filterValues);
+            }
+        }
+        if ($filter_category !== null) {
+            $filterValues = array_values($filter_category); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('category', $filterValues);
+            } else {
+                // Use regular where for single category
+                $query->where('category', $filterValues);
+            }
+        }
+        if ($filter_status !== null) {
+            $filterValues = array_values($filter_status); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('status', $filterValues);
+            } else {
+                // Use regular where for single status
+                $query->where('status', $filterValues);
+            }
+        }
+
+        $data = $query->findAll();
+
+        return $this->respond($data);
+    }
+    public function BranchProductList()
+    {
+        $prod = new ProductModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+
+        // Get the user that has the same token as $token
+        $profile = $user->where('token', $token)->first();
+
+        if (!$profile) {
+            return $this->fail('User not found', 404);
+        }
+
+        // Fetch products based on the branch_id
+        $data = $prod->where('status !=', 'deleted')
+            ->where('branch_id',  $profile['branch_id'])
+            ->findAll();
+
+        return $this->respond($data);
+    }
+    //for table
+    public function BranchProductListFilter()
+    {
+        $prod = new ProductModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $filter_product_name = $this->request->getVar('filter_product_name');
+        $filter_description = $this->request->getVar('filter_description');
+        $filter_category = $this->request->getVar('filter_category');
+        $filter_status = $this->request->getVar('filter_status');
+
+        // Get the user that has the same token as $token
+        $profile = $user->where('token', $token)->first();
+
+        if (!$profile) {
+            return $this->fail('User not found', 404);
+        }
+
+        // Fetch products based on the branch_id
+        $query = $prod->where('status !=', 'deleted')
+            ->where('branch_id', $profile['branch_id']);
+
+        // Add product_name filter if provided and not null
+        if ($filter_product_name !== null) {
+            $filterValues = array_values($filter_product_name); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('product_name', $filterValues);
+            } else {
+                // Use regular where for single product_name
+                $query->where('product_name', $filterValues);
+            }
+        }
+        if ($filter_description !== null) {
+            $filterValues = array_values($filter_description); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('description', $filterValues);
+            } else {
+                // Use regular where for single description
+                $query->where('description', $filterValues);
+            }
+        }
+        if ($filter_category !== null) {
+            $filterValues = array_values($filter_category); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('category', $filterValues);
+            } else {
+                // Use regular where for single category
+                $query->where('category', $filterValues);
+            }
+        }
+        if ($filter_status !== null) {
+            $filterValues = array_values($filter_status); // Extract values from associative array
+
+            if (is_array($filterValues)) {
+                // Use whereIn for array of categories
+                $query->whereIn('status', $filterValues);
+            } else {
+                // Use regular where for single status
+                $query->where('status', $filterValues);
+            }
+        }
+
+        $data = $query->findAll();
+
+        return $this->respond($data);
+    }
+
+
+
     public function BranchProduct($token)
     {
         $main = new ProductModel();
         $user = new UserModel();
 
         // Get the user that has the same token as $token
-        $userData = $user->where('token', $token)->first();
+        $profile = $user->where('token', $token)->first();
 
-        if (!$userData) {
+        if (!$profile) {
             // Handle the case where the user with the specified token is not found
             return $this->fail('User not found', 404);
         }
 
         // Get the branch_id of the user
-        $branchId = $userData['branch_id'];
+        $branchId = $profile['branch_id'];
 
         // Fetch products based on the branch_id
         $data = $main->where('status !=', 'deleted')

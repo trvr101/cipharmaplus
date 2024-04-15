@@ -1,0 +1,204 @@
+CRITICAL - 2024-04-08 03:31:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\NotesController.php on line 34.
+ 1 APPPATH\Controllers\NotesController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\NotesController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\NotesController->AddNotes()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotesController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:13:59 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 67.
+ 1 APPPATH\Controllers\ProductController.php(67): array_values('para')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:14:43 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 67.
+ 1 APPPATH\Controllers\ProductController.php(67): array_values('paracetamol')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:15:52 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 89.
+ 1 APPPATH\Controllers\ProductController.php(89): array_values('"fluid"')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:15:58 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 89.
+ 1 APPPATH\Controllers\ProductController.php(89): array_values('fluid')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:18:31 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 89.
+ 1 APPPATH\Controllers\ProductController.php(89): array_values('')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:19:47 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 67.
+ 1 APPPATH\Controllers\ProductController.php(67): array_values('')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:23:13 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 181.
+ 1 APPPATH\Controllers\ProductController.php(181): array_values('fluid')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:24:02 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('para')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:35:36 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('Paracetamol
+')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:35:40 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('Paracetamol')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:35:53 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('aguba')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:36:33 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 67.
+ 1 APPPATH\Controllers\ProductController.php(67): array_values('aguba')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:53:26 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 67.
+ 1 APPPATH\Controllers\ProductController.php(67): array_values('')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:57:04 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 67.
+ 1 APPPATH\Controllers\ProductController.php(67): array_values('{0: \'cherifer\', 1: \'para\'}')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 09:58:24 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 67.
+ 1 APPPATH\Controllers\ProductController.php(67): array_values('cherifer')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AdminProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 10:39:29 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 10:39:42 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 10:40:02 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('""')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 10:40:31 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('null')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 10:40:33 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('null')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 10:40:43 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('null')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 14:22:32 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('null')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 14:22:42 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('null')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 14:23:15 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('null')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 14:23:36 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('null')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 14:23:59 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('para')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 14:26:35 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('cherifer,para,juan')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 14:26:37 --> array_values(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\ProductController.php on line 159.
+ 1 APPPATH\Controllers\ProductController.php(159): array_values('cherifer,para,juan')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->BranchProductListFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

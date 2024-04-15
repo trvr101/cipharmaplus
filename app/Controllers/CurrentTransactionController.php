@@ -25,6 +25,22 @@ class CurrentTransactionController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
+
+    public function BranchOrderView()
+    {
+        $audit = new AuditModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $order_token = $this->request->getVar('order_token');
+        $profile = $user->where('token', $token)->first();
+
+        $OrderViewing = $audit->where('token_code', $order_token)
+            ->where('branch_id', $profile['branch_id'])
+            ->orderBy('created_at', 'DESC')
+            ->findAll();
+
+        return $this->respond($OrderViewing);
+    }
     public function SalesTransactionList()
     {
         $order = new OrderModel();
@@ -246,7 +262,7 @@ class CurrentTransactionController extends ResourceController
             $existingAudit_type = $existingAudit['type'];
 
             // Adjust existing_old_quantity based on the existingAudit_type
-            if ($existingAudit_type == 'inbound') {
+            if ($existingAudit_type == 'received') {
                 $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
             } elseif ($existingAudit_type == 'outbound') {
                 $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;

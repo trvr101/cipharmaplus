@@ -143,22 +143,22 @@ class AuditController extends ResourceController
             ->where('type', 'outbound')
             ->where('branch_id', $profile['branch_id'])
             ->findAll();
-        $InboundTotalQuantity = $audit
+        $receivedTotalQuantity = $audit
             ->where('product_id', $product_id)
-            ->where('type', 'inbound')
+            ->where('type', 'received')
             ->where('branch_id', $profile['branch_id'])
             ->findAll();
         $outboundSum = array_sum(array_column($OutboundTotalQuantity, 'quantity'));
         $existingProduct = [];
-        $inboundSum = 0;
-        foreach ($InboundTotalQuantity as $inbound) {
-            $inboundSum += $inbound['quantity'];
-            if ($outboundSum <= $inboundSum) {
+        $receivedSum = 0;
+        foreach ($receivedTotalQuantity as $received) {
+            $receivedSum += $received['quantity'];
+            if ($outboundSum <= $receivedSum) {
                 if (count($existingProduct) == 0) {
-                    $cutoff = $inboundSum - $outboundSum;
-                    $inbound['quantity'] = $cutoff;
+                    $cutoff = $receivedSum - $outboundSum;
+                    $received['quantity'] = $cutoff;
                 }
-                $existingProduct[] = $inbound;
+                $existingProduct[] = $received;
             }
         }
         $closestExpirationDate = null;
@@ -206,7 +206,7 @@ class AuditController extends ResourceController
             // Add the product_name and total to each audit record
             foreach ($audits as &$audit) {
                 $audit['product_name'] = $product_info['product_name'];
-                if ($audit['type'] == 'inbound') {
+                if ($audit['type'] == 'received') {
                     $audit['total'] = $audit['old_quantity'] + $audit['quantity'];
                 } elseif ($audit['type'] == 'outbound') {
                     $audit['total'] = $audit['old_quantity'] - $audit['quantity'];
@@ -249,7 +249,7 @@ class AuditController extends ResourceController
                 $existingAudit_type = $existingAudit['type'];
 
                 // Adjust existing_old_quantity based on the existingAudit_type
-                if ($existingAudit_type == 'inbound') {
+                if ($existingAudit_type == 'received') {
                     $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
                 } elseif ($existingAudit_type == 'outbound') {
                     $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
@@ -260,7 +260,7 @@ class AuditController extends ResourceController
                     'product_id'   => $product_id,
                     'old_quantity' => $existing_old_quantity_1,
                     'quantity'     => $this->request->getVar('quantity'),
-                    'type'         => 'inbound',
+                    'type'         => 'received',
                     'exp_date'     => $this->request->getVar('date'),
                     'user_id'      => $user_info['user_id'],
                     'branch_id'    => $user_info['branch_id'],
@@ -271,7 +271,7 @@ class AuditController extends ResourceController
                     'product_id'   => $product_id,
                     'old_quantity' => 0,
                     'quantity'     => $this->request->getVar('quantity'),
-                    'type'         => 'inbound',
+                    'type'         => 'received',
                     'exp_date'     => $this->request->getVar('date'),
                     'user_id'      => $user_info['user_id'],
                     'branch_id'    => $user_info['branch_id'],

@@ -90,7 +90,7 @@ class BranchController extends ResourceController
         $profile = $user->where('token', $token)->first();
 
         // Fetch audits for the specific branch
-        $branchAudits = $audit->where('branch_id', $profile['branch_id'])->where('type', 'inbound')->findAll();
+        $branchAudits = $audit->where('branch_id', $profile['branch_id'])->where('type', 'received')->findAll();
 
         // Extract dates and corresponding quantities
         $dates = [];

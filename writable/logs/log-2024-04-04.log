@@ -1,0 +1,553 @@
+CRITICAL - 2024-04-04 02:18:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 114.
+ 1 APPPATH\Controllers\OrderController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->AverageOrderValuePerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 23.
+ 1 APPPATH\Controllers\BranchController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->TotalBranchWorker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 215.
+ 1 APPPATH\Controllers\ProductController.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 31.
+ 1 APPPATH\Controllers\OrderController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->TransactionToday()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\OrderController.php on line 72.
+ 1 APPPATH\Controllers\OrderController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\OrderController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OrderController->EarningsPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuditController.php on line 33.
+ 1 APPPATH\Controllers\AuditController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->TopSellingProductPerWeek()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:18:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 37.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SalesTransactionList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:23:59 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'AOa17cvS2G', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:04 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'AOa17cvS2G', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:24 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:48 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:50 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:50 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:50 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:24:52 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 02:26:34 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 258.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('30000', 'aocWGWWXfh', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

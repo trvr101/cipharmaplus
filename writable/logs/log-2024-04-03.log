@@ -1,0 +1,7 @@
+CRITICAL - 2024-04-03 19:05:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\NotesController.php on line 34.
+ 1 APPPATH\Controllers\NotesController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\NotesController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\NotesController->AddNotes()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotesController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

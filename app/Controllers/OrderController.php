@@ -46,10 +46,11 @@ class OrderController extends ResourceController
         $OrdersYesterdayCount = count($OrdersYesterday);
 
         // Check if $OrdersYesterdayCount is not zero before performing the division
-        $percentageDifference = ($OrdersYesterdayCount !== 0) ? (($OrdersTodayCount - $OrdersYesterdayCount) / $OrdersYesterdayCount) * 100 : 0;
+        $percentageDifference = ($OrdersYesterdayCount != 0) ? (($OrdersTodayCount - $OrdersYesterdayCount) / $OrdersYesterdayCount) * 100 : 0;
+
+
 
         $percentageDifference = number_format($percentageDifference, 2, '.', ',');
-
         return $this->respond([
             'orders_today' => $OrdersTodayCount,
             'orders_yesterday' => $OrdersYesterdayCount,
