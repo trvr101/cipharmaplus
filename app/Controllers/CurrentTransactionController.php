@@ -233,6 +233,12 @@ class CurrentTransactionController extends ResourceController
 
         return $this->respond(['msg' => 'data inserted successfully']);
     }
+
+
+
+
+
+
     public function SubmitCurrentTransaction($cash_received, $order_token, $token)
     {
         $audit = new AuditModel(); //['audit_id', 'product_id', 'old_quantity', 'quantity', 'type', 'exp_date', 'user_id', 'branch_id', 'created_at'];
@@ -253,7 +259,6 @@ class CurrentTransactionController extends ResourceController
             // Transfer data to audit table
             $product_ID = $transaction['product_id'];
             $existingAudit = $audit->where('product_id', $product_ID)->orderBy('created_at', 'DESC')->first();
-
             // You may need to adapt the following lines based on your specific requirements
             $existing_old_quantity = 0;
             $exist_quantity = 0;
@@ -267,6 +272,7 @@ class CurrentTransactionController extends ResourceController
             } elseif ($existingAudit_type == 'outbound') {
                 $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
             }
+
 
             $audit_data = [
                 'product_id' => $transaction['product_id'],

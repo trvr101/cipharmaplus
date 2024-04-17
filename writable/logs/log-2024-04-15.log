@@ -1,0 +1,14 @@
+CRITICAL - 2024-04-15 18:16:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 233.
+ 1 APPPATH\Controllers\BranchController.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 18:17:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BranchController.php on line 233.
+ 1 APPPATH\Controllers\BranchController.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->BranchInfo()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
