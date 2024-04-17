@@ -269,7 +269,7 @@ class CurrentTransactionController extends ResourceController
             // Adjust existing_old_quantity based on the existingAudit_type
             if ($existingAudit_type == 'received') {
                 $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
-            } elseif ($existingAudit_type == 'outbound') {
+            } elseif ($existingAudit_type == 'sold') {
                 $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
             }
 
@@ -280,7 +280,7 @@ class CurrentTransactionController extends ResourceController
                 'old_quantity' => $existing_old_quantity_1,
                 'quantity' => $transaction['quantity'],
                 'earnings' => $transaction['earnings'],
-                'type' => 'outbound', // Assuming this is an outbound transfer
+                'type' => 'sold', // Assuming this is an sold transfer
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
                 'created_at' => date('Y-m-d H:i:s'),
@@ -292,7 +292,7 @@ class CurrentTransactionController extends ResourceController
 
             // Update total based on product price and quantity
 
-            // Update product quantity in the product table based on the outbound transaction
+            // Update product quantity in the product table based on the sold transaction
             $new_quantity = $product_info['quantity'] - $transaction['quantity'];
 
             if ($cash_received < $this->totalAmount) {

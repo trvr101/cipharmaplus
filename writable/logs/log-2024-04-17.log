@@ -117,3 +117,437 @@ in APPPATH\Controllers\CurrentTransactionController.php on line 279.
  3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
  4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 06:48:01 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 06:48:03 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 06:48:06 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:04:47 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:04:48 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:04:49 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:04:49 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:04:49 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:04:49 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('500', 'IcF8qXStFq', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:31:38 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 190.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf', 'GA5bofyfis')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:31:50 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 190.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf', 'GA5bofyfis')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:32:56 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', 'GA5bofyfis', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:32:58 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', 'GA5bofyfis', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:32:59 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', 'GA5bofyfis', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:32:59 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', 'GA5bofyfis', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:33:06 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', 'GA5bofyfis', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:33:16 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', 'GA5bofyfis', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:33:46 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', '99KUAEZEXr', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:33:49 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('70', '99KUAEZEXr', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:34:04 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('700', '99KUAEZEXr', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:34:30 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('20', '99KUAEZEXr', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:34:33 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('20', '99KUAEZEXr', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:35:01 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('120', 'hW5nj9QrTR', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:35:03 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('120', 'hW5nj9QrTR', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:35:19 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('120', '8EPChBTXRu', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:35:22 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('120', '8EPChBTXRu', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:36:24 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('123', 'x29sXCae42', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:36:27 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('123', 'x29sXCae42', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:37:14 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:37:16 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 07:40:20 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('123', 'x29sXCae42', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 08:01:44 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('32', 'x29sXCae42', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:32:05 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:32:54 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 190.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf', 'J7D7xvhl1h')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:33:07 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:33:35 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:33:39 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:33:46 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:34:04 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('23', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:34:05 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('23', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:34:31 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('23', 'J7D7xvhl1h', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:35:12 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('300', '5mVI1TSx0x', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:35:15 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('300', '5mVI1TSx0x', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:35:22 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 190.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf', '5mVI1TSx0x')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:36:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:36:54 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('1', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:36:56 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('12', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:20 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:25 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:27 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:27 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:28 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:28 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:28 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:28 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:31 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:38:31 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'zLVnZVJciA', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:39:56 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('77', 'TJQU939svC', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:41:22 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('123', '5mZi06oDVG', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:41:24 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('123', '5mZi06oDVG', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:41:52 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('123', '5mZi06oDVG', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-17 12:43:12 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\CurrentTransactionController.php on line 280.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction('100', 'rTwwY5A0wg', 'zE1DFsKH6BpMhqG7AcngQvLuoxCkTbtUVWyYI5e8SPXi90adRf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
