@@ -128,6 +128,7 @@ class ProductController extends ResourceController
         // Fetch products based on the branch_id
         $data = $prod->where('status !=', 'deleted')
             ->where('branch_id',  $profile['branch_id'])
+            ->orderBy('created_at', 'desc')
             ->findAll();
 
         return $this->respond($data);
@@ -199,7 +200,7 @@ class ProductController extends ResourceController
                 $query->where('status', $filterValues);
             }
         }
-
+        $query->orderBy('created_at', 'desc');
         $data = $query->findAll();
 
         return $this->respond($data);
@@ -254,9 +255,9 @@ class ProductController extends ResourceController
         $result = $main->save($data);
 
         if ($result) {
-            return $this->respond(['msg' => 'okay']);
+            return $this->respond(['msg' => $data['product_name'] . ' is added successfully']);
         } else {
-            return $this->respond(['msg' => 'failed']);
+            return $this->respond(['msg' => 'adding new product unsucccessful', 'error' => true]);
         }
     }
 

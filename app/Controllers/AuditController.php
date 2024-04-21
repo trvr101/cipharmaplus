@@ -140,7 +140,7 @@ class AuditController extends ResourceController
         //Get all outbound transactions and sum up the quantity
         $OutboundTotalQuantity = $audit
             ->where('product_id', $product_id)
-            ->where('type', 'outbound')
+            ->where('type', 'sold')
             ->where('branch_id', $profile['branch_id'])
             ->findAll();
         $receivedTotalQuantity = $audit
@@ -201,7 +201,7 @@ class AuditController extends ResourceController
         if ($user_branch_id == $product_info['branch_id'] || $user_info['user_role'] == 'admin') {
             // Step 4: Get all the audits that have the same product_id as $product_id, ordered by the latest first
             //$audits = $main->where('product_id', $product_id)->orderBy('created_at', 'DESC')->findAll();
-            $audits = $main->where('product_id', $product_id)->findAll();
+            $audits = $main->where('product_id', $product_id)->orderBy('created_at', 'desc')->findAll();
 
             // Add the product_name and total to each audit record
             foreach ($audits as &$audit) {
@@ -216,6 +216,7 @@ class AuditController extends ResourceController
             // Now $audits contains all the audit information for the specified product_id in the same branch as the user, ordered by the latest first,
             // and each audit record includes the product_name and total
             // You can process and return this information as needed
+
             return $this->respond($audits);
         } else {
             // Handle the case where the user and product are not in the same branch
@@ -223,12 +224,15 @@ class AuditController extends ResourceController
         }
     }
 
-    public function addQuantity($token, $product_id)
+    public function addQuantity()
     {
         // Create instances of the AuditModel and ProductModel
         $main = new AuditModel();
         $user = new UserModel();
         $product = new ProductModel();
+        $token = $this->request->getVar('token');
+        $product_id = $this->request->getVar('product_id');
+
         $user_info = $user->where('token', $token)->first();
         $prod_info = $product->where('product_id', $product_id)->first();
 
@@ -251,7 +255,7 @@ class AuditController extends ResourceController
                 // Adjust existing_old_quantity based on the existingAudit_type
                 if ($existingAudit_type == 'received') {
                     $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
-                } elseif ($existingAudit_type == 'outbound') {
+                } elseif ($existingAudit_type == 'sold') {
                     $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
                 }
 
@@ -288,9 +292,9 @@ class AuditController extends ResourceController
                 $product->where('product_id', $product_id)
                     ->set(['quantity' => $total_quantity])
                     ->update();
-                return $this->respond(['msg' => 'okay']);
+                return $this->respond(['msg' => 'Succesfully added ' . $data['quantity'] . 'pcs to ' . $prod_info['product_name']]);
             } else {
-                return $this->respond(['msg' => 'failed']);
+                return $this->respond(['msg' => 'adding new product unsucccessful', 'error' => true]);
             }
         } else {
             return $this->respond(['msg' => 'you are not able to access this page']);

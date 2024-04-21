@@ -369,4 +369,93 @@ class BranchController extends ResourceController
         $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
         return substr(str_shuffle($characters), 0, $length);
     }
+
+    public function Branchlocator()
+    {
+        // Load necessary models
+        $user = new UserModel();
+        $branch = new BranchModel();
+
+        // Get token from request
+        $token = $this->request->getVar('token');
+
+        // Find user profile using token
+        $profile = $user->where('token', $token)->first();
+
+        if ($profile) {
+            // If user profile found, fetch branches
+            $branches = $branch->findAll();
+
+            // Prepare response data
+            $responseData = [];
+            foreach ($branches as $branch) {
+                $responseData[] = [
+                    'branch_id' => $branch['branch_id'],
+                    'branch_name' => $branch['branch_name'],
+                    'latitude' => $branch['latitude'],
+                    'longitude' => $branch['longitude'],
+                ];
+            }
+
+            // Return response
+            return $this->respond($responseData);
+        } else {
+            // If user profile not found, return error response
+            return $this->respond(['error' => 'User not found'], 404);
+        }
+    }
+    public function MedicineLocator()
+    {
+        $product = new ProductModel();
+        $branch = new BranchModel();
+
+        $searchProd = $this->request->getVar('SearchProd');
+
+        if ($searchProd == null) {
+            $searchProd = "zzzzzzzzzzz";
+        }
+        // Search for products matching the given search query
+        $matchedProducts = $product->like('product_name', $searchProd)->findAll();
+        // Prepare response data
+        $responseData = [];
+        foreach ($matchedProducts as $prod) {
+            $branchInfo = $branch->find($prod['branch_id']);
+            if ($branchInfo) {
+                // Check if branch already exists in response data
+                $branchKey = array_search($branchInfo['branch_id'], array_column($responseData, 'branch_id'));
+                if ($branchKey === false) {
+                    // If branch doesn't exist, add it to response data with product
+                    $responseData[] = [
+                        'branch_name' => $branchInfo['branch_name'],
+                        'branch_id' => $branchInfo['branch_id'],
+                        'longitude' => $branchInfo['longitude'],
+                        'latitude' => $branchInfo['latitude'],
+                        'products' => [
+                            [
+                                'product_id' => $prod['product_id'],
+                                'product_name' => $prod['product_name'],
+                                'description' => $prod['description'],
+                                'quantity' => $prod['quantity'],
+                                'price' => $prod['price'],
+                                'category' => $prod['category']
+                            ]
+                        ]
+                    ];
+                } else {
+                    // If branch already exists, add product to its products array
+                    $responseData[$branchKey]['products'][] = [
+                        'product_id' => $prod['product_id'],
+                        'product_name' => $prod['product_name'],
+                        'description' => $prod['description'],
+                        'quantity' => $prod['quantity'],
+                        'price' => $prod['price'],
+                        'category' => $prod['category']
+                    ];
+                }
+            }
+        }
+
+        // Return response
+        return $this->respond($responseData);
+    }
 }

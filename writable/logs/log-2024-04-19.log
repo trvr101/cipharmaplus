@@ -1,0 +1,343 @@
+CRITICAL - 2024-04-19 05:20:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 241.
+ 1 APPPATH\Controllers\ProductController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 241)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 05:49:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 241.
+ 1 APPPATH\Controllers\ProductController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 241)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 05:49:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 241.
+ 1 APPPATH\Controllers\ProductController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 241)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 05:49:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProductController.php on line 241.
+ 1 APPPATH\Controllers\ProductController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 241)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:26:10 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:26:18 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:26:34 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:26:36 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:26:52 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:27:17 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:27:28 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:29:05 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:30:42 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 14:33:03 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:45:53 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:46:29 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:47:00 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:49:48 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:49:50 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:49:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:49:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:49:52 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:51:24 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:51:34 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:51:38 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:31 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:32 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:32 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:32 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:32 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:32 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:33 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:33 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:33 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:33 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:35 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:35 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:35 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:35 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:36 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:52:51 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:54:53 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:55:03 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:55:17 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:56:31 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:58:11 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:58:14 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:58:14 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 15:58:15 --> Undefined variable $existing_old_quantity_1
+in APPPATH\Controllers\AuditController.php on line 265.
+ 1 APPPATH\Controllers\AuditController.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existing_old_quantity_1', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

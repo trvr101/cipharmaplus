@@ -11,7 +11,7 @@ $routes->get('/act', 'ActivityLogsController::index');
 
 $routes->get('/ProductAudit/(:alphanum)/(:num)', 'AuditController::ProductAudit/$1/$2');
 $routes->get('/audit', 'AuditController::index');
-$routes->post('/AddQuantity/(:any)/(:num)', 'AuditController::AddQuantity/$1/$2');
+$routes->post('/AddQuantity', 'AuditController::AddQuantity');
 
 
 
@@ -38,6 +38,9 @@ $routes->match(['post', 'get', 'put', 'patch'], '/UpdateBranchInfo', 'BranchCont
 $routes->match(['post', 'get', 'put', 'patch'], '/IsOpenForInvitation', 'BranchController::IsOpenForInvitation');
 $routes->match(['post', 'get', 'put', 'patch'], '/toggleInvitation', 'BranchController::toggleInvitation');
 $routes->match(['post', 'get', 'put', 'patch'], '/RegenerateInvitationCode', 'BranchController::RegenerateInvitationCode');
+$routes->get('/Branchlocator', 'BranchController::Branchlocator');
+$routes->get('/MedicineLocator', 'BranchController::MedicineLocator');
+
 
 
 
@@ -118,6 +121,7 @@ $routes->match(['delete'], '/notes/(:num)', 'MainController::delete/$1');
 
 //branch view
 $routes->match(['get', 'post'], 'branch/inventory/(:any)', 'ProductController::branchInventory/$1');
+
 
 
 //KPIs key performance indicators
