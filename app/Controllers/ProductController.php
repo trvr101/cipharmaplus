@@ -248,7 +248,7 @@ class ProductController extends ResourceController
             'price' =>  $this->request->getVar('original_price') + $this->request->getVar('profit'),
             'branch_id' => $profile['branch_id'],
             'category' => $this->request->getVar('category_name'),
-            'status' => 'available',
+            'status' => 'out of stock',
             'created_at' => date('Y-m-d H:i:s'),
         ];
 
@@ -339,5 +339,105 @@ class ProductController extends ResourceController
         $products = $productModel->where('branch_id', $branchId)->findAll();
 
         return $this->respond($products);
+    }
+
+    public function ProdUpdate()
+    {
+        // Retrieve token from the request
+        $token = $this->request->getVar('token');
+
+        // Check if token is provided
+        if (!$token) {
+            return $this->respond(['msg' => 'Token not provided', 'error' => true]);
+        }
+
+        // Retrieve user based on the token
+        $user = new UserModel();
+        $profile = $user->where('token', $token)->first();
+
+        // Check if user profile exists
+        if (!$profile) {
+            return $this->respond(['msg' => 'User not found', 'error' => true]);
+        }
+
+        // Retrieve product ID from the request
+        $product_id = $this->request->getVar('product_id');
+
+        // Check if product ID is provided
+        if (!$product_id) {
+            return $this->respond(['msg' => 'Product ID not provided', 'error' => true]);
+        }
+
+        // Retrieve product based on the product ID
+        $prod = new ProductModel();
+        $product = $prod->find($product_id);
+
+        // Check if product exists
+        if (!$product) {
+            return $this->respond(['msg' => 'Product not found', 'error' => true]);
+        }
+
+        // Assuming you want to update these fields from request data
+        $data = [];
+
+        // Retrieve and update each field if present in the request
+        $upc = $this->request->getVar('upc');
+        if ($upc != null) {
+            $data['upc'] = $upc;
+        }
+
+        $product_name = $this->request->getVar('product_name');
+        if ($product_name != null) {
+            $data['product_name'] = $product_name;
+        }
+
+        $description = $this->request->getVar('description');
+        if ($description != null) {
+            $data['description'] = $description;
+        }
+
+        $quantity = $this->request->getVar('quantity');
+        if ($quantity != null) {
+            $data['quantity'] = $quantity;
+        }
+
+        $original_price = $this->request->getVar('original_price');
+        if ($original_price != null) {
+            $data['original_price'] = $original_price;
+        }
+
+        $profit = $this->request->getVar('profit');
+        if ($profit != null) {
+            $data['profit'] = $profit;
+        }
+
+        $price = $this->request->getVar('price');
+        if ($price != null) {
+            $data['price'] = $price;
+        }
+
+        $branch_id = $this->request->getVar('branch_id');
+        if ($branch_id != null) {
+            $data['branch_id'] = $branch_id;
+        }
+
+        $category = $this->request->getVar('category');
+        if ($category != null) {
+            $data['category'] = $category;
+        }
+
+        $status = $this->request->getVar('status');
+        if ($status != null) {
+            $data['status'] = $status;
+        }
+
+        // Update the product
+        $updating = $prod->update($product_id, $data);
+
+        if ($updating) {
+            return $this->respond(['msg' => 'Product updated successfully']);
+        } else {
+            return $this->respond(['msg' => 'Failed to update product', 'error' => true]);
+        }
     }
 }

@@ -129,6 +129,55 @@ class AuditController extends ResourceController
         return $productQuantities;
     }
     //Top Selling Products END HERE
+    public function ExpirationBranchProduct()
+    {
+        $user = new UserModel();
+        $audit = new AuditModel();
+        $token = $this->request->getVar('token');
+        $product_id = $this->request->getVar('product_id');
+        $profile = $user->where('token', $token)->first();
+
+        //Get all outbound transactions and sum up the quantity
+        $OutboundTotalQuantity = $audit
+            ->where('product_id', $product_id)
+            ->where('type', 'sold')
+            ->where('branch_id', $profile['branch_id'])
+            ->findAll();
+        $receivedTotalQuantity = $audit
+            ->where('product_id', $product_id)
+            ->where('type', 'received')
+            ->where('branch_id', $profile['branch_id'])
+            ->findAll();
+        $outboundSum = array_sum(array_column($OutboundTotalQuantity, 'quantity'));
+        $existingProduct = [];
+        $receivedSum = 0;
+        foreach ($receivedTotalQuantity as $received) {
+            $receivedSum += $received['quantity'];
+            if ($outboundSum <= $receivedSum) {
+                if (count($existingProduct) == 0) {
+                    $cutoff = $receivedSum - $outboundSum;
+                    $received['quantity'] = $cutoff;
+                }
+                $existingProduct[] = $received;
+            }
+        }
+        $closestExpirationDate = null;
+        $closestExpirationDateData = null;
+        foreach ($existingProduct as $product) {
+            if ($product['exp_date'] < $closestExpirationDate || $closestExpirationDate == null) {
+                $closestExpirationDate = $product['exp_date'];
+                $closestExpirationDateData = $product;
+            }
+        }
+        //loop the existing products and check the closest exp_date
+        $response = [
+            'existingProduct' => $existingProduct,
+            'closestExpirationDate' => $closestExpirationDate,
+            'closestExpirationDateData' => $closestExpirationDateData,
+        ];
+        return $this->respond($response);
+    }
+
     public function ExpirationAlertPerProduct()
     {
         $user = new UserModel();
@@ -281,6 +330,7 @@ class AuditController extends ResourceController
                     'branch_id'    => $user_info['branch_id'],
                     'created_at'   => date('Y-m-d H:i:s'),
                 ];
+                $prod_info['status'] = 'available'; //fix this
             }
 
             // Save the new audit record
@@ -290,7 +340,7 @@ class AuditController extends ResourceController
                 // Update the product quantity
                 $total_quantity = $data['old_quantity'] + $data['quantity'];
                 $product->where('product_id', $product_id)
-                    ->set(['quantity' => $total_quantity])
+                    ->set(['quantity' => $total_quantity, 'status' => 'available'])
                     ->update();
                 return $this->respond(['msg' => 'Succesfully added ' . $data['quantity'] . 'pcs to ' . $prod_info['product_name']]);
             } else {

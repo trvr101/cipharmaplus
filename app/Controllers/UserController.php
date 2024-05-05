@@ -119,15 +119,38 @@ class UserController extends ResourceController
         $profile = $user->where('token', $token)->first();
 
         if ($profile) {
+            $completeness = 0;
+            if (!empty($profile['first_name'])) {
+                $completeness++;
+            }
+            if (!empty($profile['last_name'])) {
+                $completeness++;
+            }
+            if (!empty($profile['email'])) {
+                $completeness++;
+            }
+
+            $totalFields = 3;
+            $percentageOfCompleteness = ($completeness / $totalFields) * 100;
+            if ($percentageOfCompleteness == 100) {
+                $percentageOfCompleteness = true;
+            } else {
+                $percentageOfCompleteness = false;
+            }
+            // Include completeness percentage inside the 'user' array
+            $profile['completeness_percentage'] = $percentageOfCompleteness;
+
             // Return a JSON response with a 200 status code
             return $this->respond([
-                'user' => $profile,
+                'user' => $profile
             ]);
         } else {
             // Return a JSON response with a 404 status code
             return $this->respond(['msg' => 'User not found', 'error' => true], 404);
         }
     }
+
+
 
 
     public function userVerify($token)
@@ -214,8 +237,9 @@ class UserController extends ResourceController
                     'email' => $this->request->getVar('email'),
                     'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
                     'token' => $token,
-                    'first_name' => 'Robert',
-                    'last_name' => 'Aguba',
+                    'first_name' => null,
+                    'last_name' => null,
+                    'phone' => null,
                     'branch_id' => $branchData['branch_id'],
                     'status' => 'active',
                     'user_role' => $userRole,

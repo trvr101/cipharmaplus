@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class NotificationModel extends Model
+class DiscountModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'notification_tbl';
-    protected $primaryKey       = 'notification_id';
+    protected $table            = 'discount_tbl';
+    protected $primaryKey       = 'discount_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['notification_id', 'event_type', 'related_id', 'branch_id', 'message', 'created_at'];
+    protected $allowedFields    = ['discount_id', 'discount_type', 'discount_value', 'discount_desc', 'branch_id', 'user_id', 'IsActive'];
 
     // Dates
     protected $useTimestamps = false;

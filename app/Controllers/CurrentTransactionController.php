@@ -12,6 +12,7 @@ use App\Models\OrderModel;
 use App\Models\UserModel;
 use App\Models\ProductModel;
 use App\Models\AuditModel;
+use App\Models\NotificationModel;
 
 
 class CurrentTransactionController extends ResourceController
@@ -30,6 +31,7 @@ class CurrentTransactionController extends ResourceController
     {
         $audit = new AuditModel();
         $user = new UserModel();
+        $prod = new ProductModel();
         $token = $this->request->getVar('token');
         $order_token = $this->request->getVar('order_token');
         $profile = $user->where('token', $token)->first();
@@ -39,8 +41,17 @@ class CurrentTransactionController extends ResourceController
             ->orderBy('created_at', 'DESC')
             ->findAll();
 
+        // Loop through each entry in $OrderViewing to replace product_id with product_name
+        foreach ($OrderViewing as &$order) {
+            $product = $prod->find($order['product_id']);
+            $order['product_name'] = $product['product_name'];
+            // Optionally, you can unset the product_id if it's no longer needed
+            unset($order['product_id']);
+        }
+
         return $this->respond($OrderViewing);
     }
+
     public function SalesTransactionList()
     {
         $order = new OrderModel();
@@ -70,7 +81,7 @@ class CurrentTransactionController extends ResourceController
             $TotalAll += $product_info['price'] * $transaction['quantity'];
         }
         $this->totalAmount = $TotalAll;
-        return $this->respond(['msg' => 'Total Amount is ₱' . $TotalAll]);
+        return $this->respond(['msg' => '₱' . $TotalAll]);
     }
 
     public function CurrentTransactionList($token, $order_token)
@@ -239,12 +250,17 @@ class CurrentTransactionController extends ResourceController
 
 
 
-    public function SubmitCurrentTransaction($cash_received, $order_token, $token)
+    public function SubmitCurrentTransaction()
     {
+        $token = $this->request->getVar('token');
+        $cash_received = $this->request->getVar('cash_received');
+        $order_token = $this->request->getVar('order_token');
+        $discount = $this->request->getVar('discount'); // value is 20 so the meaning is 20% discount
+
         $audit = new AuditModel(); //['audit_id', 'product_id', 'old_quantity', 'quantity', 'type', 'exp_date', 'user_id', 'branch_id', 'created_at'];
         $currentTransaction = new CurrentTransactionModel(); //['current_transaction_id', 'order_id', 'product_id', 'quantity','user_id', 'branch_id', 'created_at'];
         $orderModel = new OrderModel(); //['order_id', 'order_token', 'total', 'cash_received', 'user_id', 'branch_id', 'status', 'created_at'];
-
+        $notification = new NotificationModel();
         $user = new UserModel();
         $user_info = $user->where('token', $token)->first();
 
@@ -254,8 +270,19 @@ class CurrentTransactionController extends ResourceController
         // Initialize variables to calculate total and exact change
         $total = 0;
         $earnings = 0;
-        $this->TransactionTotalAmount($order_token);
+
+        // Calculate total amount and earnings for the transaction, considering the discount
         foreach ($transactions as $transaction) {
+            $product = new ProductModel();
+            $product_info = $product->find($transaction['product_id']);
+
+            // Calculate the discounted price for the product
+            $discounted_price = $product_info['price'] * (1 - ($discount / 100));
+
+            // Update total and earnings based on the discounted price
+            $total += $discounted_price * $transaction['quantity'];
+            $earnings += $product_info['profit'] * $transaction['quantity'];
+
             // Transfer data to audit table
             $product_ID = $transaction['product_id'];
             $existingAudit = $audit->where('product_id', $product_ID)->orderBy('created_at', 'DESC')->first();
@@ -273,63 +300,69 @@ class CurrentTransactionController extends ResourceController
                 $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
             }
 
-
             $audit_data = [
                 'product_id' => $transaction['product_id'],
                 'token_code' => $order_token,
                 'old_quantity' => $existing_old_quantity_1,
                 'quantity' => $transaction['quantity'],
                 'earnings' => $transaction['earnings'],
-                'type' => 'sold', // Assuming this is an sold transfer
+                'type' => 'sold', // Assuming this is a sold transfer
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
                 'created_at' => date('Y-m-d H:i:s'),
             ];
-            $product = new ProductModel();
-            $product_info = $product->find($transaction['product_id']);
-            $total += $product_info['price'] * $transaction['quantity'];
-            $earnings += $product_info['profit'] * $transaction['quantity'];
-
-            // Update total based on product price and quantity
 
             // Update product quantity in the product table based on the sold transaction
             $new_quantity = $product_info['quantity'] - $transaction['quantity'];
 
-            if ($cash_received < $this->totalAmount) {
-                $need = number_format($this->totalAmount - $cash_received, 2);
-                return $this->respond(['msg' => 'Insufficient cash received need ₱' . $need . ' more', 'error' => true]);
-            } else {
-                $audit->insert($audit_data);
-                $product->update($transaction['product_id'], ['quantity' => $new_quantity]);
+            $audit->insert($audit_data);
+            $product->update($transaction['product_id'], ['quantity' => $new_quantity]);
+
+            if ($new_quantity == 0) {
+                $product->where('product_id', $transaction['product_id'])
+                    ->set(['status' => 'out of stock'])
+                    ->update();
+            }
+            if ($new_quantity <= 5) {
+                $prod_details = $product->where(['product_id' => $transaction['product_id']])->first();
+                $notif = [
+                    'event_type' => 'product',
+                    'related_id' => $transaction['product_id'],
+                    'branch_id' =>  $transaction['branch_id'],
+                    'message' => $prod_details['product_name'] . ' got low stocks',
+                ];
+                $notification->insert($notif);
             }
         }
 
-        // Calculate exact change
-        //SOLUTION IS TO COUNT THE TOTAL FIRST IN OTHER LOOP 
+        // Check if the total amount needs to be adjusted based on the cash received
+        if ($cash_received < $total) {
+            $need = number_format($total - $cash_received, 2);
+            return $this->respond(['msg' => 'Insufficient cash received need ₱' . $need . ' more', 'error' => true]);
+        } else {
+            // Calculate the exact change
+            $exact_change = number_format($cash_received - $total, 2);
 
-
-
-        // Update order status, total, and cash_received
-        if ($cash_received >= $this->totalAmount) {
+            // Update order status, total, and cash_received
             $orderModel->where('order_token', $order_token)
                 ->set([
                     'status' => 'completed',
-                    'total' => $this->totalAmount,
+                    'total' => $total,
                     'earnings' => $earnings,
                     'cash_received' => $cash_received
                 ])->update();
 
             // Clear current transactions for the order
             $currentTransaction->where('order_token', $order_token)->delete();
-            $exact_change = number_format($cash_received - $total, 2);
+
+            // Format amounts for response
             $cash_received = number_format($cash_received, 2);
             $total = number_format($total, 2);
+
             return $this->respond(['msg' => 'Transaction submitted successfully', 'ReceivedCash' => $cash_received, 'Total' => $total, 'exact_change' => $exact_change]);
-        } else {
-            $need = number_format($this->totalAmount - $cash_received, 2);
-            return $this->respond(['msg' => 'Insufficient cash received need ₱' . $need . ' more', 'error' => true]);
         }
     }
+
 
 
 

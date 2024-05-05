@@ -23,7 +23,7 @@ $routes->match(['post', 'get'], '/TransactionTotalAmount/(:any)', 'CurrentTransa
 $routes->match(['post', 'get'], '/POS/AddItem/(:any)/(:any)', 'CurrentTransactionController::AddItemToCurrentTransaction/$1/$2');
 //
 $routes->match(['post', 'get'], '/POS/GetItemList/(:any)/(:any)', 'CurrentTransactionController::CurrentTransactionList/$1/$2');
-$routes->match(['post', 'get'], '/POS/SubmitOrder/(:any)/(:any)/(:any)', 'CurrentTransactionController::SubmitCurrentTransaction/$1/$2/$3');
+$routes->match(['post', 'get'], '/POS/SubmitOrder', 'CurrentTransactionController::SubmitCurrentTransaction');
 
 
 
@@ -61,6 +61,7 @@ $routes->get('/notif', 'NotificationController::index');
 $routes->post('/addBranch', 'BranchController::addBranch');
 
 //Product
+$routes->put('/ProdUpdate', 'ProductController::ProdUpdate');
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->match(['get', 'post'], '/AddProd', 'ProductController::AddProd');
 //for table
@@ -126,6 +127,7 @@ $routes->match(['get', 'post'], 'branch/inventory/(:any)', 'ProductController::b
 
 //KPIs key performance indicators
 //Expiration
+$routes->get('/ExpirationBranchProduct', 'AuditController::ExpirationBranchProduct');
 $routes->get('/ExpirationAlertPerProduct', 'AuditController::ExpirationAlertPerProduct');
 //Earnings
 $routes->get('/EarningsPerWeek', 'OrderController::EarningsPerWeek');
@@ -141,3 +143,18 @@ $routes->get('/countBranchUniqueItems', 'ProductController::countBranchUniqueIte
 $routes->get('/TransactionToday', 'OrderController::TransactionToday');
 //Total Branch Worker Count
 $routes->get('/TotalBranchWorker', 'BranchController::TotalBranchWorker');
+
+
+
+//admin
+
+$routes->get('/AdminInventoryFilter', 'AdminController::AdminInventoryFilter');
+$routes->get('/AdminInventoryTable', 'AdminController::AdminInventoryTable');
+
+$routes->get('/AdminSalesTable', 'AdminController::AdminSalesTable');
+$routes->get('/AdminSalesFilter', 'AdminController::AdminSalesFilter');
+
+$routes->get('/AdminProductViewTable', 'AdminController::AdminProductViewTable');
+$routes->get('/AdminProductViewFilter', 'AdminController::AdminProductViewFilter');
+
+$routes->get('/AdminOrderViewTable', 'AdminController::AdminOrderViewTable');
