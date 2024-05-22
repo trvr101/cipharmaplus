@@ -329,6 +329,7 @@ class CurrentTransactionController extends ResourceController
                     'event_type' => 'product',
                     'related_id' => $transaction['product_id'],
                     'branch_id' =>  $transaction['branch_id'],
+                    "title" => "Low Stock",
                     'message' => $prod_details['product_name'] . ' got low stocks',
                 ];
                 $notification->insert($notif);

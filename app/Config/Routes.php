@@ -158,3 +158,10 @@ $routes->get('/AdminProductViewTable', 'AdminController::AdminProductViewTable')
 $routes->get('/AdminProductViewFilter', 'AdminController::AdminProductViewFilter');
 
 $routes->get('/AdminOrderViewTable', 'AdminController::AdminOrderViewTable');
+
+
+
+
+//notif
+$routes->get('/BranchNotifications', 'NotificationController::BranchNotifications');
+$routes->get('/NotificationRead', 'NotificationController::NotificationRead');

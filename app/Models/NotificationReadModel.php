@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class NotificationModel extends Model
+class NotificationReadModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'notification_tbl';
-    protected $primaryKey       = 'notification_id';
+    protected $table            = 'notification_reads_tbl';
+    protected $primaryKey       = 'read_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['notification_id', 'event_type', 'related_id', 'branch_id', 'title', 'message', 'created_at'];
+    protected $allowedFields    = ['read_id', 'notification_id', 'user_id', 'read_at'];
 
     // Dates
     protected $useTimestamps = false;

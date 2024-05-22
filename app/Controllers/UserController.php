@@ -8,6 +8,7 @@ use CodeIgniter\API\ResponseTrait;
 
 use App\Models\UserModel;
 use App\Models\BranchModel;
+use App\Models\NotificationModel;
 
 
 class UserController extends ResourceController
@@ -214,6 +215,8 @@ class UserController extends ResourceController
     {
         $user = new UserModel();
         $branch = new BranchModel();
+        $notification = new NotificationModel();
+
         $token = $this->verification(50);
         $invitationCode = $this->request->getVar('invitationCode');
 
@@ -248,6 +251,21 @@ class UserController extends ResourceController
                 $u = $user->insert($data);
                 $user_role = $data['user_role'];
                 if ($u) {
+                    $token = $data['token'];
+                    $user_info = $user->where('token', $token)->first();
+                    if ($user_info['user_role'] == 'cashier') {
+                        $personel = 'Cashier';
+                    } else if ($user_info['user_role'] == 'branch_admin') {
+                        $personel = 'Branch Admin';
+                    }
+                    $notif = [
+                        'event_type' => 'user',
+                        'related_id' => $user_info['user_id'],
+                        'branch_id' =>  $user_info['token'],
+                        'title' => 'New ' . $personel . ' added',
+                        'message' => $user_info['first_name'] . ' is registered as ' . $personel,
+                    ];
+                    $notification->insert($notif);
                     return $this->respond(['msg' => 'Registered Success fully on ' . $branchData['branch_name'], 'token' => $data['token'], 'user_role' => $user_role], 201);
                 } else {
                     return $this->respond(['msg' => 'register unsuccessfully', 'error' => true]);
