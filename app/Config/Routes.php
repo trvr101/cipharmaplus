@@ -125,6 +125,8 @@ $routes->match(['get', 'post'], 'branch/inventory/(:any)', 'ProductController::b
 
 
 
+
+
 //KPIs key performance indicators
 //Expiration
 $routes->get('/ExpirationBranchProduct', 'AuditController::ExpirationBranchProduct');
@@ -165,3 +167,7 @@ $routes->get('/AdminOrderViewTable', 'AdminController::AdminOrderViewTable');
 //notif
 $routes->get('/BranchNotifications', 'NotificationController::BranchNotifications');
 $routes->get('/NotificationRead', 'NotificationController::NotificationRead');
+
+
+//Branch Admin
+$routes->get('/Graph', 'BranchAdminController::Graph');
