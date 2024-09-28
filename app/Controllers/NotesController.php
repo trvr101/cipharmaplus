@@ -35,9 +35,13 @@ class NotesController extends ResourceController
             'note_title' => $this->request->getVar('note_title'),
             'note_content' => $this->request->getVar('note_content'),
             'status' => 'pending',
-            'created_at' => date('Y-m-d H:i:s'),
 
         ];
+        // {
+        //     "my_user_id": "3",
+        //     "note_title": "notes101",
+        //     "note_content": "desc101"
+        // }
 
         $result = $main->save($data);
 
@@ -68,7 +72,5 @@ class NotesController extends ResourceController
 
         return $this->respond($userNotes);
     }
-    public function index()
-    {
-    }
+    public function index() {}
 }

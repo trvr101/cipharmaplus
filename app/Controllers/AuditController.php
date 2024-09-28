@@ -226,7 +226,7 @@ class AuditController extends ResourceController
         ];
         return $this->respond($response);
     }
-
+    //TODO: 
     public function ProductAudit($token, $product_id)
     {
         $main = new AuditModel();
@@ -272,7 +272,7 @@ class AuditController extends ResourceController
             return "User and product are not in the same branch.";
         }
     }
-
+    //TODO
     public function addQuantity()
     {
         // Create instances of the AuditModel and ProductModel
@@ -281,12 +281,27 @@ class AuditController extends ResourceController
         $product = new ProductModel();
         $token = $this->request->getVar('token');
         $product_id = $this->request->getVar('product_id');
+        $quantity = $this->request->getVar('quantity');
+        $date = $this->request->getVar('date');
+
+        // Validate quantity (ensure it's a positive integer)
+        if (!ctype_digit($quantity) || (int)$quantity <= 0) {
+            return $this->respond(['msg' => 'Invalid quantity. Must be a positive integer.', 'error' => true]);
+        }
+
+        // Validate date (ensure it's in the correct format and a valid date)
+        if (!preg_match('/^\d{4}\/\d{2}\/\d{2}$/', $date) || !strtotime(str_replace('/', '-', $date))) {
+            return $this->respond(['msg' => 'Invalid date format. Must be YYYY/MM/DD and a valid date.']);
+        }
+
+        // Convert the date to the format Y-m-d
+        $formattedDate = date('Y-m-d', strtotime(str_replace('/', '-', $date)));
 
         $user_info = $user->where('token', $token)->first();
         $prod_info = $product->where('product_id', $product_id)->first();
 
         if (!$user_info) {
-            return $this->respond(['msg' => 'user not exist']);
+            return $this->respond(['msg' => 'User does not exist']);
         }
 
         if ($user_info['branch_id'] == $prod_info['branch_id'] || $user_info['user_role'] == 'admin') {
@@ -312,20 +327,20 @@ class AuditController extends ResourceController
                 $data = [
                     'product_id'   => $product_id,
                     'old_quantity' => $existing_old_quantity_1,
-                    'quantity'     => $this->request->getVar('quantity'),
+                    'quantity'     => $quantity,
                     'type'         => 'received',
-                    'exp_date'     => $this->request->getVar('date'),
+                    'exp_date'     => $formattedDate,
                     'user_id'      => $user_info['user_id'],
                     'branch_id'    => $user_info['branch_id'],
                     'created_at'   => date('Y-m-d H:i:s'),
                 ];
-            } else { // if there is no existingaudit record yet run this
+            } else { // if there is no existing audit record yet run this
                 $data = [
                     'product_id'   => $product_id,
                     'old_quantity' => 0,
-                    'quantity'     => $this->request->getVar('quantity'),
+                    'quantity'     => $quantity,
                     'type'         => 'received',
-                    'exp_date'     => $this->request->getVar('date'),
+                    'exp_date'     => $formattedDate,
                     'user_id'      => $user_info['user_id'],
                     'branch_id'    => $user_info['branch_id'],
                     'created_at'   => date('Y-m-d H:i:s'),
@@ -342,12 +357,12 @@ class AuditController extends ResourceController
                 $product->where('product_id', $product_id)
                     ->set(['quantity' => $total_quantity, 'status' => 'available'])
                     ->update();
-                return $this->respond(['msg' => 'Succesfully added ' . $data['quantity'] . 'pcs to ' . $prod_info['product_name']]);
+                return $this->respond(['msg' => 'Successfully added ' . $data['quantity'] . 'pcs to ' . $prod_info['product_name']]);
             } else {
-                return $this->respond(['msg' => 'adding new product unsucccessful', 'error' => true]);
+                return $this->respond(['msg' => 'Adding new product unsuccessful', 'error' => true]);
             }
         } else {
-            return $this->respond(['msg' => 'you are not able to access this page']);
+            return $this->respond(['msg' => 'You are not authorized to access this page']);
         }
     }
 }

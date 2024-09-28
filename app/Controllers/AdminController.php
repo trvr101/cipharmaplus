@@ -16,9 +16,8 @@ use App\Models\NotificationModel;
 
 class AdminController extends ResourceController
 {
-    public function index()
-    {
-    }
+    public function index() {}
+    //TODO
     public function AdminInventoryFilter()
     {
 
@@ -37,6 +36,7 @@ class AdminController extends ResourceController
 
         return $this->respond($data);
     }
+    //TODO
     public function AdminInventoryTable()
     {
         $prod = new ProductModel();
@@ -88,8 +88,8 @@ class AdminController extends ResourceController
 
     public function AdminSalesTable()
     {
-        $order = new OrderModel();
-        $user = new UserModel();
+        $order = new OrderModel(); // ['order_id', 'order_token', 'status', 'total', 'earnings', 'cash_received', 'user_id', 'branch_id',  'created_at', 'discount_type'];
+        $user = new UserModel(); // ['user_id', 'first_name', 'last_name', 'email', 'user_password', 'phone', 'user_role', 'branch_id', 'status', 'token', 'created_at'];
         $token = $this->request->getVar('token');
         $date_range = $this->request->getVar('date_range');
         $profile = $user->where('token', $token)->first();
@@ -122,9 +122,19 @@ class AdminController extends ResourceController
         // Get the resulting data
         $salesData = $query->findAll();
 
+        // Loop through the sales data and replace user_id with email
+        foreach ($salesData as &$data) {
+            $userData = $user->find($data['user_id']); // Fetch user data based on user_id
+            if ($userData) {
+                $data['user_email'] = $userData['email']; // Add email to the result
+            } else {
+                $data['user_email'] = 'Unknown'; // Fallback if no user found
+            }
+            unset($data['user_id']); // Optionally remove user_id if not needed
+        }
+
         return $this->respond($salesData);
     }
-
 
     public function AdminSalesFilter()
     {
@@ -144,17 +154,11 @@ class AdminController extends ResourceController
 
 
 
-    public function AdminProductViewTable()
-    {
-    }
-    public function AdminProductViewFilter()
-    {
-    }
+    public function AdminProductViewTable() {}
+    public function AdminProductViewFilter() {}
 
 
 
 
-    public function AdminOrderViewTable()
-    {
-    }
+    public function AdminOrderViewTable() {}
 }

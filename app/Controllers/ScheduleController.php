@@ -48,13 +48,15 @@ class ScheduleController extends ResourceController
         $user = new UserModel();
         $token = $this->request->getVar('token');
         $profile = $user->where('token', $token)->first();
+
+
         $data = [
             'user_id' => $profile['user_id'],
             'branch_id' => $profile['branch_id'],
             'event_name' => $this->request->getVar('event_name'),
             'start_date' => $this->request->getVar('start_date'),
             'end_date' => $this->request->getVar('end_date'),
-            'additional_details' => $this->request->getVar('additional_details'),
+            'additional_details' => $this->request->getVar('description'),
             'privacy' => $this->request->getVar('privacy'),
         ];
         $result = $sched->save($data);

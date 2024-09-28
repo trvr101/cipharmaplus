@@ -238,9 +238,20 @@ class ProductController extends ResourceController
         $token = $this->request->getVar('token');
         $profile = $user->where('token', $token)->first();
 
+        // Check if prod_upc is provided, if null generate a unique 11-digit UPC
+        $upc = $this->request->getVar('prod_upc');
+        if (empty($upc)) {
+            do {
+                // Generate a random 11-digit number
+                $upc = mt_rand(10000000000, 99999999999);
+                // Check if the generated UPC already exists in the database
+                $existingUPC = $main->where('upc', $upc)->first();
+            } while ($existingUPC); // Keep generating until a unique UPC is found
+        }
+
         $data = [
             'user_id' => $profile['user_id'],
-            'upc' => $this->request->getVar('prod_upc'),
+            'upc' => $upc,
             'product_name' => $this->request->getVar('prod_name'),
             'description' => $this->request->getVar('prod_desc'),
             'original_price' => $this->request->getVar('original_price'),
@@ -257,9 +268,10 @@ class ProductController extends ResourceController
         if ($result) {
             return $this->respond(['msg' => $data['product_name'] . ' is added successfully']);
         } else {
-            return $this->respond(['msg' => 'adding new product unsucccessful', 'error' => true]);
+            return $this->respond(['msg' => 'adding new product unsuccessful', 'error' => true]);
         }
     }
+
 
     public function ItemCategoryList()
     {
@@ -340,7 +352,7 @@ class ProductController extends ResourceController
 
         return $this->respond($products);
     }
-
+    //TODO
     public function ProdUpdate()
     {
         // Retrieve token from the request

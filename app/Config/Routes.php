@@ -104,7 +104,7 @@ $routes->match(['post', 'get'], '/login', 'UserController::login');
 //
 
 
-$routes->match(['get', 'post'], '/AddNotes', 'MainController::AddNotes');
+// $routes->match(['get', 'post'], '/AddNotes', 'MainController::AddNotes');
 
 
 

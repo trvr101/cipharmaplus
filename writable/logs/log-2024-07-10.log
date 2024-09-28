@@ -1,0 +1,105 @@
+CRITICAL - 2024-07-10 08:35:22 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:23 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:24 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:25 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:26 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:27 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:28 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:38 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:39 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:40 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:48 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:49 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:50 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:51 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 08:35:52 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\AdminController.php on line 103.
+ 1 APPPATH\Controllers\AdminController.php(103): explode('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesTable()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
