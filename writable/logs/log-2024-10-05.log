@@ -1,0 +1,249 @@
+ERROR - 2024-10-05 14:21:54 --> mysqli_sql_exception: Column 'discount_type' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\cipharmaplus\app\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYr...', 'dc6M5P29TN')
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-05 14:21:54 --> Column 'discount_type' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_tbl` (`order_token`, `status`, `total`, `cash_received`, `user_id`, `branch_id`, `created_at`, `discount_type`) VALUES (:order_token:, :status:, :total:, :cash_received:, :user_id:, :branch_id:, :created_at:, :discount_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'dc6M5P29TN')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 14:22:54 --> mysqli_sql_exception: Column 'discount_type' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\cipharmaplus\app\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYr...', 'dc6M5P29TN')
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-05 14:22:54 --> Column 'discount_type' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_tbl` (`order_token`, `status`, `total`, `cash_received`, `user_id`, `branch_id`, `created_at`, `discount_type`) VALUES (:order_token:, :status:, :total:, :cash_received:, :user_id:, :branch_id:, :created_at:, :discount_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'dc6M5P29TN')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 14:25:53 --> mysqli_sql_exception: Column 'discount_type' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\cipharmaplus\app\Controllers\CurrentTransactionController.php(166): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYr...', 'dc6M5P29TN')
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-05 14:25:53 --> Column 'discount_type' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_tbl` (`order_token`, `status`, `total`, `cash_received`, `user_id`, `branch_id`, `created_at`, `discount_type`) VALUES (:order_token:, :status:, :total:, :cash_received:, :user_id:, :branch_id:, :created_at:, :discount_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\CurrentTransactionController.php(166): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'dc6M5P29TN')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 14:31:11 --> mysqli_sql_exception: Column 'discount_type' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\cipharmaplus\app\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYr...', 'dc6M5P29TN')
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-05 14:31:11 --> Column 'discount_type' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_tbl` (`order_token`, `status`, `total`, `earnings`, `cash_received`, `user_id`, `branch_id`, `created_at`, `discount_type`) VALUES (:order_token:, :status:, :total:, :earnings:, :cash_received:, :user_id:, :branch_id:, :created_at:, :discount_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'dc6M5P29TN')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 14:32:32 --> mysqli_sql_exception: Column 'discount_type' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\cipharmaplus\app\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYr...', 'b5HUEqjzXY')
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-05 14:32:32 --> Column 'discount_type' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_tbl` (`order_token`, `status`, `total`, `earnings`, `cash_received`, `user_id`, `branch_id`, `created_at`, `discount_type`) VALUES (:order_token:, :status:, :total:, :earnings:, :cash_received:, :user_id:, :branch_id:, :created_at:, :discount_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\CurrentTransactionController.php(167): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'b5HUEqjzXY')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:39:00 --> Undefined array key "profit"
+in APPPATH\Controllers\CurrentTransactionController.php on line 238.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profit"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'zNTDAGvqZw')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:40:25 --> Undefined array key "profit"
+in APPPATH\Controllers\CurrentTransactionController.php on line 238.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profit"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'utfcijWnUX')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:43:36 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'kvwMN11sKz')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:43:40 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'kvwMN11sKz')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:45:07 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'kvwMN11sKz')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:45:26 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'IneN00TL6b')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:45:27 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'IneN00TL6b')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:45:31 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'IneN00TL6b')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:45:32 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'IneN00TL6b')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:45:32 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'IneN00TL6b')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:45:32 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'IneN00TL6b')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:46:34 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'GfBs8RZFVo')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:46:53 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'GfBs8RZFVo')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:47:03 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'GfBs8RZFVo')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:48:21 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'E4YufZJNHA')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:50:14 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'SOhgH7adPf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:50:49 --> Undefined variable $UPC
+in APPPATH\Controllers\CurrentTransactionController.php on line 202.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UPC', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'SOhgH7adPf')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

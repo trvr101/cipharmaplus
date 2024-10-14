@@ -1,0 +1,880 @@
+CRITICAL - 2024-09-28 14:18:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:18:46 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:19:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:19:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:20:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:20:46 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:21:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:21:46 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:22:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:22:46 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:23:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:23:46 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:24:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:24:46 --> Undefined array key "product_name"
+in APPPATH\Controllers\ProductController.php on line 324.
+ 1 APPPATH\Controllers\ProductController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\ProductController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->countBranchUniqueItems('')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:25:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:25:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:25:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:25:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:25:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:25:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:26:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:26:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:26:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:26:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:26:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:26:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:27:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:27:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:27:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:27:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:27:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:27:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:10 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:16 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:16 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:17 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:18 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:19 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:20 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:20 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:20 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:21 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:21 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:21 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:22 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:22 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:22 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:23 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:23 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:23 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:24 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:24 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:24 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:25 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:25 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:25 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:26 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:26 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:26 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:27 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:27 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:27 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:28 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:29 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:29 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:29 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:30 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:30 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:30 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:31 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:31 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:31 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:32 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:32 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:32 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:33 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:33 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:33 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:34 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:34 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:34 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:35 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:35 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:35 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:36 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:36 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:36 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:37 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:37 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:37 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:38 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:39 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:40 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:41 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:42 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:42 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:42 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:43 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:43 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:43 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:44 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:44 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:44 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:46 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:47 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:47 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:47 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:48 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:48 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:48 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:49 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:49 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:49 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:50 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:50 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:50 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:51 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:51 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:51 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:52 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:52 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:52 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:53 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:53 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:53 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:54 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:54 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:54 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:55 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:55 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:55 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:56 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:56 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:56 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:57 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:57 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:57 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:58 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:58 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:58 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:59 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:59 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:28:59 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:00 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:00 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:00 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:01 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:01 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:01 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:02 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:02 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:02 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:03 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:03 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:03 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:04 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:04 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:04 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:05 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:05 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:05 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:06 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:06 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:06 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:07 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:07 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:07 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:08 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:08 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:08 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:09 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:09 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:09 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:10 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:10 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:10 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:11 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:12 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:13 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:14 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:15 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:16 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:16 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:17 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:17 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:18 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:18 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:19 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:19 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:20 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:20 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:21 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:21 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:22 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:22 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:23 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:23 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:24 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:24 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:25 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:25 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:26 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:26 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:27 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:27 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:28 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:28 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:29 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:29 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:29:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:30:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:31:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:32:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:33:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:34:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:35:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:36:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:37:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:38:45 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:40:08 --> Constant expression contains invalid operations
+in APPPATH\Models\ProductModel.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:50:43 --> Undefined array key "product_name"
+in APPPATH\Controllers\AuditController.php on line 257.
+ 1 APPPATH\Controllers\AuditController.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:50:45 --> Undefined array key "product_name"
+in APPPATH\Controllers\AuditController.php on line 257.
+ 1 APPPATH\Controllers\AuditController.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->ProductAudit('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

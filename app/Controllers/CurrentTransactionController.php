@@ -38,15 +38,16 @@ class CurrentTransactionController extends ResourceController
 
         $OrderViewing = $audit->where('token_code', $order_token)
             ->where('branch_id', $profile['branch_id'])
+            ->where('status', 'completed')
             ->orderBy('created_at', 'DESC')
             ->findAll();
 
         // Loop through each entry in $OrderViewing to replace product_id with product_name
         foreach ($OrderViewing as &$order) {
             $product = $prod->find($order['product_id']);
-            $order['product_name'] = $product['product_name'];
+            $order['generic_name'] = $product['generic_name'];
             // Optionally, you can unset the product_id if it's no longer needed
-            unset($order['product_id']);
+            // unset($order['product_id']);
         }
 
         return $this->respond($OrderViewing);
@@ -57,15 +58,43 @@ class CurrentTransactionController extends ResourceController
         $order = new OrderModel();
         $user = new UserModel();
         $token = $this->request->getVar('token');
+
+        // Validate token presence
+        if (!$token) {
+            return $this->fail('Token is required', 400);
+        }
+
+        // Retrieve user profile
         $profile = $user->where('token', $token)->first();
 
-        $CompleteOrders =
-            $order->where('status', 'completed')
-            ->where('branch_id', $profile['branch_id'])
+        // Validate user profile
+        if (!$profile) {
+            return $this->failNotFound('User not found or invalid token');
+        }
+
+        $branchId = $profile['branch_id'];
+        log_message('info', "Branch ID: $branchId"); // Log the branch ID for debugging
+
+        // Fetch all orders for the branch
+        $orders = $order
+            ->where('branch_id', $branchId)
             ->orderBy('created_at', 'DESC')
             ->findAll();
+
+        // Filter out non-completed orders
+        $CompleteOrders = array_filter($orders, function ($order) {
+            return $order['status'] === 'completed';
+        });
+
+        log_message('info', 'Complete Orders Count: ' . count($CompleteOrders));
+
+        if (empty($CompleteOrders)) {
+            return $this->respond(['message' => 'No completed orders found'], 200);
+        }
+
         return $this->respond($CompleteOrders);
     }
+
 
 
     public function TransactionTotalAmount($order_token)
@@ -138,46 +167,52 @@ class CurrentTransactionController extends ResourceController
 
     public function AddItemToCurrentTransaction($token, $order_token)
     {
+        date_default_timezone_set('Asia/Manila');
+        $created_at = date('Y-m-d H:i:s');
+
         $UPCAndQuantity = $this->request->getVar('UPCAndQuantity');
         $user = new UserModel();
+
         $product = new ProductModel();
         $order = new OrderModel();
         $currentTransaction = new CurrentTransactionModel(); // Assuming you have a model for current_transaction
 
         // Get user information based on the provided token
         $user_info = $user->where('token', $token)->first();
-
         // Check if the order with the given order_token already exists
         $existing_order = $order->where('order_token', $order_token)->first();
-
         if (!$existing_order) {
             // If the order doesn't exist, create a new order
             $new_order_data = [
                 'order_token' => $order_token,
                 'status' => 'processing',
                 'total' => 0,
+                'earnings' => 0,
                 'cash_received' => 0,
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
+                'created_at' => $created_at,
+                'discount_type' => 0,
             ];
-
             // Check the result of the insert operation
             $insert_result = $order->insert($new_order_data);
 
-            if (!$insert_result) {
-                // Error in inserting new order
-                return $this->respond(['msg' => 'Error inserting new order', 'error' => true]);
-            }
 
-            // Retrieve the newly created order
+            if (!$insert_result) {
+                return $this->respond(['msg' => ',Error inserting new order', 'error' => true]);
+            }
             $existing_order = $order->where('order_token', $order_token)->first();
         }
+
         // Check if "@" is present in UPCAndQuantity
         if (strpos($UPCAndQuantity, '@') !== false) {
             // Split UPCAndQuantity to get UPC and Quantity
             list($UPC, $quantity) = explode('@', $UPCAndQuantity);
             $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
-
+            // Find the product with the given UPC and branch_id
+            $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
+            $quantity = (int)$quantity; // Explicitly cast to integer
+            $prod_info_quantity = (int)$prod_info['quantity']; // Explicitly cast to integer
             if ($quantity == null) {
                 $quantity = 1;
             }
@@ -190,15 +225,14 @@ class CurrentTransactionController extends ResourceController
                     ->delete();
                 if ($isDeleted) {
                     //delete the existing_transaction on $currentTransaction
-                    return $this->respond(['msg' => 'Remove product: ' . $prod_info['product_name'], 'error' => true]);
+                    return $this->respond(['msg' => 'Remove product: ' . $prod_info['generic_name'], 'error' => true]);
                 } else {
                     return $this->respond(['msg' => 'Wrong quantity input', 'error' => true]);
                 }
             }
         }
 
-        // Find the product with the given UPC and branch_id
-        $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
+
 
         // Check if the product is associated with the current branch
         if (!$prod_info) {
@@ -209,8 +243,12 @@ class CurrentTransactionController extends ResourceController
         if ($prod_info['branch_id'] != $user_info['branch_id']) {
             return $this->respond(['msg' => 'Product not available in your branch', 'error' => true]);
         }
+
         if ($quantity > $prod_info['quantity']) {
-            return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $quantity, 'error' => true]);
+            return $this->respond([
+                'msg' => 'Insufficient stock',
+                'error' => true
+            ]);
         }
         // Check if the product already exists in currentTransaction
         $existing_transaction = $currentTransaction
@@ -225,7 +263,7 @@ class CurrentTransactionController extends ResourceController
 
             $updated_quantity =  $quantity;
             if ($updated_quantity > $prod_info['quantity']) {
-                return $this->respond(['msg' => 'Our stocks are just ' . $prod_info['product_name'] . ': ' . $prod_info['quantity'] . ' could not handle ' . $updated_quantity, 'error' => true]);
+                return $this->respond(['msg' => '2 Our stocks are just too low', 'error' => true]);
             }
             $currentTransaction->update($existing_transaction['current_transaction_id'], ['quantity' => $updated_quantity]);
         } else {
@@ -234,12 +272,15 @@ class CurrentTransactionController extends ResourceController
                 'order_token' => $order_token,
                 'product_id' => $prod_info['product_id'],
                 'quantity' => $quantity,
-                'earnings' => $prod_info['profit'] * $quantity,
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
+                'created_at' => $created_at,
             ];
-
-            $currentTransaction->insert($current_transaction_data);
+            //if returned this is not running
+            $insertCT = $currentTransaction->insert($current_transaction_data);
+            if (!$insertCT) {
+                return $this->respond(['msg' => 'Error inserting into current transaction', 'error' => true]);
+            }
         }
 
         return $this->respond(['msg' => 'data inserted successfully']);
@@ -270,13 +311,14 @@ class CurrentTransactionController extends ResourceController
         // Initialize variables to calculate total and exact change
         $total = 0;
         $earnings = 0;
-
         // Calculate total amount and earnings for the transaction, considering the discount
         foreach ($transactions as $transaction) {
             $product = new ProductModel();
             $product_info = $product->find($transaction['product_id']);
 
+
             // Calculate the discounted price for the product
+            return $this->respond(['msg' =>  $product_info, 'error' => true]);
             $discounted_price = $product_info['price'] * (1 - ($discount / 100));
 
             // Update total and earnings based on the discounted price
@@ -286,6 +328,7 @@ class CurrentTransactionController extends ResourceController
             // Transfer data to audit table
             $product_ID = $transaction['product_id'];
             $existingAudit = $audit->where('product_id', $product_ID)->orderBy('created_at', 'DESC')->first();
+
             // You may need to adapt the following lines based on your specific requirements
             $existing_old_quantity = 0;
             $exist_quantity = 0;
@@ -363,22 +406,147 @@ class CurrentTransactionController extends ResourceController
             return $this->respond(['msg' => 'Transaction submitted successfully', 'ReceivedCash' => $cash_received, 'Total' => $total, 'exact_change' => $exact_change]);
         }
     }
-
-
-
-
-    private function clearData($token)
+    public function SubmitCurrentTransactionAdmin()
     {
-        $CurrentTransaction = new CurrentTransactionModel();
+        $token = $this->request->getVar('token');
+        $cash_received = $this->request->getVar('cash_received');
+        $order_token = $this->request->getVar('order_token');
+        $discount = $this->request->getVar('discount');
+        $audit = new AuditModel();
+        $currentTransaction = new CurrentTransactionModel();
+        $orderModel = new OrderModel();
+        $notification = new NotificationModel();
         $user = new UserModel();
-
-
         $user_info = $user->where('token', $token)->first();
 
+        // Fetch all transactions related to the order_token
+        $transactions = $currentTransaction->where('order_token', $order_token)->findAll();
+
+        // Initialize variables to calculate total and exact change
+        $total = 0;
+        $earnings = 0;
+        // Calculate total amount and earnings for the transaction, considering the discount
+        foreach ($transactions as $transaction) {
+            $product = new ProductModel();
+            $product_info = $product->find($transaction['product_id']);
+
+            // Update total and earnings based on the discounted price
+            $total += $product_info['SRP'] * $transaction['quantity'];
+
+            // $earnings += $product_info['profit'] * $transaction['quantity']; //TODO
+
+            // Transfer data to audit table
+            $product_ID = $transaction['product_id'];
+            $existingAudit = $audit->where('product_id', $product_ID)->orderBy('created_at', 'DESC')->first();
+
+            // You may need to adapt the following lines based on your specific requirements
+            $existing_old_quantity = 0;
+            $exist_quantity = 0;
+            $existing_old_quantity = $existingAudit['old_quantity']; // Adapt as needed
+            $exist_quantity = $existingAudit['quantity']; // Adapt as needed
+            $existingAudit_type = $existingAudit['type'];
+
+            // Adjust existing_old_quantity based on the existingAudit_type
+            if ($existingAudit_type == 'received') {
+                $existing_old_quantity_1 = $existing_old_quantity + $exist_quantity;
+            } elseif ($existingAudit_type == 'sold') {
+                $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
+            }
+
+            $audit_data = [
+                'product_id' => $transaction['product_id'],
+                'token_code' => $order_token,
+                'old_quantity' => $existing_old_quantity_1,
+                'quantity' => $transaction['quantity'],
+                'earnings' => 0,
+                'type' => 'sold', // Assuming this is a sold transfer
+                'user_id' => $user_info['user_id'],
+                'branch_id' => $user_info['branch_id'],
+                'created_at' => date('Y-m-d H:i:s'),
+            ];
+
+            // Update product quantity in the product table based on the sold transaction
+            $new_quantity = $product_info['quantity'] - $transaction['quantity'];
+
+            $audit->insert($audit_data);
+            $product->update($transaction['product_id'], ['quantity' => $new_quantity]);
+
+            $prod_details = $product->where(['product_id' => $transaction['product_id']])->first();
+
+            if ($new_quantity == 0) {
+                $product->where('product_id', $transaction['product_id'])
+                    ->set(['status' => 'out of stock'])
+                    ->update();
+                $prod_details = $product->where(['product_id' => $transaction['product_id']])->first();
+                $notif = [
+                    'event_type' => 'product',
+                    'related_id' => $transaction['product_id'],
+                    'branch_id' =>  $transaction['branch_id'],
+                    "title" => "Out of stock",
+                    'message' => $prod_details['generic_name'] . 'is out of stock',
+                ];
+                $notification->insert($notif);
+            } else if ($new_quantity <= $prod_details['notif_quantity_trigger']) {
+                $product->where('product_id', $transaction['product_id'])
+                    ->set(['status' => 'low stock'])
+                    ->update();
+                $notif = [
+                    'event_type' => 'product',
+                    'related_id' => $transaction['product_id'],
+                    'branch_id' =>  $transaction['branch_id'],
+                    "title" => "Low Stock",
+                    'message' => $prod_details['generic_name'] . ' got low stocks',
+                ];
+                $notification->insert($notif);
+            }
+        }
 
 
-        //clear the data in quanity 
+        // Update order status, total, and cash_received
+        $orderModel->where('order_token', $order_token)
+            ->set([
+                'status' => 'completed',
+                'total' => 0,
+                'earnings' => 0,
+                'cash_received' => 0,
+            ])->update();
+
+        // Clear current transactions for the order
+        $currentTransaction->where('order_token', $order_token)->delete();
+
+        // Format amounts for response
+        $cash_received = number_format($cash_received, 2);
+        $total = number_format($total, 2);
+
+        return $this->respond(['msg' => 'Transaction submitted successfully']);
     }
+    public function ClearCurrentTransaction()
+    {
+        $user = new UserModel();
+        $currentTransaction = new CurrentTransactionModel();
+
+        // Retrieve token and order_token from the request
+        $token = $this->request->getVar('token');
+        $order_token = $this->request->getVar('order_token');
+
+        // Get user info using the token
+        $user_info = $user->where('token', $token)->first();
+
+        // Fetch all transactions related to the order_token
+        $transactions = $currentTransaction->where('order_token', $order_token)->findAll();
+
+        // Delete all transactions related to the order_token
+        if (!empty($transactions)) {
+            $deldata = $currentTransaction->where('order_token', $order_token)->delete();
+            if ($deldata) {
+                return $this->respond(['msg' => 'clear successfully']);
+            } else {
+                return $this->respond(['msg' => 'clear unsuccessful', 'error' => true]);
+            }
+        }
+    }
+
+
     private function tokenMaker($length)
     {
         $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';

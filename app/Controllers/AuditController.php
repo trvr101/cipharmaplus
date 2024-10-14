@@ -226,7 +226,7 @@ class AuditController extends ResourceController
         ];
         return $this->respond($response);
     }
-    //TODO: 
+    //TODO: Done
     public function ProductAudit($token, $product_id)
     {
         $main = new AuditModel();
@@ -252,9 +252,9 @@ class AuditController extends ResourceController
             //$audits = $main->where('product_id', $product_id)->orderBy('created_at', 'DESC')->findAll();
             $audits = $main->where('product_id', $product_id)->orderBy('created_at', 'desc')->findAll();
 
-            // Add the product_name and total to each audit record
+            // Add the generic_name and total to each audit record
             foreach ($audits as &$audit) {
-                $audit['product_name'] = $product_info['product_name'];
+                $audit['generic_name'] = $product_info['generic_name'];
                 if ($audit['type'] == 'received') {
                     $audit['total'] = $audit['old_quantity'] + $audit['quantity'];
                 } elseif ($audit['type'] == 'outbound') {
@@ -263,7 +263,7 @@ class AuditController extends ResourceController
             }
 
             // Now $audits contains all the audit information for the specified product_id in the same branch as the user, ordered by the latest first,
-            // and each audit record includes the product_name and total
+            // and each audit record includes the generic_name and total
             // You can process and return this information as needed
 
             return $this->respond($audits);
@@ -350,16 +350,15 @@ class AuditController extends ResourceController
 
             // Save the new audit record
             $result = $main->save($data);
-
             if ($result) {
                 // Update the product quantity
                 $total_quantity = $data['old_quantity'] + $data['quantity'];
                 $product->where('product_id', $product_id)
                     ->set(['quantity' => $total_quantity, 'status' => 'available'])
                     ->update();
-                return $this->respond(['msg' => 'Successfully added ' . $data['quantity'] . 'pcs to ' . $prod_info['product_name']]);
+                return $this->respond(['msg' => 'added successfully']);
             } else {
-                return $this->respond(['msg' => 'Adding new product unsuccessful', 'error' => true]);
+                return $this->respond(['msg' => 'adding unsuccessful', 'error' => true]);
             }
         } else {
             return $this->respond(['msg' => 'You are not authorized to access this page']);

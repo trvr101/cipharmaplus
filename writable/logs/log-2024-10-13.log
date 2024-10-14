@@ -1,0 +1,197 @@
+CRITICAL - 2024-10-13 00:01:23 --> Undefined array key "product_name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:05:35 --> Undefined array key "product_name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:06:03 --> Undefined array key "product_name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:06:34 --> Undefined array key "product_name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:08:23 --> Undefined array key "generic name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "generic name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:10:05 --> Undefined array key "generic name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "generic name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:10:38 --> Undefined array key "generic name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "generic name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:12:23 --> Undefined array key "generic name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "generic name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 00:13:15 --> Undefined array key "generic name"
+in APPPATH\Controllers\AuditController.php on line 360.
+ 1 APPPATH\Controllers\AuditController.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "generic name"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AuditController.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuditController->addQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuditController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 02:30:51 --> Cannot use object of type App\Models\ProductModel as array
+in APPPATH\Controllers\ProductController.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->deleteprod()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 02:35:05 --> Cannot use object of type App\Models\ProductModel as array
+in APPPATH\Controllers\ProductController.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->deleteprod()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 02:36:20 --> Cannot use object of type App\Models\ProductModel as array
+in APPPATH\Controllers\ProductController.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->deleteprod()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 02:36:43 --> Cannot use object of type App\Models\ProductModel as array
+in APPPATH\Controllers\ProductController.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->deleteprod()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 02:36:45 --> Cannot use object of type App\Models\ProductModel as array
+in APPPATH\Controllers\ProductController.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->deleteprod()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 02:38:05 --> Cannot use object of type App\Models\ProductModel as array
+in APPPATH\Controllers\ProductController.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->deleteprod()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 04:56:22 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 04:56:26 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 04:56:30 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 04:56:35 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 04:56:51 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 12:58:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 207.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', '4giFP1Ej26')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 04:59:26 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 04:59:28 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 05:01:52 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 446.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 446)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 05:01:56 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 446.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 446)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 05:01:59 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 446.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 446)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 05:02:04 --> Undefined array key "notif_quantity_trigger"
+in APPPATH\Controllers\CurrentTransactionController.php on line 446.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "notif_quantity_trigger"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 446)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 05:03:57 --> Undefined variable $prod_details
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_details', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-13 05:04:11 --> Undefined variable $prod_details
+in APPPATH\Controllers\CurrentTransactionController.php on line 460.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_details', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransactionAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

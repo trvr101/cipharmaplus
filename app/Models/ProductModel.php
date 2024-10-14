@@ -13,7 +13,7 @@ class ProductModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['product_id', 'upc', 'user_id', 'product_name', 'description', 'quantity', 'original_price', 'profit', 'price', 'branch_id', 'category', 'status', 'created_at'];
+    protected $allowedFields    = ['product_id', 'upc', 'user_id', 'generic_name', 'brand_name', 'dosage_form', 'closes_expiry_date', 'quantity', 'SRP', 'unit_price', 'branch_id', 'category', 'status', 'notif_quantity_trigger', 'created_at'];
 
     // Dates
     protected $useTimestamps = false;

@@ -1,0 +1,599 @@
+CRITICAL - 2024-10-14 07:56:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CurrentTransactionController.php on line 187.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->AddItemToCurrentTransaction('4yowAQ8qEVL5iYrHSeGRpnb6Pmd93fNt2zjZKvJks0FOx1DhBl', 'CIivTxMfqm')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:10 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:10 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:16 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:16 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:19 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:19 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:20 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:20 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:20 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:20 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:20 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:20 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:56 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:56 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:04:57 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:04:57 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:05:01 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:05:01 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:05:02 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:05:02 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:05:02 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:05:02 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 02:05:02 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\cipharmaplus\app\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+#8 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-14 02:05:02 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_tbl`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BranchController.php(418): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:05:23 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:05:25 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:05:27 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:05:45 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:05:48 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:05:49 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:19 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:26 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:27 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:29 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:30 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:30 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:30 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:31 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:31 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:06:32 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:07:49 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:07:51 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:07:54 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 02:07:55 --> Undefined array key "price"
+in APPPATH\Controllers\BranchController.php on line 440.
+ 1 APPPATH\Controllers\BranchController.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\BranchController.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BranchController->MedicineLocator()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BranchController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:31 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:32 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:33 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:34 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:35 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:36 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:37 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:38 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:39 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:40 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:41 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:42 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:43 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:44 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:45 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:46 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:47 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:48 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:49 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 03:46:50 --> Undefined variable $branchId
+in APPPATH\Controllers\AdminController.php on line 154.
+ 1 APPPATH\Controllers\AdminController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branchId', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\AdminController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminSalesFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

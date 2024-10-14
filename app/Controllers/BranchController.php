@@ -415,7 +415,7 @@ class BranchController extends ResourceController
             $searchProd = "zzzzzzzzzzz";
         }
         // Search for products matching the given search query
-        $matchedProducts = $product->like('product_name', $searchProd)->findAll();
+        $matchedProducts = $product->like('generic_name', $searchProd)->findAll();
         // Prepare response data
         $responseData = [];
         foreach ($matchedProducts as $prod) {
@@ -433,10 +433,11 @@ class BranchController extends ResourceController
                         'products' => [
                             [
                                 'product_id' => $prod['product_id'],
-                                'product_name' => $prod['product_name'],
-                                'description' => $prod['description'],
+                                'generic_name' => $prod['generic_name'],
+                                'brand_name' => $prod['brand_name'],
+                                'dosage_form' => $prod['dosage_form'],
                                 'quantity' => $prod['quantity'],
-                                'price' => $prod['price'],
+                                'SRP' => $prod['SRP'],
                                 'category' => $prod['category']
                             ]
                         ]
@@ -445,10 +446,11 @@ class BranchController extends ResourceController
                     // If branch already exists, add product to its products array
                     $responseData[$branchKey]['products'][] = [
                         'product_id' => $prod['product_id'],
-                        'product_name' => $prod['product_name'],
-                        'description' => $prod['description'],
+                        'generic_name' => $prod['generic_name'],
+                        'brand_name' => $prod['brand_name'],
+                        'dosage_form' => $prod['dosage_form'],
                         'quantity' => $prod['quantity'],
-                        'price' => $prod['price'],
+                        'SRP' => $prod['SRP'],
                         'category' => $prod['category']
                     ];
                 }

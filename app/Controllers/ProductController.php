@@ -239,7 +239,7 @@ class ProductController extends ResourceController
         $profile = $user->where('token', $token)->first();
 
         // Check if prod_upc is provided, if null generate a unique 11-digit UPC
-        $upc = $this->request->getVar('prod_upc');
+        $upc = $this->request->getVar('UPC');
         if (empty($upc)) {
             do {
                 // Generate a random 11-digit number
@@ -249,28 +249,46 @@ class ProductController extends ResourceController
             } while ($existingUPC); // Keep generating until a unique UPC is found
         }
 
+        // Get input values for generic_name, brand_name, and dosage_form
+        $generic_name = $this->request->getVar('generic_name');
+        $brand_name = $this->request->getVar('brand_name');
+        $notif_quantity_trigger = $this->request->getVar('notif_quantity_trigger');
+        $dosage_form = $this->request->getVar('dosage_form');
+        // Check if a product with the same generic_name, brand_name, and dosage_form already exists
+        $existingProduct = $main->where('generic_name', $generic_name)
+            ->where('brand_name', $brand_name)
+            ->where('dosage_form', $dosage_form)
+            ->first();
+
+        if ($existingProduct) {
+            return $this->respond(['msg' => 'Product already exists', 'error' => true]);
+        }
+
+        // Proceed with product insertion if no duplicate is found
         $data = [
             'user_id' => $profile['user_id'],
             'upc' => $upc,
-            'product_name' => $this->request->getVar('prod_name'),
-            'description' => $this->request->getVar('prod_desc'),
-            'original_price' => $this->request->getVar('original_price'),
-            'profit' => $this->request->getVar('profit'),
-            'price' =>  $this->request->getVar('original_price') + $this->request->getVar('profit'),
+            'generic_name' => $generic_name,
+            'brand_name' => $brand_name,
+            'dosage_form' => $dosage_form,
+            'SRP' => $this->request->getVar('SRP'),
+            'unit_price' => $this->request->getVar('unit_price'),
             'branch_id' => $profile['branch_id'],
-            'category' => $this->request->getVar('category_name'),
+            'category' => $this->request->getVar('category'),
             'status' => 'out of stock',
+            'notif_quantity_trigger' => $notif_quantity_trigger,
             'created_at' => date('Y-m-d H:i:s'),
         ];
 
         $result = $main->save($data);
 
         if ($result) {
-            return $this->respond(['msg' => $data['product_name'] . ' is added successfully']);
+            return $this->respond(['msg' => $generic_name . ' is added successfully']);
         } else {
-            return $this->respond(['msg' => 'adding new product unsuccessful', 'error' => true]);
+            return $this->respond(['msg' => 'Adding new product unsuccessful', 'error' => true]);
         }
     }
+
 
 
     public function ItemCategoryList()
@@ -398,39 +416,29 @@ class ProductController extends ResourceController
             $data['upc'] = $upc;
         }
 
-        $product_name = $this->request->getVar('product_name');
-        if ($product_name != null) {
-            $data['product_name'] = $product_name;
+        $generic_name = $this->request->getVar('generic_name');
+        if ($generic_name != null) {
+            $data['generic_name'] = $generic_name;
         }
 
-        $description = $this->request->getVar('description');
-        if ($description != null) {
-            $data['description'] = $description;
+        $brand_name = $this->request->getVar('brand_name');
+        if ($brand_name != null) {
+            $data['brand_name'] = $brand_name;
         }
 
-        $quantity = $this->request->getVar('quantity');
-        if ($quantity != null) {
-            $data['quantity'] = $quantity;
+        $dosage = $this->request->getVar('dosage_form');
+        if ($dosage != null) {
+            $data['dosage_form'] = $dosage;
         }
 
-        $original_price = $this->request->getVar('original_price');
-        if ($original_price != null) {
-            $data['original_price'] = $original_price;
+        $SRP = $this->request->getVar('SRP');
+        if ($SRP != null) {
+            $data['SRP'] = $SRP;
         }
 
-        $profit = $this->request->getVar('profit');
-        if ($profit != null) {
-            $data['profit'] = $profit;
-        }
-
-        $price = $this->request->getVar('price');
-        if ($price != null) {
-            $data['price'] = $price;
-        }
-
-        $branch_id = $this->request->getVar('branch_id');
-        if ($branch_id != null) {
-            $data['branch_id'] = $branch_id;
+        $unit_price = $this->request->getVar('unit_price');
+        if ($unit_price != null) {
+            $data['unit_price'] = $unit_price;
         }
 
         $category = $this->request->getVar('category');
@@ -443,6 +451,11 @@ class ProductController extends ResourceController
             $data['status'] = $status;
         }
 
+        $notif_quantity_trigger = $this->request->getVar('notif_quantity_trigger');
+        if ($notif_quantity_trigger != null) {
+            $data['notif_quantity_trigger'] = $notif_quantity_trigger;
+        }
+
         // Update the product
         $updating = $prod->update($product_id, $data);
 
@@ -450,6 +463,45 @@ class ProductController extends ResourceController
             return $this->respond(['msg' => 'Product updated successfully']);
         } else {
             return $this->respond(['msg' => 'Failed to update product', 'error' => true]);
+        }
+    }
+    public function deleteprod()
+    {
+        $token = $this->request->getVar('token');
+        $prodModel = new ProductModel();
+        $userModel = new UserModel();
+
+        // Check if token is provided
+        if (!$token) {
+            return $this->respond(['msg' => 'Token not provided', 'error' => true]);
+        }
+
+        // Retrieve user based on the token
+        $profile = $userModel->where('token', $token)->first();
+
+        if (!$profile) {
+            return $this->respond(['msg' => 'Invalid token', 'error' => true]);
+        }
+
+        $product_id = $this->request->getVar('product_id');
+        $product = $prodModel->find($product_id);
+
+        // Check if the product exists
+        if (!$product) {
+            return $this->respond(['msg' => 'Product not found', 'error' => true]);
+        }
+
+        // Check if user has permission to delete the product
+        if (
+            $profile['branch_id'] == $product['branch_id'] &&
+            ($profile['user_role'] == 'admin' || $profile['user_role'] == 'branch_admin')
+        ) {
+
+            // Delete the product
+            $prodModel->delete($product_id);
+            return $this->respond(['msg' => 'Product deleted successfully']);
+        } else {
+            return $this->respond(['msg' => 'You do not have permission to delete this product', 'error' => true]);
         }
     }
 }

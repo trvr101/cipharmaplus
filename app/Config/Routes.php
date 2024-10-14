@@ -23,8 +23,11 @@ $routes->match(['post', 'get'], '/TransactionTotalAmount/(:any)', 'CurrentTransa
 $routes->match(['post', 'get'], '/POS/AddItem/(:any)/(:any)', 'CurrentTransactionController::AddItemToCurrentTransaction/$1/$2');
 //
 $routes->match(['post', 'get'], '/POS/GetItemList/(:any)/(:any)', 'CurrentTransactionController::CurrentTransactionList/$1/$2');
-$routes->match(['post', 'get'], '/POS/SubmitOrder', 'CurrentTransactionController::SubmitCurrentTransaction');
+$routes->match(['post', 'get'], '/POS/GetItemListMAIN/(:any)/(:any)', 'AdminController::CurrentTransactionListMAIN/$1/$2');
 
+$routes->match(['post', 'get'], '/POS/SubmitOrder', 'CurrentTransactionController::SubmitCurrentTransaction');
+$routes->match(['post', 'get'], '/POS/SubmitOrderAdmin', 'CurrentTransactionController::SubmitCurrentTransactionAdmin');
+$routes->get('/ClearCurrentTransaction', 'CurrentTransactionController::ClearCurrentTransaction');
 
 
 //Branch
@@ -64,6 +67,7 @@ $routes->post('/addBranch', 'BranchController::addBranch');
 $routes->put('/ProdUpdate', 'ProductController::ProdUpdate');
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->match(['get', 'post'], '/AddProd', 'ProductController::AddProd');
+$routes->match(['get', 'post'], '/deleteprod', 'ProductController::deleteprod');
 //for table
 $routes->get('/BranchProductListFilter', 'ProductController::BranchProductListFilter');
 //for filter model(completed product)

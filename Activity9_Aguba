@@ -1,0 +1,28 @@
+public class Activity9_Aguba {
+    public static void main(String[] args) {
+        String[][] words = {
+            {"level", "radar", "mouse", "keyboard"},
+            {"bed", "deified", "deed", "pillow"},
+            {"noon", "morning", "evening", "civic"}
+        };
+
+        for (String[] wordArray : words) {
+            for (String word : wordArray) {
+                String reversed = "";
+                char[] chars = word.toCharArray();
+                for (int i = chars.length - 1; i >= 0; i--) {
+                    reversed += chars[i];
+                }
+
+                System.out.println("Original Word : " + word);
+                System.out.println("Reversed Word : " + reversed);
+                
+                if (word.equals(reversed)) {
+                    System.out.println("The word " + word + " is a palindrome\n");
+                } else {
+                    System.out.println("The word " + word + " is not a palindrome\n");
+                }
+            }
+        }
+    }
+}

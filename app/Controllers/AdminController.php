@@ -17,7 +17,7 @@ use App\Models\NotificationModel;
 class AdminController extends ResourceController
 {
     public function index() {}
-    //TODO
+    //TODO: Done
     public function AdminInventoryFilter()
     {
 
@@ -42,6 +42,7 @@ class AdminController extends ResourceController
         $prod = new ProductModel();
         $user = new UserModel();
         $token = $this->request->getVar('token');
+        $filter_generic_name = $this->request->getVar('filter_generic_name');
         $filter_category = $this->request->getVar('filter_category');
         $filter_status = $this->request->getVar('filter_status');
 
@@ -55,6 +56,12 @@ class AdminController extends ResourceController
         // Fetch products based on the branch_id
         $query = $prod
             ->where('branch_id', $profile['branch_id']);
+
+        // Filter by generic name if provided
+        if (!empty($filter_generic_name)) {
+            $query->where('generic_name LIKE', $filter_generic_name . '%');
+        }
+
 
         // Filter by category if provided
         if (!empty($filter_category)) {
@@ -141,13 +148,35 @@ class AdminController extends ResourceController
         $order = new OrderModel();
         $user = new UserModel();
         $token = $this->request->getVar('token');
+
+        // Validate token presence
+        if (!$token) {
+            return $this->fail('Token is required', 400);
+        }
+
+        // Retrieve user profile
         $profile = $user->where('token', $token)->first();
 
-        $CompleteOrders =
-            $order
-            ->where('branch_id', $profile['branch_id'])
+        // Validate user profile
+        if (!$profile) {
+            return $this->failNotFound('User not found or invalid token');
+        }
+
+        $branchId = $profile['branch_id'];
+        log_message('info', "Branch ID: $branchId"); // Log the branch ID for debugging
+
+        $CompleteOrders = $order
+            ->where('branch_id', $branchId)
+            ->where('status', "completed")
             ->orderBy('created_at', 'DESC')
             ->findAll();
+
+        log_message('info', 'Complete Orders Query: ' . $order->getLastQuery());
+
+        if (empty($CompleteOrders)) {
+            return $this->respond(['message' => 'No completed orders found'], 200);
+        }
+
         return $this->respond($CompleteOrders);
     }
 
@@ -161,4 +190,49 @@ class AdminController extends ResourceController
 
 
     public function AdminOrderViewTable() {}
+
+    public function CurrentTransactionListMAIN($token, $order_token)
+    {
+        $currentTransaction = new CurrentTransactionModel();
+        $user = new UserModel();
+
+        // Retrieve user information based on the provided token
+        $user_info = $user->where('token', $token)->first();
+        // Retrieve transactions with the given order token and user's branch_id
+        $transactions = $currentTransaction
+            ->where('order_token', $order_token)
+            ->where('branch_id', $user_info['branch_id'])
+            ->findAll();
+
+        // Check if transactions are found
+        if (empty($transactions)) {
+            return $this->respond(['msg' => 'No transactions found for the given order token']);
+        }
+
+
+        // Calculate total based on product prices and quantities
+        $total = 0;
+        foreach ($transactions as &$transaction) {
+            $product_ID = $transaction['product_id'];
+            $product = new ProductModel();
+            $product_info = $product->find($transaction['product_id']);
+
+            // Check if the product exists
+            if (!$product_info) {
+                return $this->respond(['msg' => 'Error fetching product information']);
+            }
+
+            // Add product name to the transaction
+            $transaction['generic_name'] =  $product_info['generic_name'];
+            $transaction['dosage_form'] = $product_info['dosage_form'];
+
+            // Calculate the total for each transaction item
+        }
+
+        // Return the result with total
+        return $this->respond([
+            'transactions' => $transactions,
+            'total' => $total,
+        ]);
+    }
 }
