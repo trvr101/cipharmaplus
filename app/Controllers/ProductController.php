@@ -253,11 +253,14 @@ class ProductController extends ResourceController
         $generic_name = $this->request->getVar('generic_name');
         $brand_name = $this->request->getVar('brand_name');
         $notif_quantity_trigger = $this->request->getVar('notif_quantity_trigger');
+        $notif_expiry_trigger = $this->request->getVar('notif_expiry_trigger');
         $dosage_form = $this->request->getVar('dosage_form');
+        $batch_num = $this->request->getVar('batch_num');
         // Check if a product with the same generic_name, brand_name, and dosage_form already exists
         $existingProduct = $main->where('generic_name', $generic_name)
             ->where('brand_name', $brand_name)
             ->where('dosage_form', $dosage_form)
+            ->where('batch_num', $batch_num)
             ->first();
 
         if ($existingProduct) {
@@ -271,12 +274,14 @@ class ProductController extends ResourceController
             'generic_name' => $generic_name,
             'brand_name' => $brand_name,
             'dosage_form' => $dosage_form,
+            'batch_num' => $batch_num,
             'SRP' => $this->request->getVar('SRP'),
             'unit_price' => $this->request->getVar('unit_price'),
             'branch_id' => $profile['branch_id'],
             'category' => $this->request->getVar('category'),
             'status' => 'out of stock',
             'notif_quantity_trigger' => $notif_quantity_trigger,
+            'notif_expiry_trigger' => $notif_expiry_trigger,
             'created_at' => date('Y-m-d H:i:s'),
         ];
 
@@ -431,6 +436,11 @@ class ProductController extends ResourceController
             $data['dosage_form'] = $dosage;
         }
 
+        $batch_num = $this->request->getVar('batch_num');
+        if ($batch_num != null) {
+            $data['batch_num'] = $batch_num;
+        }
+
         $SRP = $this->request->getVar('SRP');
         if ($SRP != null) {
             $data['SRP'] = $SRP;
@@ -454,6 +464,11 @@ class ProductController extends ResourceController
         $notif_quantity_trigger = $this->request->getVar('notif_quantity_trigger');
         if ($notif_quantity_trigger != null) {
             $data['notif_quantity_trigger'] = $notif_quantity_trigger;
+        }
+
+        $notif_expiry_trigger = $this->request->getVar('notif_expiry_trigger');
+        if ($notif_expiry_trigger != null) {
+            $data['notif_expiry_trigger'] = $notif_expiry_trigger;
         }
 
         // Update the product

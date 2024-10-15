@@ -498,6 +498,10 @@ class CurrentTransactionController extends ResourceController
                     'message' => $prod_details['generic_name'] . ' got low stocks',
                 ];
                 $notification->insert($notif);
+            } else {
+                $product->where('product_id', $transaction['product_id'])
+                    ->set(['status' => 'available'])
+                    ->update();
             }
         }
 

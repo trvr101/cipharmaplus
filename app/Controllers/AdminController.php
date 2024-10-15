@@ -148,35 +148,14 @@ class AdminController extends ResourceController
         $order = new OrderModel();
         $user = new UserModel();
         $token = $this->request->getVar('token');
-
-        // Validate token presence
-        if (!$token) {
-            return $this->fail('Token is required', 400);
-        }
-
-        // Retrieve user profile
         $profile = $user->where('token', $token)->first();
-
-        // Validate user profile
-        if (!$profile) {
-            return $this->failNotFound('User not found or invalid token');
-        }
-
         $branchId = $profile['branch_id'];
-        log_message('info', "Branch ID: $branchId"); // Log the branch ID for debugging
 
         $CompleteOrders = $order
             ->where('branch_id', $branchId)
             ->where('status', "completed")
             ->orderBy('created_at', 'DESC')
             ->findAll();
-
-        log_message('info', 'Complete Orders Query: ' . $order->getLastQuery());
-
-        if (empty($CompleteOrders)) {
-            return $this->respond(['message' => 'No completed orders found'], 200);
-        }
-
         return $this->respond($CompleteOrders);
     }
 
