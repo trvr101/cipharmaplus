@@ -302,6 +302,16 @@ class ProductController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data);
     }
+    public function itemInfo()
+    {
+        $prod = new ProductModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('product_id');
+        $token = $this->request->getVar('token');
+        $profile = $user->where('token', $token)->first();
+        //get the product based on product_id
+        $profile = $user->where('token', $token)->first();
+    }
     public function countUniqueItems()
     {
         $main = new ProductModel();
@@ -344,11 +354,12 @@ class ProductController extends ResourceController
         $uniqueItems = [];
 
         foreach ($data as $prod) {
-            $prodName = $prod['product_name'];
-            $description = $prod['description'] ?? ''; // If description is null, set it to an empty string
+            $prodName = $prod['generic_name'];
+            $brandName = $prod['brand_name'];
+            $description = $prod['dosage_form'] ?? ''; // If description is null, set it to an empty string
 
             // Combine item name and description to create a unique identifier
-            $uniqueIdentifier = $prodName . '|' . $description;
+            $uniqueIdentifier = $prodName . '|' . $brandName . '|' . $description;
 
             // Use the unique identifier as the array key for faster checks
             $uniqueItems[$uniqueIdentifier] = true;
