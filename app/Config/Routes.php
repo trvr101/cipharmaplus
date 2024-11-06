@@ -28,6 +28,7 @@ $routes->match(['post', 'get'], '/POS/GetItemListMAIN/(:any)/(:any)', 'AdminCont
 $routes->match(['post', 'get'], '/POS/SubmitOrder', 'CurrentTransactionController::SubmitCurrentTransaction');
 $routes->match(['post', 'get'], '/POS/SubmitOrderAdmin', 'CurrentTransactionController::SubmitCurrentTransactionAdmin');
 $routes->get('/ClearCurrentTransaction', 'CurrentTransactionController::ClearCurrentTransaction');
+$routes->get('ExpiryChecker', 'CurrentTransactionController::ExpirationChecker');
 
 
 //Branch

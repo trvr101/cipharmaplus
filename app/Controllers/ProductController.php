@@ -227,6 +227,7 @@ class ProductController extends ResourceController
         // Fetch products based on the branch_id
         $data = $main->where('status !=', 'deleted')
             ->where('branch_id', $branchId)
+            ->orderBy('generic_name', 'ASC')
             ->findAll();
 
         return $this->respond($data);

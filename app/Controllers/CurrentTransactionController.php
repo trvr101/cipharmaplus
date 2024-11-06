@@ -107,11 +107,14 @@ class CurrentTransactionController extends ResourceController
             $product_ID = $transaction['product_id'];
             $product = new ProductModel();
             $product_info = $product->find($transaction['product_id']);
-            $TotalAll += $product_info['price'] * $transaction['quantity'];
+            $TotalAll += $product_info['SRP'] * $transaction['quantity'];
         }
-        $this->totalAmount = $TotalAll;
-        return $this->respond(['msg' => '₱' . $TotalAll]);
+        // Format the total amount with comma as thousand separator and two decimal places
+        $formattedTotal = number_format($TotalAll, 2, '.', ',');
+        $this->totalAmount = $formattedTotal;
+        return $this->respond(['msg' => $formattedTotal]);
     }
+
 
     public function CurrentTransactionList($token, $order_token)
     {
@@ -145,10 +148,10 @@ class CurrentTransactionController extends ResourceController
             }
 
             // Add product name to the transaction
-            $transaction['product_name'] = $transaction['quantity'] . '_' . $product_info['product_name'];
+            $transaction['generic_name'] = $transaction['quantity'] . '_' . $product_info['generic_name'] . '(' . $product_info['brand_name'] . ')';
             // Calculate the total for each transaction item
-            $transaction['price'] = $product_info['price'];
-            $subtotal = $product_info['price'] * $transaction['quantity'];
+            $transaction['SRP'] = $product_info['SRP'];
+            $subtotal = $product_info['SRP'] * $transaction['quantity'];
             $transaction['subtotal'] = $subtotal;
 
             $total += $subtotal;
@@ -318,12 +321,12 @@ class CurrentTransactionController extends ResourceController
 
 
             // Calculate the discounted price for the product
-            return $this->respond(['msg' =>  $product_info, 'error' => true]);
-            $discounted_price = $product_info['price'] * (1 - ($discount / 100));
+
+            $discounted_price = $product_info['SRP'] * (1 - ($discount / 100));
 
             // Update total and earnings based on the discounted price
             $total += $discounted_price * $transaction['quantity'];
-            $earnings += $product_info['profit'] * $transaction['quantity'];
+            // $earnings += $product_info['profit'] * $transaction['quantity'];
 
             // Transfer data to audit table
             $product_ID = $transaction['product_id'];
@@ -348,7 +351,7 @@ class CurrentTransactionController extends ResourceController
                 'token_code' => $order_token,
                 'old_quantity' => $existing_old_quantity_1,
                 'quantity' => $transaction['quantity'],
-                'earnings' => $transaction['earnings'],
+                // 'earnings' => $transaction['earnings'],
                 'type' => 'sold', // Assuming this is a sold transfer
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
@@ -360,20 +363,20 @@ class CurrentTransactionController extends ResourceController
 
             $audit->insert($audit_data);
             $product->update($transaction['product_id'], ['quantity' => $new_quantity]);
-
+            $prod_details = $product->where(['product_id' => $transaction['product_id']])->first();
             if ($new_quantity == 0) {
                 $product->where('product_id', $transaction['product_id'])
                     ->set(['status' => 'out of stock'])
                     ->update();
             }
-            if ($new_quantity <= 5) {
+            if ($new_quantity <= $prod_details['notif_quantity_trigger']) {
                 $prod_details = $product->where(['product_id' => $transaction['product_id']])->first();
                 $notif = [
                     'event_type' => 'product',
                     'related_id' => $transaction['product_id'],
                     'branch_id' =>  $transaction['branch_id'],
                     "title" => "Low Stock",
-                    'message' => $prod_details['product_name'] . ' got low stocks',
+                    'message' => $prod_details['generic_name'] . '(' . $prod_details['brand_name'] . ')' . 'got low stocks',
                 ];
                 $notification->insert($notif);
             }
@@ -555,5 +558,62 @@ class CurrentTransactionController extends ResourceController
     {
         $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
         return substr(str_shuffle($characters), 0, $length);
+    }
+
+    public function ExpirationChecker()
+    {
+        $prod = new ProductModel();
+        $user = new UserModel();
+        $audit = new AuditModel();
+
+        $token = $this->request->getVar('token');
+        $product_id = $this->request->getVar('product_id');
+
+        // Fetch user and product info
+        $user_info = $user->where('token', $token)->first();
+        $product_info = $prod->where('product_id', $product_id)->first();
+
+        if (!$user_info || !$product_info) {
+            return $this->response->setJSON(['status' => 'error', 'message' => 'Invalid token or product ID']);
+        }
+
+        // Get audits for the product, separated by type and ordered by expiry for received
+        $audit_received = $audit->where('product_id', $product_id)->where('type', 'received')->orderBy('exp_date', 'ASC')->findAll();
+        $audit_sold = $audit->where('product_id', $product_id)->where('type', 'sold')->findAll();
+
+        // Calculate total quantity sold
+        $total_sold = array_sum(array_column($audit_sold, 'quantity'));
+
+        // Track remaining stock for closest expiry calculation
+        $remaining_sold = $total_sold;
+        $closest_expiry = null;
+        $closest_expiry_id = null;
+
+        foreach ($audit_received as $entry) {
+            $batch_qty = $entry['quantity'];
+            $exp_date = $entry['exp_date'];
+            $audit_id = $entry['audit_id'];
+
+            // Deduct sold quantity from this batch if any remaining
+            if ($remaining_sold > 0) {
+                $allocated_qty = min($batch_qty, $remaining_sold);
+                $remaining_sold -= $allocated_qty;
+                $batch_qty -= $allocated_qty;
+            }
+
+            // If batch still has remaining quantity, set it as closest expiry
+            if ($batch_qty > 0) {
+                $closest_expiry = $exp_date;
+                $closest_expiry_id = $audit_id;
+                break;  // Stop as we've found the closest expiry with stock remaining
+            }
+        }
+
+        return $this->response->setJSON([
+            'status' => 'success',
+            'closest_expiry' => $closest_expiry,
+            'closest_expiry_id' => $closest_expiry_id,
+            'remaining_sold' => $remaining_sold
+        ]);
     }
 }

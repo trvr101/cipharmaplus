@@ -1,0 +1,14 @@
+CRITICAL - 2024-11-06 01:33:27 --> Array to string conversion
+in APPPATH\Controllers\CurrentTransactionController.php on line 575.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(575): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php', 575)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 01:34:15 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, array given, called in C:\laragon\www\cipharmaplus\app\Controllers\CurrentTransactionController.php on line 575
+in SYSTEMPATH\API\ResponseTrait.php on line 87.
+ 1 APPPATH\Controllers\CurrentTransactionController.php(575): CodeIgniter\RESTful\ResourceController->respond([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
