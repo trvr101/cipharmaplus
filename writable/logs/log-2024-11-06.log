@@ -12,3 +12,822 @@ in SYSTEMPATH\API\ResponseTrait.php on line 87.
  3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
  4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:48:57 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:48:57 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:48:57 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:48:58 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:48:59 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:01 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:02 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:02 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:03 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:04 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:06 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:06 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:07 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:08 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:10 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:11 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:12 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:21 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:21 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:21 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:21 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:22 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:22 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:22 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:22 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:22 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:23 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:24 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:25 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:26 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:27 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:28 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:29 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:29 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:29 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:30 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:31 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:49:32 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\CurrentTransactionController.php on line 564.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:26 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:27 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:28 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:29 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:29 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:29 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:30 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:31 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:32 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:33 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:34 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:35 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:36 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:37 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:38 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:39 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:40 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:41 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:42 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:43 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:44 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:45 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:46 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:47 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:48 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:49 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:50 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:51 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:52 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:53 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:50:54 --> Unclosed '{' on line 19 does not match ']'
+in APPPATH\Controllers\CurrentTransactionController.php on line 563.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\CurrentTransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CurrentTransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CurrentTransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CurrentTransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:37 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:38 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:39 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:40 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:41 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:42 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:43 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:44 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:45 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:46 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:47 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:48 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:49 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:50 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:51 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:52 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:53 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:54 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:55 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:56 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:57 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:58 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:51:59 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:00 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:01 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:02 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:03 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:04 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:05 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:06 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:07 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:08 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-06 18:52:09 --> Call to undefined method App\Controllers\CurrentTransactionController::response()
+in APPPATH\Controllers\CurrentTransactionController.php on line 612.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->ExpirationChecker()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

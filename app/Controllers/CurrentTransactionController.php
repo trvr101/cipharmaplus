@@ -213,7 +213,6 @@ class CurrentTransactionController extends ResourceController
             list($UPC, $quantity) = explode('@', $UPCAndQuantity);
             $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
             // Find the product with the given UPC and branch_id
-            $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
             $quantity = (int)$quantity; // Explicitly cast to integer
             $prod_info_quantity = (int)$prod_info['quantity']; // Explicitly cast to integer
             if ($quantity == null) {
@@ -574,7 +573,7 @@ class CurrentTransactionController extends ResourceController
         $product_info = $prod->where('product_id', $product_id)->first();
 
         if (!$user_info || !$product_info) {
-            return $this->response->setJSON(['status' => 'error', 'message' => 'Invalid token or product ID']);
+            return $this->respond(['status' => 'error', 'message' => 'Invalid token or product ID']);
         }
 
         // Get audits for the product, separated by type and ordered by expiry for received
@@ -609,7 +608,7 @@ class CurrentTransactionController extends ResourceController
             }
         }
 
-        return $this->response->setJSON([
+        return $this->respond([
             'status' => 'success',
             'closest_expiry' => $closest_expiry,
             'closest_expiry_id' => $closest_expiry_id,

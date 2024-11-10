@@ -36,6 +36,26 @@ class AdminController extends ResourceController
 
         return $this->respond($data);
     }
+    public function ProdInfo()
+    {
+
+        $product = new ProductModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $product_id = $this->request->getVar('product_id');
+        $profile = $user->where('token', $token)->first();
+        $prod_info = $product->where(['product_id' => $product_id, 'branch_id' => $profile['branch_id']])->first();
+        if (!$profile) {
+            return $this->fail('User not found', 404);
+        }
+        $data = $product
+            ->where('branch_id',  $profile['branch_id'])
+            ->orderBy('created_at', 'desc')
+            ->findAll();
+
+        return $this->respond($prod_info);
+    }
+
     //TODO
     public function AdminInventoryTable()
     {

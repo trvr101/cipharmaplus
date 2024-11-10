@@ -1,0 +1,12 @@
+CRITICAL - 2024-11-07 05:22:08 --> Unsupported operand types: string / int
+in APPPATH\Controllers\CurrentTransactionController.php on line 325.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 05:22:10 --> Unsupported operand types: string / int
+in APPPATH\Controllers\CurrentTransactionController.php on line 325.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CurrentTransactionController->SubmitCurrentTransaction()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurrentTransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

@@ -156,6 +156,7 @@ $routes->get('/TotalBranchWorker', 'BranchController::TotalBranchWorker');
 //admin
 
 $routes->get('/AdminInventoryFilter', 'AdminController::AdminInventoryFilter');
+$routes->get('/ProdInfo', 'AdminController::ProdInfo');
 $routes->get('/AdminInventoryTable', 'AdminController::AdminInventoryTable');
 
 $routes->get('/AdminSalesTable', 'AdminController::AdminSalesTable');
