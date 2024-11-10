@@ -215,6 +215,7 @@ class ProductController extends ResourceController
 
         // Get the user that has the same token as $token
         $profile = $user->where('token', $token)->first();
+        $category = $this->request->getVar('category'); // Get the category array
 
         if (!$profile) {
             // Handle the case where the user with the specified token is not found
@@ -224,14 +225,27 @@ class ProductController extends ResourceController
         // Get the branch_id of the user
         $branchId = $profile['branch_id'];
 
-        // Fetch products based on the branch_id
-        $data = $main->where('status !=', 'deleted')
-            ->where('branch_id', $branchId)
-            ->orderBy('generic_name', 'ASC')
-            ->findAll();
+        // Check if the 'value' key in the 'category' array exists and is not empty
+        $categoryValue = isset($category['value']) ? $category['value'] : null;
+
+        if (!empty($categoryValue)) {
+            // Fetch products based on branch_id and category value
+            $data = $main->where('status !=', 'deleted')
+                ->where('branch_id', $branchId)
+                ->where('category', $categoryValue)
+                ->orderBy('generic_name', 'ASC')
+                ->findAll();
+        } else {
+            // Fetch products based only on branch_id
+            $data = $main->where('status !=', 'deleted')
+                ->where('branch_id', $branchId)
+                ->orderBy('generic_name', 'ASC')
+                ->findAll();
+        }
 
         return $this->respond($data);
     }
+
     public function AddProd()
     {
         $main = new ProductModel();

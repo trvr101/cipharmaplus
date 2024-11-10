@@ -59,6 +59,7 @@ $routes->get('/notif', 'NotificationController::index');
 
 
 
+$routes->post('/logVisit', 'GuestController::logVisit');
 
 
 
