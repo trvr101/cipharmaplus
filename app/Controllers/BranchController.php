@@ -12,6 +12,37 @@ use App\Models\AuditModel;
 
 class BranchController extends ResourceController
 {
+    public function index()
+    {
+        $main = new BranchModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $user_info = $user->where('token', $token)->first();
+
+        // Check if user role is admin
+        if ($user_info['user_role'] == 'admin') {
+            $data = $main->findAll();
+
+            // Filter out data where branch_id matches user_info['branch_id']
+            $data = array_filter($data, function ($branch) use ($user_info) {
+                return $branch['branch_id'] !== $user_info['branch_id'];
+            });
+
+            // Re-index array to prevent gaps in the array keys
+            $data = array_values($data);
+
+            // Sort the array in descending order based on branch_id
+            usort($data, function ($a, $b) {
+                return $b['branch_id'] - $a['branch_id']; // Change 'branch_id' to the field you want to sort by
+            });
+        } else {
+            $data = []; // Return an empty array if the user is not admin
+        }
+
+        return $this->respond($data);
+    }
+
+
     public function TotalBranchWorker()
     {
         $user = new UserModel();
@@ -324,45 +355,71 @@ class BranchController extends ResourceController
         ]);
     }
 
-    public function index()
-    {
-        $main = new BranchModel();
-        $data = $main->findAll();
-        return $this->respond($data);
-    }
+
 
     public function addBranch()
     {
-        $model = new BranchModel();
+        $Branch = new BranchModel();
+        $user = new UserModel();
 
-        // Get branch name from the request
+        // Get branch name and current password from the request
         $branch_name = $this->request->getVar('branch_name');
+        $CurrentPassword = $this->request->getVar('CurrentPassword');
+        $token = $this->request->getVar('token');
 
-        // Generate invite codes
-        $csInviteCode = 'CS.' . $this->generateCode(50);
-        $baInviteCode = 'BA.' . $this->generateCode(50);
+        // Validate required fields
+        if (empty($branch_name)) {
+            return $this->respond(['msg' => 'Branch name is required', 'error' => true]);
+        }
+        if (empty($CurrentPassword)) {
+            return $this->respond(['msg' => 'Current password is required', 'error' => true]);
+        }
+        if (empty($token)) {
+            return $this->respond(['msg' => 'Token is required', 'error' => true]);
+        }
 
-        // Prepare data for insertion
-        $data = [
-            'branch_name' => $branch_name,
-            'CS_invite_code' => $csInviteCode,
-            'BA_invite_code' => $baInviteCode,
-        ];
+        // Check if branch name already exists
+        $existingBranch = $Branch->where('branch_name', $branch_name)->first();
+        if ($existingBranch) {
+            return $this->respond(['msg' => 'Branch name already exists', 'error' => true]);
+        }
 
-        // Insert data into the database
-        $result = $model->insert($data);
+        $profile = $user->where('token', $token)->first();
 
-        if ($result) {
-            // Respond with a success message
-            return $this->respondCreated(['message' => 'Branch added successfully']);
+        if ($profile) {
+            // Verify the current password
+            if (password_verify($CurrentPassword, $profile['user_password'])) {
+
+                // Generate invite codes
+                $csInviteCode = 'CS.' . $this->generateCode(50);
+                $baInviteCode = 'BA.' . $this->generateCode(50);
+
+                // Prepare data for insertion
+                $data = [
+                    'branch_name' => $branch_name,
+                    'CS_invite_code' => $csInviteCode,
+                    'BA_invite_code' => $baInviteCode,
+                ];
+
+                // Insert data into the database
+                $result = $Branch->insert($data);
+
+                if ($result) {
+                    // Respond with a success message
+                    return $this->respond(['msg' => 'Branch added successfully', 'error' => false]);
+                } else {
+                    // Respond with a server error message
+                    return $this->respond(['msg' => 'Server error. Failed to add branch', 'error' => true]);
+                }
+            } else {
+                return $this->respond(['msg' => 'Current password is incorrect', 'error' => true]);
+            }
         } else {
-            // Log the error for debugging purposes
-            log_message('error', 'Error adding branch: ' . $model->errors());
-
-            // Respond with a server error message
-            return $this->failServerError('Error adding branch');
+            return $this->respond(['msg' => 'User not found', 'error' => true]);
         }
     }
+
+
 
     private function generateCode($length)
     {

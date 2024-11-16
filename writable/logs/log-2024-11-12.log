@@ -1,0 +1,468 @@
+CRITICAL - 2024-11-12 21:26:12 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:14 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:15 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:15 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:16 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:17 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:18 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:18 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:19 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:20 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:22 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:24 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:25 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:26 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:27 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:28 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:29 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:30 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:31 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:32 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:33 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:34 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:53 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:54 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:55 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:56 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:57 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:26:59 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:00 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:00 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:01 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:02 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:04 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:04 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:05 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:06 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:07 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:08 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:09 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:10 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:11 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:13 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:14 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:14 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:15 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:17 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:18 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:19 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:20 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:21 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:22 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:24 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:25 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:26 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:27 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:28 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:29 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:30 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:31 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:32 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:33 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:34 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:34 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:38 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:40 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:41 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:43 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:43 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:45 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:45 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:46 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-12 21:27:47 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->AdminInventoryTable()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

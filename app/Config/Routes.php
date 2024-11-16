@@ -60,6 +60,13 @@ $routes->get('/notif', 'NotificationController::index');
 
 
 $routes->post('/logVisit', 'GuestController::logVisit');
+$routes->post('/SearchMed', 'GuestController::SearchMed');
+
+$routes->get('/countTodayNewVisits', 'GuestController::countTodayNewVisits');
+$routes->get('/countOverallNewVisits', 'GuestController::countOverallNewVisits');
+
+$routes->get('/countTodayReturnees', 'GuestController::countTodayReturnees');
+$routes->get('/countOverallReturnees', 'GuestController::countOverallReturnees');
 
 
 
