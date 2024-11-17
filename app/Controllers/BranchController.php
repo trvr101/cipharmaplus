@@ -262,7 +262,11 @@ class BranchController extends ResourceController
         $token = $this->request->getVar('token');
         $profile = $user->where('token', $token)->first();
         $BranchData = $branch->where('branch_id', $profile['branch_id'])->first();
-        return $this->respond($BranchData);
+        if ($BranchData) {
+            return $this->respond($BranchData);
+        } else {
+            return $this->respond(['msg' => 'No branch', 'error' => true]);
+        }
     }
     public function UpdateBranchInfo()
     {
@@ -270,7 +274,7 @@ class BranchController extends ResourceController
         $user = new UserModel();
         $token = $this->request->getVar('token');
         $profile = $user->where('token', $token)->first();
-        if ($profile && $profile['user_role'] == 'branch_admin') {
+        if ($profile && ($profile['user_role'] == 'branch_admin' || $profile['user_role'] == 'admin')) {
             $BranchData = $branch->where('branch_id', $profile['branch_id'])->first();
             if ($BranchData) {
                 $data = [];
@@ -319,7 +323,7 @@ class BranchController extends ResourceController
                 }
                 $updating = $branch->update($BranchData['branch_id'], $data);
                 if ($updating) {
-                    return $this->respond(['msg' => 'Updated Successfully']);
+                    return $this->respond(['msg' => 'Updated Successfully', 'error' => false]);
                 } else {
                     return $this->respond(['msg' => 'Update Unsuccessfully', 'error' => true]);
                 }
