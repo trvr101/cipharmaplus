@@ -28,29 +28,51 @@ class NotesController extends ResourceController
     {
         $main = new NotesModel();
         $user = new UserModel();
+
+        // Get request data
         $token = $this->request->getVar('token');
+        $noteTitle = $this->request->getVar('note_title');
+        $noteContent = $this->request->getVar('note_content');
+
+        // Check if the token is provided
+        if (!$token) {
+            return $this->respond(['msg' => 'Token is required', 'error' => true]);
+        }
+
+        // Verify user by token
         $profile = $user->where('token', $token)->first();
+        if (!$profile) {
+            return $this->respond(['msg' => 'Invalid token or user not found', 'error' => true]);
+        }
+
+        // Validate note title and content
+        if (empty($noteTitle)) {
+            return $this->respond(['msg' => 'Note title is required', 'error' => true]);
+        }
+
+        if (empty($noteContent)) {
+            return $this->respond(['msg' => 'Note content is required', 'error' => true]);
+        }
+
+        // Prepare data for insertion
         $data = [
             'user_id' => $profile['user_id'],
-            'note_title' => $this->request->getVar('note_title'),
-            'note_content' => $this->request->getVar('note_content'),
+            'note_title' => $noteTitle,
+            'note_content' => $noteContent,
             'status' => 'pending',
-
         ];
-        // {
-        //     "my_user_id": "3",
-        //     "note_title": "notes101",
-        //     "note_content": "desc101"
-        // }
+
+        // Save data to database
 
         $result = $main->save($data);
 
         if ($result) {
-            return $this->respond(['msg' => 'note added successfully']);
+            return $this->respond(['msg' => 'Note added successfully', 'error' => false]);
         } else {
-            return $this->respond(['msg' => 'failed adding note', 'error' => true]);
+            return $this->respond(['msg' => 'Failed to add note', 'error' => true]);
         }
     }
+
     public function notesList($token)
     {
         // Assuming $token is associated with a user

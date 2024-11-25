@@ -38,20 +38,27 @@ class CurrentTransactionController extends ResourceController
 
         $OrderViewing = $audit->where('token_code', $order_token)
             ->where('branch_id', $profile['branch_id'])
-            ->where('status', 'completed')
             ->orderBy('created_at', 'DESC')
             ->findAll();
 
-        // Loop through each entry in $OrderViewing to replace product_id with product_name
+        // Loop through each entry in $OrderViewing to add product_name and total fields
         foreach ($OrderViewing as &$order) {
             $product = $prod->find($order['product_id']);
             $order['generic_name'] = $product['generic_name'];
+            $order['brand_name'] = $product['brand_name'];
+            $order['SRP'] = $product['SRP'];
+
+            // Calculate the total as old_quantity - quantity
+            $order['sub_total'] = $product['SRP'] * $order['quantity'];
+
+
             // Optionally, you can unset the product_id if it's no longer needed
             // unset($order['product_id']);
         }
 
         return $this->respond($OrderViewing);
     }
+
 
     public function SalesTransactionList()
     {
@@ -207,18 +214,25 @@ class CurrentTransactionController extends ResourceController
             $existing_order = $order->where('order_token', $order_token)->first();
         }
 
-        // Check if "@" is present in UPCAndQuantity
         if (strpos($UPCAndQuantity, '@') !== false) {
             // Split UPCAndQuantity to get UPC and Quantity
             list($UPC, $quantity) = explode('@', $UPCAndQuantity);
-            $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
-            // Find the product with the given UPC and branch_id
-            $quantity = (int)$quantity; // Explicitly cast to integer
-            $prod_info_quantity = (int)$prod_info['quantity']; // Explicitly cast to integer
-            if ($quantity == null) {
-                $quantity = 1;
+
+            // Handle "null" string explicitly
+            if (trim($quantity) === "null") {
+                $quantity = null;
             }
-            if ($quantity == 0) {
+
+            // Explicitly cast to integer if $quantity is not null
+            $quantity = ($quantity !== null) ? (int)$quantity : null;
+
+            $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
+
+            if ($quantity === null) {
+                $quantity = 1; // Default to 1 if quantity is null
+            }
+
+            if ($quantity === 0) {
                 $isDeleted = $currentTransaction
                     ->where([
                         'product_id' => $prod_info['product_id'],
@@ -226,13 +240,14 @@ class CurrentTransactionController extends ResourceController
                     ])
                     ->delete();
                 if ($isDeleted) {
-                    //delete the existing_transaction on $currentTransaction
                     return $this->respond(['msg' => 'Remove product: ' . $prod_info['generic_name'], 'error' => true]);
                 } else {
                     return $this->respond(['msg' => 'Wrong quantity input', 'error' => true]);
                 }
             }
         }
+
+
 
 
 
@@ -306,7 +321,6 @@ class CurrentTransactionController extends ResourceController
         $notification = new NotificationModel();
         $user = new UserModel();
         $user_info = $user->where('token', $token)->first();
-
         // Fetch all transactions related to the order_token
         $transactions = $currentTransaction->where('order_token', $order_token)->findAll();
 
@@ -344,7 +358,8 @@ class CurrentTransactionController extends ResourceController
             } elseif ($existingAudit_type == 'sold') {
                 $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
             }
-
+            date_default_timezone_set('Asia/Manila');
+            $created_at = date('Y-m-d H:i:s');
             $audit_data = [
                 'product_id' => $transaction['product_id'],
                 'token_code' => $order_token,
@@ -354,7 +369,7 @@ class CurrentTransactionController extends ResourceController
                 'type' => 'sold', // Assuming this is a sold transfer
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
-                'created_at' => date('Y-m-d H:i:s'),
+                'created_at' => $created_at,
             ];
 
             // Update product quantity in the product table based on the sold transaction
@@ -376,6 +391,7 @@ class CurrentTransactionController extends ResourceController
                     'branch_id' =>  $transaction['branch_id'],
                     "title" => "Low Stock",
                     'message' => $prod_details['generic_name'] . '(' . $prod_details['brand_name'] . ')' . 'got low stocks',
+                    'created_at' => $created_at,
                 ];
                 $notification->insert($notif);
             }
@@ -395,7 +411,9 @@ class CurrentTransactionController extends ResourceController
                     'status' => 'completed',
                     'total' => $total,
                     'earnings' => $earnings,
-                    'cash_received' => $cash_received
+                    'cash_received' => $cash_received,
+                    'discount_type' => $discount,
+                    'created_at' => $created_at,
                 ])->update();
 
             // Clear current transactions for the order
@@ -454,7 +472,8 @@ class CurrentTransactionController extends ResourceController
             } elseif ($existingAudit_type == 'sold') {
                 $existing_old_quantity_1 = $existing_old_quantity - $exist_quantity;
             }
-
+            date_default_timezone_set('Asia/Manila');
+            $created_at = date('Y-m-d H:i:s');
             $audit_data = [
                 'product_id' => $transaction['product_id'],
                 'token_code' => $order_token,
@@ -464,7 +483,7 @@ class CurrentTransactionController extends ResourceController
                 'type' => 'sold', // Assuming this is a sold transfer
                 'user_id' => $user_info['user_id'],
                 'branch_id' => $user_info['branch_id'],
-                'created_at' => date('Y-m-d H:i:s'),
+                'created_at' => $created_at,
             ];
 
             // Update product quantity in the product table based on the sold transaction
@@ -486,6 +505,7 @@ class CurrentTransactionController extends ResourceController
                     'branch_id' =>  $transaction['branch_id'],
                     "title" => "Out of stock",
                     'message' => $prod_details['generic_name'] . 'is out of stock',
+                    'created_at' => $created_at,
                 ];
                 $notification->insert($notif);
             } else if ($new_quantity <= $prod_details['notif_quantity_trigger']) {
@@ -498,6 +518,7 @@ class CurrentTransactionController extends ResourceController
                     'branch_id' =>  $transaction['branch_id'],
                     "title" => "Low Stock",
                     'message' => $prod_details['generic_name'] . ' got low stocks',
+                    'created_at' => $created_at,
                 ];
                 $notification->insert($notif);
             } else {
@@ -515,6 +536,7 @@ class CurrentTransactionController extends ResourceController
                 'total' => 0,
                 'earnings' => 0,
                 'cash_received' => 0,
+                'created_at' => $created_at,
             ])->update();
 
         // Clear current transactions for the order

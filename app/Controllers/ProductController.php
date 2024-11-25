@@ -250,8 +250,11 @@ class ProductController extends ResourceController
     {
         $main = new ProductModel();
         $user = new UserModel();
+        $CategModel = new ProductCategoryModel();
         $token = $this->request->getVar('token');
         $profile = $user->where('token', $token)->first();
+        $category_info = $CategModel->where('category_name',  $this->request->getVar('category'))->where('branch_id', $profile['branch_id'])->first();
+
 
         // Check if prod_upc is provided, if null generate a unique 11-digit UPC
         $upc = $this->request->getVar('UPC');
@@ -303,6 +306,15 @@ class ProductController extends ResourceController
         $result = $main->save($data);
 
         if ($result) {
+            if (!$category_info) {
+                $CategData = [
+
+                    'category_name' => $this->request->getVar('category'),
+                    'branch_id' => $profile['branch_id'],
+                ];
+
+                $CategModel->save($CategData);
+            }
             return $this->respond(['msg' => $generic_name . ' is added successfully']);
         } else {
             return $this->respond(['msg' => 'Adding new product unsuccessful', 'error' => true]);
@@ -314,9 +326,15 @@ class ProductController extends ResourceController
     public function ItemCategoryList()
     {
         $main = new ProductCategoryModel();
-        $data = $main->findAll();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');  // Retrieves token from query parameter
+        $profile = $user->where('token', $token)->first();
+
+        // If profile is found, return categories related to that branch_id
+        $data = $main->where('branch_id', $profile['branch_id'])->findAll();
         return $this->respond($data);
     }
+
     public function itemInfo()
     {
         $prod = new ProductModel();

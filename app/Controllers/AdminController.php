@@ -63,8 +63,8 @@ class AdminController extends ResourceController
         $user = new UserModel();
         $token = $this->request->getVar('token');
         $filter_generic_name = $this->request->getVar('filter_generic_name');
-        $filter_category = $this->request->getVar('filter_category');
-        $filter_status = $this->request->getVar('filter_status');
+        $filter_category_value = $this->request->getVar('filter_category[value]');
+        $filter_status_value = $this->request->getVar('filter_status[value]');
 
         // Get the user that has the same token as $token
         $profile = $user->where('token', $token)->first();
@@ -74,31 +74,66 @@ class AdminController extends ResourceController
         }
 
         // Fetch products based on the branch_id
-        $query = $prod
-            ->where('branch_id', $profile['branch_id']);
+        $query = $prod->where('branch_id', $profile['branch_id']);
 
         // Filter by generic name if provided
         if (!empty($filter_generic_name)) {
-            $query->where('generic_name LIKE', $filter_generic_name . '%');
+            $query->like('generic_name', $filter_generic_name, 'after');
         }
 
-
         // Filter by category if provided
-        if (!empty($filter_category)) {
-            $categories = [];
-            foreach ($filter_category as $category) {
-                $categories[] = $category['value'];
-            }
-            $query->whereIn('category', $categories);
+        if (!empty($filter_category_value)) {
+            $query->where('category', $filter_category_value);
         }
 
         // Filter by status if provided
-        if (!empty($filter_status)) {
-            $statuses = [];
-            foreach ($filter_status as $status) {
-                $statuses[] = $status['value'];
-            }
-            $query->whereIn('status', $statuses);
+        if (!empty($filter_status_value)) {
+            $query->where('status', $filter_status_value);
+        }
+
+        // Order the results by created_at in descending order
+        $query->orderBy('created_at', 'desc');
+
+        // Get the resulting data
+        $data = $query->findAll();
+
+        return $this->respond($data);
+    }
+    public function AdminInventoryTablePOS()
+    {
+        $prod = new ProductModel();
+        $user = new UserModel();
+        $token = $this->request->getVar('token');
+        $filter_generic_name = $this->request->getVar('filter_generic_name');
+        $filter_category_value = $this->request->getVar('filter_category[value]');
+        $filter_status_value = $this->request->getVar('filter_status[value]');
+
+        // Get the user that has the same token as $token
+        $profile = $user->where('token', $token)->first();
+
+        if (!$profile) {
+            return $this->fail('User not found', 404);
+        }
+
+        // Fetch products based on the branch_id
+        $query = $prod->where('branch_id', $profile['branch_id']);
+
+        // Add condition to filter products with quantity > 0
+        $query->where('quantity >', 0);
+
+        // Filter by generic name if provided
+        if (!empty($filter_generic_name)) {
+            $query->like('generic_name', $filter_generic_name, 'after');
+        }
+
+        // Filter by category if provided
+        if (!empty($filter_category_value)) {
+            $query->where('category', $filter_category_value);
+        }
+
+        // Filter by status if provided
+        if (!empty($filter_status_value)) {
+            $query->where('status', $filter_status_value);
         }
 
         // Order the results by created_at in descending order
@@ -113,35 +148,17 @@ class AdminController extends ResourceController
 
 
 
+
     public function AdminSalesTable()
     {
         $order = new OrderModel(); // ['order_id', 'order_token', 'status', 'total', 'earnings', 'cash_received', 'user_id', 'branch_id',  'created_at', 'discount_type'];
         $user = new UserModel(); // ['user_id', 'first_name', 'last_name', 'email', 'user_password', 'phone', 'user_role', 'branch_id', 'status', 'token', 'created_at'];
         $token = $this->request->getVar('token');
-        $date_range = $this->request->getVar('date_range');
         $profile = $user->where('token', $token)->first();
 
         // Start building the query
-        $query = $order->where('branch_id', $profile['branch_id']);
+        $query = $order->where('branch_id', $profile['branch_id'])->where('status', 'completed');
 
-        // Filter by date range if provided
-        if (!empty($date_range)) {
-            // Split the date range by '/'
-            $dates = explode('/', $date_range);
-
-            // Ensure both start and end dates are present
-            if (count($dates) == 3) {
-                $start_date = $dates[0] . '-' . $dates[1] . '-' . $dates[2];
-                $end_date = $dates[0] . '-' . $dates[1] . '-' . $dates[2];
-
-                // Assuming 'created_at' is the field representing the order date
-                $query->where('DATE(created_at)', $start_date);
-                $query->where('DATE(created_at)', $end_date);
-            } else {
-                // If only one date is provided, you can adjust the query accordingly
-                $query->where('DATE(created_at)', $date_range);
-            }
-        }
 
         // Order the results by created_at in descending order
         $query->orderBy('created_at', 'DESC');

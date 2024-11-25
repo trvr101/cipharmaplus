@@ -185,99 +185,141 @@ class UserController extends ResourceController
 
     public function login()
     {
-        $user = new UserModel(); //['user_id', 'first_name', 'last_name', 'email', 'user_password', 'phone', 'user_role', 'branch_id', 'status', 'token', 'created_at'];
+        $user = new UserModel();
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
 
-        if (empty($password)) {
-            return $this->respond(['msg' => 'Empty password', 'error' => true], 400);
+        // Validate input
+        if (empty($email)) {
+            return $this->respond(['msg' => 'Email is required', 'error' => true]);
         }
 
+        if (empty($password)) {
+            return $this->respond(['msg' => 'Password is required', 'error' => true]);
+        }
+
+        // Check if user exists
         $data = $user->where('email', $email)->first();
 
-        if ($data) {
-            $pass = $data['user_password'];
-            $authenticatePassword = password_verify($password, $pass);
-            if ($authenticatePassword) {
-                // Fetch user role from the database
-                $user_role = $data['user_role'];
-
-                // Include user role in the response
-                return $this->respond(['msg' => 'okay', 'token' => $data['token'], 'user_role' => $user_role], 201);
-            } else {
-                return $this->respond(['msg' => 'error'], 401);
-            }
-        } else {
-            return $this->respond(['msg' => 'error', 'error' => true], 401);
+        if (!$data) {
+            return $this->respond(['msg' => 'Invalid email or password', 'error' => true]);
         }
+
+        // Verify password
+        $pass = $data['user_password'];
+        $authenticatePassword = password_verify($password, $pass);
+
+        if (!$authenticatePassword) {
+            return $this->respond(['msg' => 'Invalid email or password', 'error' => true]);
+        }
+
+        // Check if the user is active
+        if ($data['status'] !== 'active') {
+            return $this->respond(['msg' => 'User account is not active', 'error' => true]);
+        }
+
+        // Successful login
+        return $this->respond([
+            'msg' => 'Login successful',
+            'token' => $data['token'],
+            'user_role' => $data['user_role'],
+            'user_id' => $data['user_id'],
+        ]);
     }
+
     public function register()
-    {
-        $user = new UserModel();
-        $branch = new BranchModel();
-        $notification = new NotificationModel();
+{
+    $user = new UserModel();
+    $branch = new BranchModel();
+    $notification = new NotificationModel();
 
-        $token = $this->verification(50);
-        $invitationCode = $this->request->getVar('invitationCode');
+    $token = $this->verification(50);
+    $invitationCode = $this->request->getVar('invitationCode');
 
-        // Check if the invitation code exists in the branch
-        $branchData = $branch->where('CS_invite_code', $invitationCode)
-            ->orWhere('BA_invite_code', $invitationCode)
-            ->first();
+    // Validate inputs
+    $email = $this->request->getVar('email');
+    $password = $this->request->getVar('password');
+    $firstName = $this->request->getVar('first_name');
+    $lastName = $this->request->getVar('last_name');
+    $phone = $this->request->getVar('phone');
 
-        if ($branchData) {
-            if ($branchData['is_open_for_invitation']) {
-                // Invitation code is valid, determine user role and branch ID
-                if ($invitationCode == $branchData['CS_invite_code']) {
-                    // Invitation code belongs to CS_invite_code field
-                    $userRole = 'cashier';
-                } elseif ($invitationCode == $branchData['BA_invite_code']) {
-                    // Invitation code belongs to BA_invite_code field
-                    $userRole = 'branch_admin';
-                }
-
-                $data = [
-                    'email' => $this->request->getVar('email'),
-                    'user_password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-                    'token' => $token,
-                    'first_name' =>  $this->request->getVar('first_name'),
-                    'last_name' =>  $this->request->getVar('last_name'),
-                    'phone' =>  $this->request->getVar('phone'),
-                    'branch_id' => $branchData['branch_id'],
-                    'status' => 'active',
-                    'user_role' => $userRole,
-                ];
-
-                $u = $user->insert($data);
-                $user_role = $data['user_role'];
-                if ($u) {
-                    $token = $data['token'];
-                    $user_info = $user->where('token', $token)->first();
-                    if ($user_info['user_role'] == 'cashier') {
-                        $personel = 'Cashier';
-                    } else if ($user_info['user_role'] == 'branch_admin') {
-                        $personel = 'Branch Admin';
-                    }
-                    $notif = [
-                        'event_type' => 'user',
-                        'related_id' => $user_info['user_id'],
-                        'branch_id' =>  $user_info['token'],
-                        'title' => 'New ' . $personel . ' added',
-                        'message' => $user_info['first_name'] . ' is registered as ' . $personel,
-                    ];
-                    $notification->insert($notif);
-                    return $this->respond(['msg' => 'Registered Success fully on ' . $branchData['branch_name'], 'token' => $data['token'], 'user_role' => $user_role], 201);
-                } else {
-                    return $this->respond(['msg' => 'register unsuccessfully', 'error' => true]);
-                }
-            } else {
-                return $this->respond(['msg' => 'The Branch is not open for Invitation', 'error' => true]);
-            }
-        } else {
-            // Invitation code is invalid
-            return $this->respond(['msg' => 'Invitation code does not exist', 'error' => true]);
-        }
+    if (empty($email) || empty($password) || empty($firstName) || empty($lastName) || empty($phone) || empty($invitationCode)) {
+        return $this->respond(['msg' => 'All fields are required', 'error' => true]);
     }
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        return $this->respond(['msg' => 'Invalid email format', 'error' => true]);
+    }
+
+    // Password validation
+    if (!preg_match('/^(?=.*[A-Z])(?=.*\W).{8,}$/', $password)) {
+        return $this->respond([
+            'msg' => 'Password must be at least 8 characters long, contain an uppercase letter, and a symbol',
+            'error' => true
+        ]);
+    }
+
+    // Check if email already exists
+    if ($user->where('email', $email)->first()) {
+        return $this->respond(['msg' => 'Email is already registered', 'error' => true]);
+    }
+
+    // Check invitation code validity
+    $branchData = $branch->where('CS_invite_code', $invitationCode)
+        ->orWhere('BA_invite_code', $invitationCode)
+        ->first();
+
+    if (!$branchData) {
+        return $this->respond(['msg' => 'Invitation code does not exist', 'error' => true]);
+    }
+
+    if (!$branchData['is_open_for_invitation']) {
+        return $this->respond(['msg' => 'The Branch is not open for Invitation', 'error' => true]);
+    }
+
+    // Determine user role and branch ID
+    $userRole = ($invitationCode == $branchData['CS_invite_code']) ? 'cashier' : 'branch_admin';
+
+    // Prepare data for insertion
+    $data = [
+        'email' => $email,
+        'user_password' => password_hash($password, PASSWORD_DEFAULT),
+        'token' => $token,
+        'first_name' => $firstName,
+        'last_name' => $lastName,
+        'phone' => $phone,
+        'branch_id' => $branchData['branch_id'],
+        'status' => 'active',
+        'user_role' => $userRole,
+    ];
+
+    // Insert new user
+    $u = $user->insert($data);
+
+    if ($u) {
+        // Add notification
+        $user_info = $user->where('token', $token)->first();
+        $personnel = ($user_info['user_role'] == 'cashier') ? 'Cashier' : 'Branch Admin';
+        $notif = [
+            'event_type' => 'user',
+            'related_id' => $user_info['user_id'],
+            'branch_id' => $user_info['branch_id'],
+            'title' => 'New ' . $personnel . ' added',
+            'message' => $user_info['first_name'] . ' is registered as ' . $personnel,
+        ];
+        $notification->insert($notif);
+
+        return $this->respond([
+            'msg' => 'Registered successfully on ' . $branchData['branch_name'],
+            'token' => $data['token'],
+            'user_role' => $userRole,
+        ]);
+    } else {
+        return $this->respond(['msg' => 'Registration unsuccessful', 'error' => true]);
+    }
+}
+
+
 
     private function verification($length)
     {
