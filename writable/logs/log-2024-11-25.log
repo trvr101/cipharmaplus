@@ -1,0 +1,140 @@
+ERROR - 2024-11-25 12:27:36 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(306): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-25 12:27:36 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`user_id`, `upc`, `generic_name`, `brand_name`, `dosage_form`, `batch_num`, `SRP`, `unit_price`, `branch_id`, `category`, `status`, `notif_quantity_trigger`, `notif_expiry_trigger`, `created_at`) VALUES (:user_id:, :upc:, :generic_name:, :brand_name:, :dosage_form:, :batch_num:, :SRP:, :unit_price:, :branch_id:, :category:, :status:, :notif_quantity_trigger:, :notif_expiry_trigger:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(306): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-25 12:33:37 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(306): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-25 12:33:37 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`user_id`, `upc`, `generic_name`, `brand_name`, `dosage_form`, `batch_num`, `SRP`, `unit_price`, `branch_id`, `category`, `status`, `notif_quantity_trigger`, `notif_expiry_trigger`, `created_at`) VALUES (:user_id:, :upc:, :generic_name:, :brand_name:, :dosage_form:, :batch_num:, :SRP:, :unit_price:, :branch_id:, :category:, :status:, :notif_quantity_trigger:, :notif_expiry_trigger:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(306): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-25 12:37:09 --> mysqli_sql_exception: Column 'category_name' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(316): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-25 12:37:09 --> Column 'category_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_category_tbl` (`category_name`, `branch_id`) VALUES (:category_name:, :branch_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(316): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-25 12:38:33 --> mysqli_sql_exception: Column 'category_name' cannot be null in C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\cipharmaplus\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\cipharmaplus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\cipharmaplus\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\cipharmaplus\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\cipharmaplus\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\cipharmaplus\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\cipharmaplus\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\cipharmaplus\app\Controllers\ProductController.php(316): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+#10 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\laragon\www\cipharmaplus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\cipharmaplus\public\index.php(91): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-25 12:38:33 --> Column 'category_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_category_tbl` (`category_name`, `branch_id`) VALUES (:category_name:, :branch_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ProductController.php(316): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->AddProd()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 17:33:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\NotificationController.php on line 31.
+ 1 APPPATH\Controllers\NotificationController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\NotificationController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\NotificationController->BranchNotifications()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 17:33:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\NotificationController.php on line 31.
+ 1 APPPATH\Controllers\NotificationController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\NotificationController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\NotificationController->BranchNotifications()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 17:33:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\NotificationController.php on line 31.
+ 1 APPPATH\Controllers\NotificationController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\NotificationController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\NotificationController->BranchNotifications()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 17:33:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\NotificationController.php on line 31.
+ 1 APPPATH\Controllers\NotificationController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\cipharmaplus\\app\\Controllers\\NotificationController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\NotificationController->BranchNotifications()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(91): CodeIgniter\CodeIgniter->run()

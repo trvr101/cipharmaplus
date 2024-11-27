@@ -228,7 +228,7 @@ class CurrentTransactionController extends ResourceController
 
             $prod_info = $product->where(['upc' => $UPC, 'branch_id' => $user_info['branch_id']])->first();
 
-            if ($quantity === null) {
+            if ($quantity == null) {
                 $quantity = 1; // Default to 1 if quantity is null
             }
 
@@ -304,7 +304,31 @@ class CurrentTransactionController extends ResourceController
     }
 
 
+    public function DeleteItemInTransaction()
+    {
+        $currentTransaction = new CurrentTransactionModel(); //['current_transaction_id', 'order_id', 'product_id', 'quantity','user_id', 'branch_id', 'created_at'];
+        $user = new UserModel();
 
+        $token = $this->request->getVar('token');
+        $current_transaction_id = $this->request->getVar('current_transaction_id');
+        $user_info = $user->where('token', $token)->first();
+        $item_info = $currentTransaction->where('current_transaction_id', $current_transaction_id)->first();
+
+        if ($user_info) {
+            if ($user_info['branch_id'] == $item_info['branch_id']) {
+                $isDeleted = $currentTransaction
+                    ->where([
+                        'current_transaction_id' => $item_info['current_transaction_id'],
+                    ])
+                    ->delete();
+                if ($isDeleted) {
+                    return $this->respond(['msg' => 'Remove product: ']);
+                } else {
+                    return $this->respond(['msg' => 'cannot removed']);
+                }
+            }
+        }
+    }
 
 
 

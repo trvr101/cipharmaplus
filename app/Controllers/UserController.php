@@ -228,96 +228,96 @@ class UserController extends ResourceController
     }
 
     public function register()
-{
-    $user = new UserModel();
-    $branch = new BranchModel();
-    $notification = new NotificationModel();
+    {
+        $user = new UserModel();
+        $branch = new BranchModel();
+        $notification = new NotificationModel();
 
-    $token = $this->verification(50);
-    $invitationCode = $this->request->getVar('invitationCode');
+        $token = $this->verification(20);
+        $invitationCode = $this->request->getVar('invitationCode');
 
-    // Validate inputs
-    $email = $this->request->getVar('email');
-    $password = $this->request->getVar('password');
-    $firstName = $this->request->getVar('first_name');
-    $lastName = $this->request->getVar('last_name');
-    $phone = $this->request->getVar('phone');
+        // Validate inputs
+        $email = $this->request->getVar('email');
+        $password = $this->request->getVar('password');
+        $firstName = $this->request->getVar('first_name');
+        $lastName = $this->request->getVar('last_name');
+        $phone = $this->request->getVar('phone');
 
-    if (empty($email) || empty($password) || empty($firstName) || empty($lastName) || empty($phone) || empty($invitationCode)) {
-        return $this->respond(['msg' => 'All fields are required', 'error' => true]);
-    }
+        if (empty($email) || empty($password) || empty($firstName) || empty($lastName) || empty($phone) || empty($invitationCode)) {
+            return $this->respond(['msg' => 'All fields are required', 'error' => true]);
+        }
 
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        return $this->respond(['msg' => 'Invalid email format', 'error' => true]);
-    }
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            return $this->respond(['msg' => 'Invalid email format', 'error' => true]);
+        }
 
-    // Password validation
-    if (!preg_match('/^(?=.*[A-Z])(?=.*\W).{8,}$/', $password)) {
-        return $this->respond([
-            'msg' => 'Password must be at least 8 characters long, contain an uppercase letter, and a symbol',
-            'error' => true
-        ]);
-    }
+        // Password validation
+        if (!preg_match('/^(?=.*[A-Z])(?=.*\W).{8,}$/', $password)) {
+            return $this->respond([
+                'msg' => 'Password must be at least 8 characters long, contain an uppercase letter, and a symbol',
+                'error' => true
+            ]);
+        }
 
-    // Check if email already exists
-    if ($user->where('email', $email)->first()) {
-        return $this->respond(['msg' => 'Email is already registered', 'error' => true]);
-    }
+        // Check if email already exists
+        if ($user->where('email', $email)->first()) {
+            return $this->respond(['msg' => 'Email is already registered', 'error' => true]);
+        }
 
-    // Check invitation code validity
-    $branchData = $branch->where('CS_invite_code', $invitationCode)
-        ->orWhere('BA_invite_code', $invitationCode)
-        ->first();
+        // Check invitation code validity
+        $branchData = $branch->where('CS_invite_code', $invitationCode)
+            ->orWhere('BA_invite_code', $invitationCode)
+            ->first();
 
-    if (!$branchData) {
-        return $this->respond(['msg' => 'Invitation code does not exist', 'error' => true]);
-    }
+        if (!$branchData) {
+            return $this->respond(['msg' => 'Invitation code does not exist', 'error' => true]);
+        }
 
-    if (!$branchData['is_open_for_invitation']) {
-        return $this->respond(['msg' => 'The Branch is not open for Invitation', 'error' => true]);
-    }
+        if (!$branchData['is_open_for_invitation']) {
+            return $this->respond(['msg' => 'The Branch is not open for Invitation', 'error' => true]);
+        }
 
-    // Determine user role and branch ID
-    $userRole = ($invitationCode == $branchData['CS_invite_code']) ? 'cashier' : 'branch_admin';
+        // Determine user role and branch ID
+        $userRole = ($invitationCode == $branchData['CS_invite_code']) ? 'cashier' : 'branch_admin';
 
-    // Prepare data for insertion
-    $data = [
-        'email' => $email,
-        'user_password' => password_hash($password, PASSWORD_DEFAULT),
-        'token' => $token,
-        'first_name' => $firstName,
-        'last_name' => $lastName,
-        'phone' => $phone,
-        'branch_id' => $branchData['branch_id'],
-        'status' => 'active',
-        'user_role' => $userRole,
-    ];
-
-    // Insert new user
-    $u = $user->insert($data);
-
-    if ($u) {
-        // Add notification
-        $user_info = $user->where('token', $token)->first();
-        $personnel = ($user_info['user_role'] == 'cashier') ? 'Cashier' : 'Branch Admin';
-        $notif = [
-            'event_type' => 'user',
-            'related_id' => $user_info['user_id'],
-            'branch_id' => $user_info['branch_id'],
-            'title' => 'New ' . $personnel . ' added',
-            'message' => $user_info['first_name'] . ' is registered as ' . $personnel,
-        ];
-        $notification->insert($notif);
-
-        return $this->respond([
-            'msg' => 'Registered successfully on ' . $branchData['branch_name'],
-            'token' => $data['token'],
+        // Prepare data for insertion
+        $data = [
+            'email' => $email,
+            'user_password' => password_hash($password, PASSWORD_DEFAULT),
+            'token' => $token,
+            'first_name' => $firstName,
+            'last_name' => $lastName,
+            'phone' => $phone,
+            'branch_id' => $branchData['branch_id'],
+            'status' => 'active',
             'user_role' => $userRole,
-        ]);
-    } else {
-        return $this->respond(['msg' => 'Registration unsuccessful', 'error' => true]);
+        ];
+
+        // Insert new user
+        $u = $user->insert($data);
+
+        if ($u) {
+            // Add notification
+            $user_info = $user->where('token', $token)->first();
+            $personnel = ($user_info['user_role'] == 'cashier') ? 'Cashier' : 'Branch Admin';
+            $notif = [
+                'event_type' => 'user',
+                'related_id' => $user_info['user_id'],
+                'branch_id' => $user_info['branch_id'],
+                'title' => 'New ' . $personnel . ' added',
+                'message' => $user_info['first_name'] . ' is registered as ' . $personnel,
+            ];
+            $notification->insert($notif);
+
+            return $this->respond([
+                'msg' => 'Registered successfully on ' . $branchData['branch_name'],
+                'token' => $data['token'],
+                'user_role' => $userRole,
+            ]);
+        } else {
+            return $this->respond(['msg' => 'Registration unsuccessful', 'error' => true]);
+        }
     }
-}
 
 
 

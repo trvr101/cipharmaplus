@@ -467,45 +467,67 @@ class BranchController extends ResourceController
     }
     public function MedicineLocator()
     {
+        date_default_timezone_set('Asia/Manila'); // Set timezone to Philippine Time
+
         $product = new ProductModel();
         $branch = new BranchModel();
 
         $searchProd = $this->request->getVar('SearchProd');
 
         if ($searchProd == null) {
-            $searchProd = "zzzzzzzzzzz";
+            $searchProd = "zzzzzzzzzzz"; // Default value to avoid matching any products
         }
-        // Search for products matching the given search query
-        $matchedProducts = $product->like('generic_name', $searchProd)->findAll();
+
+        // Fetch all branch data
+        $allBranches = $branch->findAll();
+
         // Prepare response data
         $responseData = [];
-        foreach ($matchedProducts as $prod) {
-            $branchInfo = $branch->find($prod['branch_id']);
-            if ($branchInfo) {
-                // Check if branch already exists in response data
-                $branchKey = array_search($branchInfo['branch_id'], array_column($responseData, 'branch_id'));
-                if ($branchKey === false) {
-                    // If branch doesn't exist, add it to response data with product
-                    $responseData[] = [
-                        'branch_name' => $branchInfo['branch_name'],
-                        'branch_id' => $branchInfo['branch_id'],
-                        'longitude' => $branchInfo['longitude'],
-                        'latitude' => $branchInfo['latitude'],
-                        'products' => [
-                            [
-                                'product_id' => $prod['product_id'],
-                                'generic_name' => $prod['generic_name'],
-                                'brand_name' => $prod['brand_name'],
-                                'dosage_form' => $prod['dosage_form'],
-                                'quantity' => $prod['quantity'],
-                                'SRP' => $prod['SRP'],
-                                'category' => $prod['category']
-                            ]
-                        ]
-                    ];
-                } else {
-                    // If branch already exists, add product to its products array
-                    $responseData[$branchKey]['products'][] = [
+        foreach ($allBranches as $branchData) {
+            // Count products for the branch
+            $productCount = $product->where('branch_id', $branchData['branch_id'])->countAllResults();
+
+            // Determine open status
+            $isOpen = null;
+            if (!empty($branchData['opening_time']) && !empty($branchData['closing_time'])) {
+                $currentTime = date("H:i:s"); // Get the current time in Philippine Time
+                $isOpen = ($currentTime >= $branchData['opening_time'] && $currentTime <= $branchData['closing_time']);
+            }
+
+            // Determine circle color based on conditions
+            $circleColor = null;
+            if ($productCount == 0) {
+                $circleColor = 'gray'; // No products
+            } elseif ($isOpen === true) {
+                $circleColor = 'green'; // Open and has products
+            } elseif ($isOpen === false) {
+                $circleColor = 'red'; // Closed
+            } else {
+                $circleColor = 'yellow'; // No time given
+            }
+
+            // Initialize branch data
+            $branchInfo = [
+                'branch_name' => $branchData['branch_name'],
+                'branch_id' => $branchData['branch_id'],
+                'latitude' => $branchData['latitude'],
+                'longitude' => $branchData['longitude'],
+                'opening_time' => $branchData['opening_time'] ?? null,
+                'closing_time' => $branchData['closing_time'] ?? null,
+                'is_open' => $isOpen,
+                'circle_color' => $circleColor,
+                'products' => []
+            ];
+
+            // Search for products matching the given search query for this branch
+            $matchedProducts = $product->like('generic_name', $searchProd)
+                ->where('branch_id', $branchData['branch_id'])
+                ->findAll();
+
+            foreach ($matchedProducts as $prod) {
+                if ($prod['quantity'] > 0) {
+                    // Add product to the branch's product list
+                    $branchInfo['products'][] = [
                         'product_id' => $prod['product_id'],
                         'generic_name' => $prod['generic_name'],
                         'brand_name' => $prod['brand_name'],
@@ -516,9 +538,14 @@ class BranchController extends ResourceController
                     ];
                 }
             }
+
+            // Add branch to response if it matches the search or has products
+            if (!empty($branchInfo['products']) || $searchProd === "zzzzzzzzzzz") {
+                $responseData[] = $branchInfo;
+            }
         }
 
-        // Return response
+        // Return the response
         return $this->respond($responseData);
     }
 }

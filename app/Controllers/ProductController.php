@@ -14,6 +14,34 @@ use App\Models\UserModel;
 
 class ProductController extends ResourceController
 {
+
+    public function AllUniqueProducts()
+    {
+        $prod = new ProductModel(); // Your Product Model
+
+        // Query the database to get unique generic names with quantity > 0
+        $products = $prod
+            ->select('generic_name') // Select only the generic name
+            ->where('quantity >', 0) // Exclude products with quantity 0
+            ->groupBy('generic_name') // Group by generic_name to ensure uniqueness
+            ->orderBy('generic_name', 'ASC') // Sort results alphabetically
+            ->findAll();
+
+        if (!$products) {
+            return $this->response->setJSON([
+                'status' => 'success',
+                'data' => [],
+                'message' => 'No products found.'
+            ]);
+        }
+
+        return $this->response->setJSON([
+            'status' => 'success',
+            'data' => $products,
+            'message' => 'Products retrieved successfully.'
+        ]);
+    }
+
     public function index()
     {
         $main = new ProductModel();
@@ -251,75 +279,74 @@ class ProductController extends ResourceController
         $main = new ProductModel();
         $user = new UserModel();
         $CategModel = new ProductCategoryModel();
+
+        // Retrieve token and find user profile
         $token = $this->request->getVar('token');
         $profile = $user->where('token', $token)->first();
-        $category_info = $CategModel->where('category_name',  $this->request->getVar('category'))->where('branch_id', $profile['branch_id'])->first();
 
+        if (!$profile) {
+            return $this->respond(['msg' => 'Invalid token or user not found', 'error' => true]);
+        }
 
-        // Check if prod_upc is provided, if null generate a unique 11-digit UPC
+        // Retrieve or generate UPC
         $upc = $this->request->getVar('UPC');
         if (empty($upc)) {
             do {
-                // Generate a random 11-digit number
                 $upc = mt_rand(10000000000, 99999999999);
-                // Check if the generated UPC already exists in the database
                 $existingUPC = $main->where('upc', $upc)->first();
-            } while ($existingUPC); // Keep generating until a unique UPC is found
+            } while ($existingUPC);
         }
 
-        // Get input values for generic_name, brand_name, and dosage_form
-        $generic_name = $this->request->getVar('generic_name');
-        $brand_name = $this->request->getVar('brand_name');
-        $notif_quantity_trigger = $this->request->getVar('notif_quantity_trigger');
-        $notif_expiry_trigger = $this->request->getVar('notif_expiry_trigger');
-        $dosage_form = $this->request->getVar('dosage_form');
-        $batch_num = $this->request->getVar('batch_num');
+        // Retrieve category or create a new one if not existing
+        $category_name = $this->request->getVar('category');
+        $category_info = $CategModel->where('category_name', $category_name)
+            ->where('branch_id', $profile['branch_id'])
+            ->first();
+
+        if (!$category_info && $category_name) {
+            $CategModel->save([
+                'category_name' => $category_name,
+                'branch_id' => $profile['branch_id']
+            ]);
+        }
+
+        // Collect input data and set defaults for optional fields
+        $data = [
+            'user_id' => $profile['user_id'],
+            'upc' => $upc,
+            'generic_name' => $this->request->getVar('generic_name') ?? 'N/A', // Default to 'N/A' if empty
+            'brand_name' => $this->request->getVar('brand_name') ?? 'N/A',
+            'dosage_form' => $this->request->getVar('dosage_form') ?? 'N/A',
+            'batch_num' => $this->request->getVar('batch_num') ?? 'N/A',
+            'SRP' => $this->request->getVar('SRP') ?? 0.0,
+            'unit_price' => $this->request->getVar('unit_price') ?? 0.0,
+            'branch_id' => $profile['branch_id'],
+            'category' => $category_name ?? 'Uncategorized',
+            'status' => 'out of stock',
+            'notif_quantity_trigger' => $this->request->getVar('notif_quantity_trigger') ?? 0,
+            'notif_expiry_trigger' => $this->request->getVar('notif_expiry_trigger') ?? 0,
+            'created_at' => date('Y-m-d H:i:s'),
+        ];
+
         // Check if a product with the same generic_name, brand_name, and dosage_form already exists
-        $existingProduct = $main->where('generic_name', $generic_name)
-            ->where('brand_name', $brand_name)
-            ->where('dosage_form', $dosage_form)
-            ->where('batch_num', $batch_num)
+        $existingProduct = $main->where('generic_name', $data['generic_name'])
+            ->where('brand_name', $data['brand_name'])
+            ->where('dosage_form', $data['dosage_form'])
+            ->where('batch_num', $data['batch_num'])
             ->first();
 
         if ($existingProduct) {
             return $this->respond(['msg' => 'Product already exists', 'error' => true]);
         }
 
-        // Proceed with product insertion if no duplicate is found
-        $data = [
-            'user_id' => $profile['user_id'],
-            'upc' => $upc,
-            'generic_name' => $generic_name,
-            'brand_name' => $brand_name,
-            'dosage_form' => $dosage_form,
-            'batch_num' => $batch_num,
-            'SRP' => $this->request->getVar('SRP'),
-            'unit_price' => $this->request->getVar('unit_price'),
-            'branch_id' => $profile['branch_id'],
-            'category' => $this->request->getVar('category'),
-            'status' => 'out of stock',
-            'notif_quantity_trigger' => $notif_quantity_trigger,
-            'notif_expiry_trigger' => $notif_expiry_trigger,
-            'created_at' => date('Y-m-d H:i:s'),
-        ];
-
-        $result = $main->save($data);
-
-        if ($result) {
-            if (!$category_info) {
-                $CategData = [
-
-                    'category_name' => $this->request->getVar('category'),
-                    'branch_id' => $profile['branch_id'],
-                ];
-
-                $CategModel->save($CategData);
-            }
-            return $this->respond(['msg' => $generic_name . ' is added successfully']);
+        // Insert product into the database
+        if ($main->save($data)) {
+            return $this->respond(['msg' => $data['generic_name'] . ' added successfully', 'error' => false]);
         } else {
-            return $this->respond(['msg' => 'Adding new product unsuccessful', 'error' => true]);
+            return $this->respond(['msg' => 'Adding new product failed', 'error' => true]);
         }
     }
+
 
 
 

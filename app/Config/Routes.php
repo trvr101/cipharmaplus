@@ -16,6 +16,7 @@ $routes->post('/AddQuantity', 'AuditController::AddQuantity');
 
 
 //Current Transaction SalesTransactionList
+$routes->delete('/DeleteItemInTransaction', 'CurrentTransactionController::DeleteItemInTransaction');
 $routes->match(['post', 'get'], '/SalesTransactionList', 'CurrentTransactionController::SalesTransactionList');
 
 $routes->get('/BranchOrderView', 'CurrentTransactionController::BranchOrderView');
@@ -44,6 +45,7 @@ $routes->match(['post', 'get', 'put', 'patch'], '/toggleInvitation', 'BranchCont
 $routes->match(['post', 'get', 'put', 'patch'], '/RegenerateInvitationCode', 'BranchController::RegenerateInvitationCode');
 $routes->get('/Branchlocator', 'BranchController::Branchlocator');
 $routes->get('/MedicineLocator', 'BranchController::MedicineLocator');
+$routes->get('/BranchLocation', 'BranchController::BranchLocation');
 
 
 
@@ -73,6 +75,7 @@ $routes->get('/countOverallReturnees', 'GuestController::countOverallReturnees')
 $routes->post('/addBranch', 'BranchController::addBranch');
 
 //Product
+$routes->get('/AllUniqueProducts', 'ProductController::AllUniqueProducts');
 $routes->put('/ProdUpdate', 'ProductController::ProdUpdate');
 $routes->get('/ItemCategoryList', 'ProductController::ItemCategoryList');
 $routes->match(['get', 'post'], '/AddProd', 'ProductController::AddProd');
